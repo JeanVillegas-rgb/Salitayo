@@ -8,4 +8,5 @@ urlpatterns = [
     path("", home, name="home"),
     path("admin/", admin.site.urls),
     path("api/", include("restructurer.urls")),
+    path("api/", include("assistive_writing_coach.urls")),
 ]

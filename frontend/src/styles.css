@@ -5,6 +5,133 @@
   color: #1b1b1b;
 }
 
+/* Premium Dashboard Portal Navbar */
+.portal-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 2rem;
+  background: rgba(255, 255, 255, 0.88);
+  border-bottom: 1px solid rgba(30, 30, 30, 0.08);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+}
+
+.portal-logo-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.portal-logo-glow {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #5f6f52 0%, rgba(255,255,255,0) 70%);
+  opacity: 0.15;
+  filter: blur(4px);
+}
+
+.portal-logo-text {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #5f6f52;
+  letter-spacing: -0.5px;
+}
+
+.portal-logo-badge {
+  background: #5f6f52;
+  color: #f4efe7;
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 0.15rem 0.35rem;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+}
+
+.portal-tabs {
+  display: flex;
+  background: rgba(30, 30, 30, 0.04);
+  padding: 0.25rem;
+  border-radius: 14px;
+  gap: 0.15rem;
+}
+
+.portal-tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.1rem;
+  border: none;
+  background: transparent;
+  color: #6b7280;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portal-tab-btn:hover {
+  color: #1b1b1b;
+  background: rgba(30, 30, 30, 0.03);
+}
+
+.portal-tab-btn.active {
+  color: #f4efe7;
+  background: #5f6f52;
+  box-shadow: 0 4px 15px rgba(95, 111, 82, 0.25);
+}
+
+.tab-icon {
+  transition: transform 0.25s ease;
+}
+
+.portal-tab-btn.active .tab-icon {
+  transform: scale(1.08);
+}
+
+.portal-user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #5f6f52;
+  color: #f4efe7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Tab Switching Fade-In Animation */
+.tab-content-fade-in {
+  animation: tabFadeIn 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes tabFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 * {
   box-sizing: border-box;
 }

@@ -17,6 +17,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     "restructurer",
+    "assistive_writing_coach",
 ]
 
 MIDDLEWARE = [
@@ -72,4 +73,30 @@ REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": [
         "rest_framework.renderers.JSONRenderer",
     ],
+}
+
+TRAINED_MODELS_DIR = os.path.join(BASE_DIR, 'trained_models')
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'plain': {
+            'format': '%(message)s',
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'plain',
+        },
+    },
+    'loggers': {
+        'assistive_writing_coach': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+    },
 }
