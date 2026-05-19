@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python Virtual Environments
+.venv/
+backend/.venv/
+venv/
+env/
+ENV/
+
+# Python Compilation and Caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Large AI Model Cache and Weights
+backend/models/cache/
+backend/models/t5_restructurer/checkpoint-*
+backend/models/t5_restructurer_updated/checkpoint-*
+backend/models/
+
+# Environment Secrets and Configurations
+.env
+.env.local
+backend/.env
+frontend/.env
+*.local
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
