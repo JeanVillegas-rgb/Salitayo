@@ -482,13 +482,53 @@ def _split_into_chunks(text: str, max_chars: int = MAX_CHUNK_CHARS) -> list[str]
 # ---------------------------------------------------------------------------
 # Single-chunk inference
 # ---------------------------------------------------------------------------
+def _generation_confidence(model, generated) -> dict:
+    """Summarize generated token probabilities as an approximate confidence score."""
+    note = (
+        "Approximate generation confidence from token probabilities; "
+        "not a correctness or comprehension score."
+    )
+    fallback = {
+        "confidence_percent": None,
+        "token_probability_mean": None,
+        "token_probability_min": None,
+        "generated_token_count": 0,
+        "note": note,
+    }
+
+    try:
+        transition_scores = model.compute_transition_scores(
+            generated.sequences,
+            generated.scores,
+            getattr(generated, "beam_indices", None),
+            normalize_logits=True,
+        )
+        token_probs = torch.exp(transition_scores[0])
+        token_probs = token_probs[token_probs > 0]
+        if token_probs.numel() == 0:
+            return fallback
+
+        mean_prob = float(token_probs.mean().item())
+        min_prob = float(token_probs.min().item())
+        return {
+            "confidence_percent": round(mean_prob * 100, 2),
+            "token_probability_mean": round(mean_prob, 4),
+            "token_probability_min": round(min_prob, 4),
+            "generated_token_count": int(token_probs.numel()),
+            "note": note,
+        }
+    except Exception as exc:
+        logger.debug("[DEBUG] Could not compute generation confidence: %s", exc)
+        return fallback
+
+
 def _predict_chunk(
     text: str,
     lang: str,
     protected_terms: list | None,
     max_new_tokens: int,
     num_beams: int,
-) -> tuple[str, str]:
+) -> tuple[str, str, dict]:
     tokenizer, model, _model_dir, model_key = _select_model(lang)
     
     current_text = text
@@ -509,13 +549,16 @@ def _predict_chunk(
             generated = model.generate(
                 **inputs,
                 max_length=256,
-                num_beams=4,
+                num_beams=num_beams,
                 no_repeat_ngram_size=3,
                 repetition_penalty=2.0,
                 early_stopping=True,
+                return_dict_in_generate=True,
+                output_scores=True,
             )
+        confidence = _generation_confidence(model, generated)
 
-        raw = tokenizer.decode(generated[0], skip_special_tokens=False)
+        raw = tokenizer.decode(generated.sequences[0], skip_special_tokens=False)
         # Debug: show which model is selected
         logger.debug(f"[DEBUG] Using model_key='{model_key}' for language='{lang}'")
         # Debug: tokenization length
@@ -523,7 +566,7 @@ def _predict_chunk(
         logger.debug(f"[DEBUG] Prompt token length={token_len}")
         # Debug: raw model output (truncated)
         logger.debug(f"[DEBUG] Raw generation output: {raw[:200]}")
-        cleaned = clean_generated_text(tokenizer.decode(generated[0], skip_special_tokens=True), lang, protected_terms)
+        cleaned = clean_generated_text(tokenizer.decode(generated.sequences[0], skip_special_tokens=True), lang, protected_terms)
 
         # French translation hallucination guard
         if lang in ["en", "english"] and re.search(r"\b(les|des|dans|pour|est|une|qui|que|avec|sur|dans|mais|sont)\b", cleaned.lower()):
@@ -533,12 +576,15 @@ def _predict_chunk(
                 generated = model.generate(
                     **inputs,
                     max_length=256,
-                    num_beams=4,
+                    num_beams=num_beams,
                     no_repeat_ngram_size=3,
                     repetition_penalty=2.0,
                     early_stopping=True,
+                    return_dict_in_generate=True,
+                    output_scores=True,
                 )
-            cleaned = clean_generated_text(tokenizer.decode(generated[0], skip_special_tokens=True), lang, protected_terms)
+            confidence = _generation_confidence(model, generated)
+            cleaned = clean_generated_text(tokenizer.decode(generated.sequences[0], skip_special_tokens=True), lang, protected_terms)
 
         # Apply deterministic refinement layer to ensure comprehensive simplification
         if lang in ["en", "english"]:
@@ -563,7 +609,7 @@ def _predict_chunk(
     # Clean up any potential double-bullets or leading dashes
     final_output = re.sub(r"^[\s\-•\*]+", "- ", final_output).strip()
 
-    return final_output, model_key
+    return final_output, model_key, confidence
 
 
 # ---------------------------------------------------------------------------
@@ -580,7 +626,7 @@ def predict(
     Restructure text with the local model selected by language.
 
     Returns:
-        {"raw": str, "cleaned": str, "model_key": str} on success
+        {"raw": str, "cleaned": str, "model_key": str, "confidence": dict | None} on success
         {"raw": "", "cleaned": "", "error": str} on validation failure
     """
     text = (text or "").strip()
@@ -594,23 +640,26 @@ def predict(
     
     results = []
     model_keys = set()
+    confidence_items = []
     
     for sentence in sentences:
         if len(sentence) < MIN_INPUT_CHARS:
             # Keep very short fragments or punctuation as is
             results.append(sentence)
         else:
-            cleaned, model_key = _predict_chunk(sentence, lang, protected_terms, max_new_tokens, num_beams)
+            cleaned, model_key, confidence = _predict_chunk(sentence, lang, protected_terms, max_new_tokens, num_beams)
             
             # Apply copy-guard logic per sentence
             stripped_input = re.sub(r"^\s*-\s*", "", sentence).strip().lower()
             stripped_clean = re.sub(r"^\s*-\s*", "", cleaned).strip().lower()
             if stripped_clean == stripped_input:
                 logger.debug(f"[DEBUG] Output identical to input for sentence '{sentence}' – retrying with higher beam count")
-                cleaned, model_key = _predict_chunk(sentence, lang, protected_terms, max_new_tokens, num_beams=8)
+                cleaned, model_key, confidence = _predict_chunk(sentence, lang, protected_terms, max_new_tokens, num_beams=8)
                 
             results.append(cleaned)
             model_keys.add(model_key)
+            if confidence.get("confidence_percent") is not None:
+                confidence_items.append(confidence)
 
     # Combine all simplified sentence results into a formatted bulleted list
     combined = " ".join(result for result in results if result)
@@ -622,4 +671,22 @@ def predict(
         combined = format_as_bullets(combined)
         
     model_key = "tagalog" if "tagalog" in model_keys else "default"
-    return {"raw": combined, "cleaned": combined, "model_key": model_key}
+    confidence_summary = None
+    if confidence_items:
+        total_tokens = sum(item["generated_token_count"] for item in confidence_items)
+        if total_tokens:
+            weighted_mean = sum(
+                item["token_probability_mean"] * item["generated_token_count"]
+                for item in confidence_items
+            ) / total_tokens
+            min_probability = min(item["token_probability_min"] for item in confidence_items)
+            confidence_summary = {
+                "confidence_percent": round(weighted_mean * 100, 2),
+                "token_probability_mean": round(weighted_mean, 4),
+                "token_probability_min": round(min_probability, 4),
+                "generated_token_count": total_tokens,
+                "sentence_count": len(confidence_items),
+                "note": confidence_items[0]["note"],
+            }
+
+    return {"raw": combined, "cleaned": combined, "model_key": model_key, "confidence": confidence_summary}

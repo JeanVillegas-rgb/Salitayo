@@ -69,7 +69,7 @@ export default function ImportsPage({ onBack }) {
     <div className="imports-page">
       <div className="imports-topbar">
         <button className="imports-back-btn" onClick={onBack}>
-          ΓåÉ Back to Writing Coach
+          Back to Writing Coach
         </button>
       </div>
 
@@ -90,7 +90,7 @@ export default function ImportsPage({ onBack }) {
           <input
             type="text"
             className="upload-title-input"
-            placeholder="e.g. Chapter 3 ΓÇö Reading Comprehension"
+            placeholder="e.g. Chapter 3 - Reading Comprehension"
             value={title}
             onChange={e => setTitle(e.target.value)}
           />
@@ -98,7 +98,7 @@ export default function ImportsPage({ onBack }) {
           <label className="upload-field-label">File</label>
           <div className="file-row">
             <label className="file-choose-btn">
-              {file ? file.name : 'Choose PDF or DOCXΓÇª'}
+              {file ? file.name : 'Choose PDF or DOCX...'}
               <input
                 ref={fileInputRef}
                 type="file"
@@ -119,7 +119,7 @@ export default function ImportsPage({ onBack }) {
                   if (fileInputRef.current) fileInputRef.current.value = ''
                 }}
               >
-                Γ£ò
+                x
               </button>
             )}
           </div>
@@ -129,7 +129,7 @@ export default function ImportsPage({ onBack }) {
             onClick={handleUpload}
             disabled={!file || uploading}
           >
-            {uploading ? 'UploadingΓÇª' : 'Upload'}
+            {uploading ? 'Uploading...' : 'Upload'}
           </button>
 
           {uploadSuccess && <p className="upload-success">{uploadSuccess}</p>}
@@ -161,7 +161,7 @@ export default function ImportsPage({ onBack }) {
                     onClick={() => handleDelete(p.id, p.title)}
                     disabled={deletingId === p.id}
                   >
-                    {deletingId === p.id ? 'ΓÇª' : 'Delete'}
+                    {deletingId === p.id ? '...' : 'Delete'}
                   </button>
                 </div>
               ))}

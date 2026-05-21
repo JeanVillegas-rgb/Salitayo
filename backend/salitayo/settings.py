@@ -16,9 +16,14 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders",
     "rest_framework",
+    "rest_framework.authtoken",
     "restructurer",
     "assistive_writing_coach",
+    "profiles",
+    "system",
 ]
+
+AUTH_USER_MODEL = "profiles.User"
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
@@ -54,8 +59,14 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
+    },
+    "wp": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "wp.sqlite3",
+    },
 }
+
+DATABASE_ROUTERS = ["salitayo.db_router.WordProficiencyRouter"]
 
 AUTH_PASSWORD_VALIDATORS = []
 
@@ -73,7 +84,17 @@ REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": [
         "rest_framework.renderers.JSONRenderer",
     ],
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.TokenAuthentication",
+    ],
 }
+
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
+DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "noreply@salitayo.local")
+EMAIL_BACKEND = os.getenv(
+    "EMAIL_BACKEND",
+    "django.core.mail.backends.console.EmailBackend",
+)
 
 TRAINED_MODELS_DIR = os.path.join(BASE_DIR, 'trained_models')
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")

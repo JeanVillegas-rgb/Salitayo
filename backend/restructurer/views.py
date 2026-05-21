@@ -46,6 +46,7 @@ class RestructureTextView(APIView):
                 source_context=serializer.validated_data.get("source_context", ""),
                 highlight_words=serializer.validated_data.get("highlight_words", None),
                 target_language=serializer.validated_data.get("target_language", "en"),
+                metrics=serializer.validated_data.get("metrics", None),
                 mixed_output=serializer.validated_data.get("mixed_output", "taglish"),
             )
         except Exception as exc:

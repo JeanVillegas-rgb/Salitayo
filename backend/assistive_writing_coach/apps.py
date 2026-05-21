@@ -13,31 +13,57 @@ class AssistiveWritingCoachConfig(AppConfig):
 
         import os
         from django.conf import settings
-        from .services.candidate_generator import _get_tight, _get_wide, load_wikipedia_misspellings
-        from .services.reranker_service import _load as load_reranker
-        from .services.error_classifier_service import _get_model as load_classifier
-        from .services.nli_aligner_service import _load as load_nli
-        from .services.retrieval_service import get_encoder
 
-        _get_tight()
-        logger.debug("[STARTUP] SymSpell tight (max_ed=2) ready.")
-        _get_wide()
-        logger.debug("[STARTUP] SymSpell wide (max_ed=4) ready.")
+        try:
+            from .services.candidate_generator import _get_tight, _get_wide, load_wikipedia_misspellings
 
-        wiki_path = os.path.join(settings.BASE_DIR, "data", "wikipedia_misspellings.txt")
-        load_wikipedia_misspellings(wiki_path)
-        logger.debug("[STARTUP] Wikipedia misspellings lookup ready.")
+            _get_tight()
+            logger.debug("[STARTUP] SymSpell tight (max_ed=2) ready.")
+            _get_wide()
+            logger.debug("[STARTUP] SymSpell wide (max_ed=4) ready.")
 
-        load_reranker()
-        logger.debug("[STARTUP] T5 reranker ready.")
+            wiki_path = os.path.join(settings.BASE_DIR, "data", "wikipedia_misspellings.txt")
+            try:
+                load_wikipedia_misspellings(wiki_path)
+                logger.debug("[STARTUP] Wikipedia misspellings lookup ready.")
+            except Exception as e:
+                logger.warning(f"[STARTUP] Could not load Wikipedia misspellings: {e}")
+        except ImportError as e:
+            logger.warning(
+                "[STARTUP] SymSpell unavailable (%s). Writing Assistant spell-check is disabled.",
+                e,
+            )
 
-        load_classifier()
-        logger.debug("[STARTUP] RandomForest classifier ready.")
+        try:
+            from .services.reranker_service import _load as load_reranker
 
-        load_nli()
-        logger.debug("[STARTUP] DeBERTa NLI aligner ready.")
+            load_reranker()
+            logger.debug("[STARTUP] T5 reranker ready.")
+        except Exception as e:
+            logger.warning(f"[STARTUP] Could not load T5 reranker (Writing Assistant may be degraded): {e}")
 
-        get_encoder()
-        logger.debug("[STARTUP] Sentence encoder (MiniLM) ready.")
+        try:
+            from .services.error_classifier_service import _get_model as load_classifier
 
-        logger.debug("[STARTUP] All models loaded.")
+            load_classifier()
+            logger.debug("[STARTUP] RandomForest classifier ready.")
+        except Exception as e:
+            logger.warning(f"[STARTUP] Could not load RandomForest classifier: {e}")
+
+        try:
+            from .services.nli_aligner_service import _load as load_nli
+
+            load_nli()
+            logger.debug("[STARTUP] DeBERTa NLI aligner ready.")
+        except Exception as e:
+            logger.warning(f"[STARTUP] Could not load DeBERTa NLI aligner: {e}")
+
+        try:
+            from .services.retrieval_service import get_encoder
+
+            get_encoder()
+            logger.debug("[STARTUP] Sentence encoder (MiniLM) ready.")
+        except Exception as e:
+            logger.warning(f"[STARTUP] Could not load Sentence encoder: {e}")
+
+        logger.debug("[STARTUP] Pre-loading process complete.")

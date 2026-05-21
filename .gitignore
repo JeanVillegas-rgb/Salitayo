@@ -35,6 +35,7 @@ frontend/.env
 # OS Artifacts
 .DS_Store
 Thumbs.db
+~$*
 
 # IDEs and Editors
 .vscode/

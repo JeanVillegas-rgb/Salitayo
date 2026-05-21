@@ -8,6 +8,7 @@ class RestructureRequestSerializer(serializers.Serializer):
     highlight_words = serializers.ListField(child=serializers.CharField(), required=False)
     target_language = serializers.CharField(required=False, default="en")
     mixed_output = serializers.CharField(required=False, default="taglish")
+    metrics = serializers.DictField(required=False)
 
     def _extract_text_from_docx(self, file_bytes):
         """Extract text from .docx (Word) file."""

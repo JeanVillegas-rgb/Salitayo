@@ -1,0 +1,2 @@
+# Minimal deps to run Word Proficiency (+ portal auth). Use when full requirements.txt fails.
+-r requirements-wp-core.txt

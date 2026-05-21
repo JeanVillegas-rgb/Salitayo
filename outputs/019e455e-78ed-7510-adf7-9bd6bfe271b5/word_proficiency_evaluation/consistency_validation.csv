@@ -1,0 +1,6 @@
+﻿Sample ID,Expected Word,Whisper Transcript,Run 1,Run 2,Run 3,Run 4,Run 5,Run 6,Run 7,Run 8,Run 9,Run 10,Mean Score,Standard Deviation (?),Consistency Pass/Fail
+WP_001,mountain,please say the word mountain,96,96,96,96,96,96,96,96,96,96,96.0,0,Pass
+WP_006,whisper,please say the word whisper,86,86,86,86,86,86,86,86,86,86,86.0,0,Pass
+WP_012,library,please read the word libary,72,72,72,72,72,72,72,72,72,72,72.0,0,Pass
+WP_017,ancient,please read the word anshent,61,61,61,61,61,61,61,61,61,61,61.0,0,Pass
+WP_019,beneath,please repeat the word benit,55,55,55,55,55,55,55,55,55,55,55.0,0,Pass

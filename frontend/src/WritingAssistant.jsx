@@ -48,7 +48,7 @@ function HighlightedText({ text, errors }) {
         key={`err-${err.start}`}
         className="highlight"
         style={{ '--err-color': ERROR_TYPE_COLOR[err.error_type] || '#f59e0b' }}
-        title={`${err.error_type_label}: ${err.word} ΓåÆ ${err.correction}`}
+        title={`${err.error_type_label}: ${err.word} -> ${err.correction}`}
       >
         {text.slice(err.start, err.end)}
       </mark>
@@ -73,7 +73,7 @@ function ComparisonModal({ modal, originalText, onClose, onApply }) {
       <div className="modal" role="dialog" aria-modal="true">
         <div className="modal-header">
           <h2>Review Change</h2>
-          <button className="modal-close" onClick={onClose} aria-label="Close">Γ£ò</button>
+          <button className="modal-close" onClick={onClose} aria-label="Close">x</button>
         </div>
 
         <div className="comparison-grid">
@@ -86,7 +86,7 @@ function ComparisonModal({ modal, originalText, onClose, onApply }) {
             </p>
           </div>
 
-          <div className="comparison-divider">ΓåÆ</div>
+          <div className="comparison-divider">-&gt;</div>
 
           <div className="comparison-panel fixed-panel">
             <h3>With change</h3>
@@ -152,7 +152,7 @@ function PassageSelector({ passages, selectedId, onSelect, fetchingContent }) {
           Reference passage
         </label>
         {fetchingContent && (
-          <span className="passage-loading">LoadingΓÇª</span>
+          <span className="passage-loading">Loading...</span>
         )}
       </div>
       <select
@@ -161,7 +161,7 @@ function PassageSelector({ passages, selectedId, onSelect, fetchingContent }) {
         value={selectedId ?? ''}
         onChange={e => onSelect(e.target.value ? parseInt(e.target.value) : null)}
       >
-        <option value="">No reference ΓÇö skip context check</option>
+        <option value="">No reference - skip context check</option>
         {passages.map(p => (
           <option key={p.id} value={p.id}>{p.title}</option>
         ))}
@@ -177,7 +177,7 @@ function ErrorCard({ err, onCandidateClick, onUndoClick }) {
     <div className="error-card" style={{ '--card-color': color }}>
       <div className="error-card-header">
         <span className="error-word">"{err.word}"</span>
-        <span className="arrow">ΓåÆ</span>
+        <span className="arrow">-&gt;</span>
         <span className="correction">"{err.correction}"</span>
         <span className="error-type-badge" style={{ background: color }}>
           {err.error_type_label}
@@ -407,7 +407,7 @@ export default function WritingAssistant() {
             </label>
             {text && (
               <button className="copy-btn" onClick={handleCopy} title="Copy text">
-                {copied ? 'Γ£ô Copied!' : 'Copy'}
+                {copied ? 'Copied!' : 'Copy'}
               </button>
             )}
           </div>
@@ -433,7 +433,7 @@ export default function WritingAssistant() {
             onClick={handleAnalyze}
             disabled={loading || !text.trim()}
           >
-            {loading ? 'AnalyzingΓÇª' : 'Analyze Writing'}
+            {loading ? 'Analyzing...' : 'Analyze Writing'}
           </button>
         </section>
 
@@ -498,7 +498,7 @@ export default function WritingAssistant() {
                   onClick={handleCheckAlignment}
                   disabled={alignmentLoading}
                 >
-                  {alignmentLoading ? 'Checking alignmentΓÇª' : 'Check Alignment'}
+                  {alignmentLoading ? 'Checking alignment...' : 'Check Alignment'}
                 </button>
                 {alignmentError && (
                   <div className="error-banner" style={{ marginTop: '0.5rem' }}>

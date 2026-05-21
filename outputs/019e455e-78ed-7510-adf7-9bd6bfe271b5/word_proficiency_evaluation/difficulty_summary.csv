@@ -1,0 +1,7 @@
+﻿Difficulty Level,Accent Type,Total Samples,Average WER (%),WER Passed Samples,WER Pass Rate (%),Average PMR (%),PMR Passed Samples,PMR Pass Rate (%)
+Basic,Standard English,4,0.0,4,100.0,93.5,4,100.0
+Basic,Filipino-accented English,4,15.0,4,100.0,74.25,4,100.0
+Intermediate,Standard English,3,0.0,3,100.0,86.0,3,100.0
+Intermediate,Filipino-accented English,3,20.0,3,100.0,63.67,3,100.0
+Advanced,Standard English,3,6.67,2,66.67,79.0,3,100.0
+Advanced,Filipino-accented English,3,20.0,3,100.0,57.0,0,0.0

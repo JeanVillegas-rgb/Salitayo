@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #475569;
+  color: #6b6356;
 }
 
 .title-group h3 {
@@ -30,8 +30,8 @@
 }
 
 .live-badge {
-  background: #e2e8f0;
-  color: #475569;
+  background: #d4c9b5;
+  color: #6b6356;
   font-size: 0.65rem;
   font-weight: 800;
   padding: 4px 10px;
@@ -54,7 +54,7 @@
 
 .metric-label {
   font-size: 0.65rem;
-  color: #94a3b8;
+  color: #a09480;
   font-weight: 600;
   margin: 0;
   text-transform: uppercase;
@@ -69,7 +69,7 @@
 .metric-value {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #1e293b;
+  color: #1c1a14;
 }
 
 .status-tag {
@@ -81,20 +81,69 @@
 }
 
 .status-tag.struggle {
-  background: #fee2e2;
-  color: #ef4444;
-  border: 1px solid #fecaca;
+  background: #fff7ed;
+  color: #b83232;
+  border: 1px solid #e8c4ba;
 }
 
 .status-tag.fluency {
-  background: #dcfce7;
+  background: #e7eddc;
   color: #22c55e;
-  border: 1px solid #bbf7d0;
+  border: 1px solid #dce7cf;
+}
+
+.adaptive-confirmation {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin: -0.75rem 0 1.25rem;
+  padding: 0.9rem;
+  border: 1px solid #f0d8d0;
+  border-radius: 12px;
+  background: #fff7ed;
+  color: #8c3d1f;
+}
+
+.adaptive-confirmation strong {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.adaptive-confirmation p {
+  margin: 0;
+  color: #8c3d1f;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.adaptive-confirmation-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex: 0 0 auto;
+}
+
+.adaptive-confirmation-actions button {
+  border: 1px solid #d4845a;
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  background: #fff;
+  color: #8c3d1f;
+  font-size: 0.72rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.adaptive-confirmation-actions button:last-child {
+  background: #8c3d1f;
+  color: #fff;
+  border-color: #8c3d1f;
 }
 
 .levers-section {
-  background: #f8fafc;
-  border: 1px solid #f1f5f9;
+  background: #f7f2ea;
+  border: 1px solid #ede5d6;
   border-radius: 12px;
   padding: 1rem;
 }
@@ -108,7 +157,7 @@
 .lever-label-main {
   font-size: 0.6rem;
   font-weight: 800;
-  color: #64748b;
+  color: #6b6356;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
@@ -118,11 +167,11 @@
   align-items: center;
   gap: 0.4rem;
   font-size: 0.75rem;
-  color: #475569;
+  color: #6b6356;
 }
 
 .lever-detail strong {
-  color: #1e293b;
+  color: #1c1a14;
   text-transform: uppercase;
 }
 

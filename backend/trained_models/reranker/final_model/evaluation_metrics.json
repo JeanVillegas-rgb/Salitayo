@@ -1,0 +1,12 @@
+{
+  "base_model_name": "t5-small",
+  "top1_accuracy_on_test_set": 0.8577103647526183,
+  "candidate_coverage_on_test_set": 1.0,
+  "number_of_test_samples": 2769,
+  "number_of_training_samples": 22150,
+  "maximum_input_token_length": 128,
+  "maximum_target_token_length": 32,
+  "number_of_spelling_candidates": 5,
+  "training_data_source": "Birkbeck Corpus + TOEFL-Spell (ETS)",
+  "candidate_generation_method": "SymSpell (Garbe 2018) + shuffle to prevent position bias"
+}

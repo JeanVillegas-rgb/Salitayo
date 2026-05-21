@@ -5,7 +5,6 @@ import logging
 import os
 import re
 import time
-from difflib import SequenceMatcher
 try:
     import requests
 except Exception:
@@ -112,37 +111,6 @@ except Exception as e:
 SENTENCE_SPLIT_PATTERN = re.compile(r"(?<=[.!?])\s+")
 CLAUSE_SPLIT_PATTERN = re.compile(r"\s*(?:;|:\s+|,\s+(?:and|but|while|because|which|that|upang|dahil|sapagkat)\s+)+\s*", re.IGNORECASE)
 
-LEADING_DISCOURSE_MARKERS = (
-    "however",
-    "therefore",
-    "moreover",
-    "furthermore",
-    "additionally",
-    "meanwhile",
-    "otherwise",
-    "instead",
-    "then",
-    "thus",
-    "also",
-    "because",
-    "when",
-    "while",
-    "since",
-    "although",
-    "though",
-    "after",
-    "before",
-    "during",
-    "it",
-    "this",
-    "that",
-    "these",
-    "those",
-    "there",
-    "here",
-    "notwithstanding",
-)
-
 NON_PRESERVED_CAPITALIZED_WORDS = {
     "a",
     "an",
@@ -196,112 +164,6 @@ NON_PRESERVED_CAPITALIZED_WORDS = {
     "diyan",
     "doon",
 }
-
-COMMON_ACADEMIC_VERBS = (
-    "show",
-    "shows",
-    "showed",
-    "found",
-    "find",
-    "finds",
-    "support",
-    "supports",
-    "supported",
-    "reveal",
-    "reveals",
-    "revealed",
-    "indicate",
-    "indicates",
-    "indicated",
-    "suggest",
-    "suggests",
-    "suggested",
-    "cause",
-    "causes",
-    "caused",
-    "improve",
-    "improves",
-    "improved",
-    "reduce",
-    "reduces",
-    "reduced",
-    "increase",
-    "increases",
-    "increased",
-    "help",
-    "helps",
-    "helped",
-    "use",
-    "uses",
-    "used",
-    "provide",
-    "provides",
-    "provided",
-    "affect",
-    "affects",
-    "affected",
-    "study",
-    "studies",
-    "studied",
-    "is",
-    "are",
-    "was",
-    "were",
-    "be",
-    "been",
-    "have",
-    "has",
-    "had",
-    "do",
-    "does",
-    "did",
-    "ensure",
-    "ensures",
-    "ensured",
-    "resulted",
-    "occur",
-    "occurs",
-    "occurred",
-    "achieve",
-    "achieves",
-    "achieved",
-    "challenge",
-    "challenges",
-    "challenged",
-    "necessitate",
-    "necessitates",
-    "necessitated",
-    "require",
-    "requires",
-    "required",
-    "perform",
-    "performs",
-    "performed",
-    "observe",
-    "observes",
-    "observed",
-    "identify",
-    "identifies",
-    "identified",
-    "establish",
-    "establishes",
-    "established",
-    "describe",
-    "describes",
-    "described",
-    "explain",
-    "explains",
-    "explained",
-    "develop",
-    "develops",
-    "developed",
-    "apply",
-    "applies",
-    "applied",
-    "include",
-    "includes",
-    "included",
-)
 
 
 @dataclass
@@ -427,12 +289,14 @@ class ReadingRestructurerService:
             restructure_start = time.perf_counter()
             text_to_restructure = simplified_text or text  # Use simplified text if available, else original
             local_module = None
+            model_confidence = None
             if target_language not in ["tl", "tagalog", "fil", "filipino", "mix", "mixed"]:
                 local_module = _load_local_inference_module()
             if local_module and hasattr(local_module, "predict"):
                 try:
                     restructure_result = local_module.predict(text_to_restructure, target_language, protected_terms=all_protected)
                     restructured = restructure_result.get("cleaned", text_to_restructure)
+                    model_confidence = restructure_result.get("confidence")
                     if restructured:
                         text_to_restructure = restructured
                         model_key = restructure_result.get("model_key", "default")
@@ -504,6 +368,7 @@ class ReadingRestructurerService:
                 "total_latency": total_duration,
                 "adaptive_trace": adaptive_trace,
                 "engine": "SALITAyo-Stable-V2",
+                "model_confidence": model_confidence,
                 "metrics": {
                     "rr": {"label": "Replay Rate (RR)", "value": f"{rr:.2f}", "status": "STRUGGLE" if rr > 0.6 else "FLUENCY"},
                     "toc": {"label": "Time Ratio (ToC)", "value": f"{toc:.2f}", "status": "STRUGGLE" if toc > 1.5 else "FLUENCY"},
@@ -540,6 +405,7 @@ class ReadingRestructurerService:
                     "preserved_terms": preserved_terms,
                     "ner_protected_terms": ner_protected_terms,
                     "rag_guidance": guidance,
+                    "model_confidence": model_confidence,
                     "augmentations": self._augmentation_metadata(),
                     "levers": {
                         "aggressiveness": aggressiveness,
@@ -668,10 +534,6 @@ class ReadingRestructurerService:
 
         return None, "fallback", trace
 
-    def _simplify_text(self, text: str, source_context: str, guidance: list[dict], protected_terms: list[str] | None = None, target_language: str = "en"):
-        # Legacy support
-        res, mode, trace = self._simplify_text_with_trace(text, source_context, guidance, protected_terms, target_language)
-        return res, mode
 
     def _bulletproof_purify(self, text: str) -> str:
         """Surgically replaces English words and hybrids with pure Tagalog, ignoring syllable dots."""
@@ -681,117 +543,10 @@ class ReadingRestructurerService:
         """Lightweight lexical simplifier used as a deterministic fallback when LLM output is unavailable or unchanged."""
         return text
 
-    def _rewrite_passive_to_active_en(self, text: str) -> str:
-        """Best-effort passive-to-active rewrites for English without external calls."""
-        if not text:
-            return ""
 
-        def _rewrite_sentence(sentence: str) -> str:
-            sentence = sentence.strip()
-            if not sentence:
-                return sentence
 
-            end = ""
-            if sentence[-1:] in ".!?":
-                end = sentence[-1]
-                sentence = sentence[:-1].strip()
 
-            # Handles (was/were/is/are) [verb]ed by [agent]
-            match = re.search(
-                r"\b(?P<object>[a-zA-Z\s]+)\s+(?:was|were|is|are)\s+(?P<verb>[a-z]+ed)\s+by\s+(?P<agent>[a-zA-Z\s]+)(?:\b|$)",
-                sentence,
-                flags=re.IGNORECASE,
-            )
-            if not match:
-                return f"{sentence}{end}" if end else sentence
 
-            obj = match.group("object").strip()
-            verb = match.group("verb").strip()
-            agent = match.group("agent").strip()
-            if not obj or not agent:
-                return f"{sentence}{end}" if end else sentence
-
-            # Handle present/past tense verb conversions
-            active_verb = verb
-            matched_segment = match.group(0).lower()
-            if "is" in matched_segment or "are" in matched_segment:
-                if active_verb.endswith("ed"):
-                    active_verb = active_verb[:-2]
-                if not active_verb.endswith("s"):
-                    active_verb += "s"
-
-            # Capitalize agent properly if it's start-of-clause
-            is_start_of_sentence = sentence.startswith(match.group(0))
-            if is_start_of_sentence:
-                agent = agent[:1].upper() + agent[1:]
-
-            rewritten_clause = f"{agent} {active_verb} {obj}"
-            rewritten_sentence = sentence.replace(match.group(0), rewritten_clause)
-            return f"{rewritten_sentence}{end}" if end else rewritten_sentence
-
-        parts = [p for p in re.split(r"(?<=[.!?])\s+", text) if p.strip()]
-        rewritten_parts = [_rewrite_sentence(part) for part in parts]
-        return " ".join(rewritten_parts)
-
-    def _is_near_copy(self, original: str, candidate: str) -> bool:
-        def normalize(value: str):
-            value = str(value or "").lower()
-            value = value.replace("Â·", "").replace("·", "")
-            value = re.sub(r"^[\s•\-\*]+", "", value, flags=re.MULTILINE)
-            value = re.sub(r"[^a-z0-9]+", " ", value)
-            return re.sub(r"\s+", " ", value).strip()
-
-        original_norm = normalize(original)
-        candidate_norm = normalize(candidate)
-        if not original_norm or not candidate_norm:
-            return False
-        if original_norm == candidate_norm:
-            return True
-
-        original_words = original_norm.split()
-        candidate_words = candidate_norm.split()
-        if len(original_words) >= 5:
-            similarity = SequenceMatcher(None, original_words, candidate_words).ratio()
-            changed_words = sum(1 for a, b in zip(original_words, candidate_words) if a != b)
-            length_delta = abs(len(original_words) - len(candidate_words))
-            if similarity >= 0.82 and (changed_words + length_delta) <= 2:
-                return True
-
-        if original_words != candidate_words:
-            return False
-
-        return len(original_words) >= 4
-
-    def _dynamic_reading_simplify(self, text: str, protected_terms: list[str] | None = None) -> str:
-        """Runtime fallback: broadly simplifies hard-looking words and splits dense clauses."""
-        return text
-
-    def _rewrite_english_passive_to_active(self, text: str, protected_lower: set[str]) -> str:
-        """Convert simple 'X was/were VERBed by Y' sentences into active voice."""
-        return text
-
-    def _split_dense_sentence(self, sentence: str) -> list[str]:
-        sentence = self._normalize_whitespace(sentence)
-        if not sentence:
-            return []
-        core = sentence.rstrip(".!?").strip()
-        parts = [p.strip() for p in re.split(r"\s*(?:;|,)\s*", core) if p.strip()]
-        if len(parts) <= 1:
-            return [sentence if sentence.endswith((".", "!", "?")) else f"{sentence}."]
-
-        lines = []
-        for part in parts:
-            part = re.sub(r"^(and|but|or)\s+", "", part, flags=re.IGNORECASE).strip()
-            if len(part.split()) <= 2 and lines:
-                lines[-1] = lines[-1].rstrip(".!?") + ", " + part + "."
-                continue
-            if not part:
-                continue
-            line = part[:1].upper() + part[1:]
-            if not line.endswith((".", "!", "?")):
-                line += "."
-            lines.append(line)
-        return lines or [sentence]
 
     def _try_gemma_simplify_with_trace(self, text: str, source_context: str, guidance: list[dict], protected_terms: list[str] | None = None, retry_prompt: str | None = None, target_language: str = "en", mixed_output: str = "taglish"):
         trace = []
@@ -884,9 +639,6 @@ class ReadingRestructurerService:
             logger.error(f"Groq connection exception: {e}")
             return None, trace
 
-    def _try_gemma_simplify_text(self, text: str, source_context: str, guidance: list[dict], protected_terms: list[str] | None = None, retry_prompt: str | None = None, target_language: str = "en"):
-        res, trace = self._try_gemma_simplify_with_trace(text, source_context, guidance, protected_terms, retry_prompt, target_language)
-        return res
 
     def _build_simplify_system_prompt(self, guidance: list[dict], protected_terms: list[str] | None = None, target_language: str = "en", source_context: str = "", mixed_output: str = "taglish"):
         protected_text = ", ".join(protected_terms or []) or "none"
@@ -972,44 +724,6 @@ class ReadingRestructurerService:
         """Surgically translates keywords into the target language."""
         return terms
 
-    def _split_into_sentences(self, text: str) -> list[str]:
-        if not text:
-            return []
-        
-        # 1. CLEANING: Remove internal newlines that cause fragmentation
-        text = text.replace('\n', ' ').strip()
-        text = re.sub(r'\s+', ' ', text)
-        
-        # 2. SURGICAL SPLIT: Only split on . ! ? followed by a space or end of string
-        # This prevents splitting on abbreviations or middle of phrases
-        raw_sentences = re.split(r"([.!?](?:\s|$))", text)
-        
-        sentences = []
-        current = ""
-        for part in raw_sentences:
-            if re.match(r"[.!?](?:\s|$)", part):
-                current += part.strip()
-                sentences.append(current.strip())
-                current = ""
-            else:
-                current += part
-        
-        if current.strip():
-            sentences.append(current.strip())
-            
-        # 3. FRAGMENT GLUING: If a "sentence" is too short (like "ng"), glue it to the previous one
-        glued_sentences = []
-        for s in sentences:
-            if not glued_sentences:
-                glued_sentences.append(s)
-            else:
-                # If the current sentence is just a fragment (less than 5 chars or 1 word), glue it
-                if len(s.split()) <= 1 or len(s) < 5:
-                    glued_sentences[-1] = glued_sentences[-1] + " " + s
-                else:
-                    glued_sentences.append(s)
-        
-        return [s.strip() for s in glued_sentences if s.strip()]
 
     def generate_groq_audio(self, text: str, lang: str):
         """
@@ -1062,15 +776,6 @@ class ReadingRestructurerService:
             # High-quality English fallback
             return f"https://translate.google.com/translate_tts?ie=UTF-8&q={encoded_text}&tl=en&client=tw-ob"
 
-    def _build_simplify_user_prompt(self, text: str, source_context: str, protected_terms: list[str] | None = None, target_language: str = "en"):
-        protected_text = ", ".join(protected_terms or []) or "none"
-        lang_name = "ENGLISH" if target_language == "en" else "TAGALOG"
-        return (
-            f"INPUT_TEXT: {text.strip()}\n"
-            f"MANDATORY_ANCHORS: {protected_text}\n"
-            f"TARGET_LANGUAGE: PURE {lang_name}\n"
-            f"TASK: Restructure the input text into simple {lang_name} for a dyslexic student. DO NOT add info. DO NOT delete info. Return ONLY the simplified {lang_name} paragraph."
-        )
 
     def _enforce_sentence_structure(self, text: str, target_count: int):
         # 0. NUCLEAR SILENCE: Remove common AI 'Notes' or 'Reminders'
@@ -1110,136 +815,11 @@ class ReadingRestructurerService:
         # Fallback if spacy failed to load
         return [s.strip() for s in SENTENCE_SPLIT_PATTERN.split(text) if s.strip()]
 
-    def _split_long_sentences(self, sentence: str) -> list[str]:
-        if not self.nlp:
-            # Basic fallback if spacy not available
-            words = sentence.split()
-            if len(words) <= 22:
-                s = self._process_single_sentence(sentence)
-                return [s] if s else []
-            return [self._process_single_sentence(sentence)]
 
-        doc = self.nlp(sentence)
-        words = [t for t in doc if not t.is_punct]
-        
-        # Only split if it's actually long
-        if len(words) <= 15:
-            s = self._process_single_sentence(sentence)
-            return [s] if s else []
 
-        # Find the best split point using SpaCy dependency parsing
-        # We look for a coordinating conjunction (CC) or a subord (SCONJ)
-        best_split_idx = -1
-        
-        # Priority 1: Semicolons
-        for token in doc:
-            if token.text == ";":
-                best_split_idx = token.i
-                break
-        
-        # Priority 2: Conjunctions with their own subjects
-        if best_split_idx == -1:
-            for token in doc:
-                if token.pos_ in ["CCONJ", "SCONJ"] and token.i > 5 and token.i < len(doc) - 5:
-                    # Check if there's a verb after the conjunction (to avoid fragments)
-                    has_verb_after = any(t.pos_ == "VERB" for t in doc[token.i:])
-                    if has_verb_after:
-                        best_split_idx = token.i
-                        break
-        
-        if best_split_idx != -1:
-            p1 = doc[:best_split_idx].text.strip()
-            p2 = doc[best_split_idx:].text.strip()
-            # If the split starts with a connector, keep it but capitalize
-            p2 = p2[0].upper() + p2[1:]
-            return self._split_long_sentences(p1) + self._split_long_sentences(p2)
 
-        # If no smart split found, process as one
-        s = self._process_single_sentence(sentence)
-        return [s] if s else []
 
-    def _has_verb(self, text: str) -> bool:
-        if self.nlp:
-            doc = self.nlp(text)
-            return any(t.pos_ == "VERB" for t in doc)
-        # Old heuristic fallback
-        return any(v in text.lower() for v in COMMON_ACADEMIC_VERBS)
 
-    def _process_single_sentence(self, sentence: str):
-        s = self._ensure_subject_first(sentence)
-        s = self._ensure_who_did_what(s)
-        s = self._normalize_sentence_start(s)
-        if s and not s.endswith((".", "!", "?")):
-            s += "."
-        return s
-
-    def _ensure_subject_first(self, sentence: str):
-        text = self._normalize_whitespace(sentence)
-        if not text:
-            return text
-
-        first_word_match = re.match(r"^([A-Za-z][A-Za-z\-']*)([\s,]+)?", text)
-        if not first_word_match:
-            return text
-
-        first_word = first_word_match.group(1)
-        first_word_lower = first_word.lower()
-
-        if first_word_lower in {marker.lower() for marker in LEADING_DISCOURSE_MARKERS}:
-            remainder = text[first_word_match.end():].lstrip(" ,")
-            if remainder:
-                text = remainder
-            else:
-                return text
-
-        first_token = re.match(r"^([A-Za-z][A-Za-z\-']*)", text)
-        if not first_token:
-            return text
-
-        first_token_text = first_token.group(1)
-        first_token_lower = first_token_text.lower()
-        noun_like_start = (
-            first_token_text[:1].isupper()
-            or first_token_lower in {"the", "a", "an"}
-            or bool(re.fullmatch(r"[A-Z]{2,}[A-Z0-9\-]*", first_token_text))
-        )
-
-        if noun_like_start:
-            return text
-
-        if first_token_lower in {
-            "it",
-            "this",
-            "that",
-            "these",
-            "those",
-            "there",
-            "they",
-            "we",
-            "you",
-            "i",
-            "he",
-            "she",
-            "is",
-            "are",
-            "was",
-            "were",
-            "be",
-            "been",
-            "being",
-        } or first_token_lower.endswith(("ed", "ing")):
-            return f"The {text[0].lower() + text[1:]}"
-
-        return text
-
-    def _ensure_who_did_what(self, sentence: str):
-        # We now trust the AI to provide complete sentences.
-        # Manual 'repair' logic was injecting unwanted filler phrases like 'is important'.
-        return self._normalize_whitespace(sentence)
-
-    def _should_apply_syllable_chunking(self, source_context: str):
-        # Disabled at user request to avoid cutting words
-        return False
 
     def _build_chunks_from_text(self, text: str, original_text: str, preserved_terms: list[str] | None = None, chunk_size: int = 20):
         """Builds chunks where each sentence is its own chunk, ignoring word counts."""
@@ -1272,101 +852,10 @@ class ReadingRestructurerService:
                 present.append(term)
         return present
 
-    def _extract_response_text(self, response):
-        content = getattr(response, "content", None) or []
-        text_parts = []
-        for block in content:
-            block_text = getattr(block, "text", None)
-            if block_text:
-                text_parts.append(block_text)
-        return "\n".join(text_parts).strip()
 
-    def _safe_parse_json(self, text: str):
-        candidate = text.strip()
-        if candidate.startswith("```"):
-            candidate = re.sub(r"^```(?:json)?\s*", "", candidate, flags=re.IGNORECASE)
-            candidate = re.sub(r"\s*```$", "", candidate)
 
-        try:
-            return json.loads(candidate)
-        except json.JSONDecodeError:
-            match = re.search(r"\{.*\}", candidate, flags=re.DOTALL)
-            if not match:
-                return None
-            try:
-                return json.loads(match.group(0))
-            except json.JSONDecodeError:
-                return None
 
-    def _normalize_llm_response(self, payload: dict, original_text: str, guidance: list[dict]):
-        chunks = payload.get("chunks") or []
-        normalized_chunks = []
 
-        for index, chunk in enumerate(chunks, start=1):
-            text = self._strip_syllable_markers(self._coerce_text(chunk.get("text")))
-            highlight_terms = self._coerce_string_list(chunk.get("highlight_terms"))
-            color_terms = self._coerce_string_list(chunk.get("color_terms"))
-            normalized_chunks.append(
-                {
-                    "chunk_id": str(chunk.get("chunk_id") or f"chunk-{index}"),
-                    "text": text,
-                    "highlight_terms": highlight_terms,
-                    "color_terms": color_terms or highlight_terms,
-                }
-            )
-
-        if not normalized_chunks:
-            normalized_chunks = [
-                {
-                    "chunk_id": "chunk-1",
-                    "text": original_text.strip(),
-                    "highlight_terms": self._extract_preserved_terms(original_text),
-                    "color_terms": self._extract_preserved_terms(original_text),
-                }
-            ]
-
-        restructured_text = payload.get("restructured_text")
-        if not restructured_text:
-            restructured_text = "\n".join(chunk["text"] for chunk in normalized_chunks if chunk["text"])
-        restructured_text = self._strip_syllable_markers(restructured_text)
-
-        metadata = payload.get("metadata") or {}
-        metadata.update(
-            {
-                "font_family": metadata.get("font_family") or "OpenDyslexic, Atkinson Hyperlegible, sans-serif",
-                "text_size": metadata.get("text_size") or "1.15rem",
-                "layout": metadata.get("layout") or "sentence-per-line",
-                "bilingual_awareness": True,
-                "rag_guidance": guidance,
-                "preserved_terms": metadata.get("preserved_terms") or self._extract_preserved_terms(original_text),
-                "mode": "anthropic",
-                "augmentations": metadata.get("augmentations") or self._augmentation_metadata(),
-            }
-        )
-
-        return {
-            "restructured_text": restructured_text,
-            "chunks": normalized_chunks,
-            "metadata": metadata,
-        }
-
-    def _coerce_text(self, value):
-        return str(value or "").strip()
-
-    def _coerce_string_list(self, value):
-        if value is None:
-            return []
-        if isinstance(value, str):
-            return [value.strip()] if value.strip() else []
-        if not isinstance(value, (list, tuple, set)):
-            return []
-
-        normalized = []
-        for item in value:
-            text = str(item or "").strip()
-            if text and text not in normalized:
-                normalized.append(text)
-        return normalized
 
     def _augmentation_metadata(self):
         return {
@@ -1410,88 +899,10 @@ class ReadingRestructurerService:
             for document in documents
         ]
 
-    def _build_chunks(self, text: str):
-        sentences = self._split_into_sentences(text)
-        chunks = []
 
-        for index, sentence in enumerate(sentences, start=1):
-            simplified_sentence = self._simplify_sentence(sentence)
-            highlight_terms = self._extract_preserved_terms(sentence)
-            chunks.append(
-                RestructuredChunk(
-                    chunk_id=f"chunk-{index}",
-                    text=simplified_sentence,
-                    highlight_terms=highlight_terms,
-                )
-            )
 
-        return chunks
 
-    def _simplify_sentence(self, sentence: str):
-        sentence = sentence.strip()
-        sentence = self._convert_passive_to_active(sentence)
-        sentence = self._normalize_sentence_start(sentence)
-        sentence = re.sub(r"\s+", " ", sentence)
-        if not sentence.endswith((".", "!", "?")):
-            sentence += "."
-        return sentence
 
-    def _apply_syllable_chunking_to_text(self, text: str):
-        tokens = re.split(r"(\W+)", text)
-        rewritten_tokens = []
-
-        for token in tokens:
-            if not token or re.fullmatch(r"\W+", token):
-                rewritten_tokens.append(token)
-                continue
-
-            # Chunk all words that have 3+ syllables
-            rewritten_tokens.append(self._syllable_chunk(token))
-
-        return "".join(rewritten_tokens)
-
-    def _apply_syllable_chunking_to_all_long_words(self, text: str):
-        """Apply syllable chunking to EVERY word with 3+ syllables."""
-        if not text:
-            return text
-        
-        tokens = re.split(r"(\W+)", text)
-        rewritten_tokens = []
-
-        for token in tokens:
-            if not token or re.fullmatch(r"\W+", token):
-                rewritten_tokens.append(token)
-                continue
-
-            # Check syllable count and chunk if 3+
-            if self._estimate_syllable_count(token) >= 3:
-                rewritten_tokens.append(self._syllable_chunk(token))
-            else:
-                rewritten_tokens.append(token)
-
-        return "".join(rewritten_tokens)
-
-    def _apply_syllable_chunking_to_augmented(self, text: str, augmented_words: list[str]):
-        """Apply syllable chunking only to augmented (complex) words."""
-        if not augmented_words:
-            return text
-        
-        augmented_lower = {w.lower(): w for w in augmented_words}
-        tokens = re.split(r"(\W+)", text)
-        rewritten_tokens = []
-
-        for token in tokens:
-            if not token or re.fullmatch(r"\W+", token):
-                rewritten_tokens.append(token)
-                continue
-
-            # Only chunk if this token matches an augmented word
-            if token.lower() in augmented_lower:
-                rewritten_tokens.append(self._syllable_chunk(token))
-            else:
-                rewritten_tokens.append(token)
-
-        return "".join(rewritten_tokens)
 
     def _normalize_whitespace(self, text: str):
         compact = re.sub(r"\s+", " ", str(text or "")).strip()
@@ -1503,127 +914,14 @@ class ReadingRestructurerService:
         cleaned = cleaned.replace("·", "")
         return re.sub(r"\s+", " ", cleaned).strip()
 
-    def _extract_original_complex_words(self, text: str):
-        # We don't extract from input anymore. 
-        # We let the AI simplify first, then we syllable-chunk the result!
-        return []
 
-    def _normalize_sentence_start(self, sentence: str):
-        if not sentence:
-            return sentence
-        
-        # Enforce Completeness Rule: Never start with a Verb
-        if self.nlp:
-            doc = self.nlp(sentence)
-            if len(doc) > 0 and doc[0].pos_ == "VERB":
-                # Enforce "Subject + Verb" by prepending "This " to verb-only starts
-                return "This " + sentence[:1].lower() + sentence[1:]
 
-        return sentence[:1].upper() + sentence[1:]
 
-    def _convert_passive_to_active(self, sentence: str):
-        extraposition_match = re.match(
-            r"^It\s+(?P<aux>has|have|had|is|are|was|were)\s+been\s+(?P<verb>[A-Za-z]+ed|known|made|given|seen|taken|used|shown|found|built|based)\s+by\s+(?P<agent>.+?)\s+that\s+(?P<clause>.+?)(?P<tail>[.!?])?$",
-            sentence,
-            flags=re.IGNORECASE,
-        )
-        if extraposition_match:
-            agent = extraposition_match.group("agent").strip()
-            verb = extraposition_match.group("verb").strip()
-            clause = extraposition_match.group("clause").strip()
-            return f"{agent} {verb} that {clause}"
 
-        passive_match = re.match(
-            r"^(?P<object>.+?)\s+(?P<be>was|were|is|are|been|be|being)\s+(?P<verb>[A-Za-z]+ed|known|made|given|seen|taken|used|shown|found|built|based)\s+by\s+(?P<agent>.+?)(?P<tail>[.!?])?$",
-            sentence,
-            flags=re.IGNORECASE,
-        )
-        if not passive_match:
-            return sentence
 
-        agent = passive_match.group("agent").strip()
-        verb = passive_match.group("verb").strip()
-        obj = self._normalize_moved_object_phrase(passive_match.group("object").strip())
-        return f"{agent} {verb} {obj}"
 
-    def _normalize_moved_object_phrase(self, phrase: str):
-        # If an object phrase starts with an article and now appears mid-sentence,
-        # normalize it to lowercase unless it likely begins a proper name.
-        match = re.match(r"^(The|A|An)(\s+)([A-Za-z])", phrase)
-        if not match:
-            return phrase
 
-        if match.group(3).islower():
-            article = match.group(1).lower()
-            return article + phrase[len(match.group(1)) :]
 
-        return phrase
-
-    def _chunk_complex_words(self, sentence: str):
-        preserved_terms = set(self._extract_preserved_terms(sentence))
-        tokens = re.split(r"(\W+)", sentence)
-        rewritten_tokens = []
-
-        for token in tokens:
-            if not token or re.fullmatch(r"\W+", token):
-                rewritten_tokens.append(token)
-                continue
-
-            if token in preserved_terms or self._should_preserve_token(token):
-                rewritten_tokens.append(token)
-                continue
-
-            rewritten_tokens.append(self._syllable_chunk(token))
-
-        return "".join(rewritten_tokens)
-
-    def _should_preserve_token(self, token: str):
-        return bool(re.fullmatch(r"[A-Z]{2,}[A-Z0-9\-]*", token)) or bool(re.fullmatch(r"[A-Z][a-z]+", token))
-
-    def _syllable_chunk(self, word: str):
-        if not re.search(r"[A-Za-z]", word):
-            return word
-
-        if self._estimate_syllable_count(word) < 3:
-            return word
-
-        if "-" in word:
-            return "-".join(self._syllable_chunk(part) for part in word.split("-"))
-
-        pieces = []
-        lower = word.lower()
-        index = 0
-        while index < len(lower):
-            match = re.match(r"[^aeiouy]*[aeiouy]+(?:[^aeiouy](?![aeiouy]))?", lower[index:])
-            if not match:
-                pieces.append(lower[index:])
-                break
-            chunk = match.group(0)
-            pieces.append(chunk)
-            index += len(chunk)
-
-        chunked = "·".join(piece for piece in pieces if piece)
-        return self._match_case(word, chunked)
-
-    def _estimate_syllable_count(self, word: str):
-        cleaned_word = re.sub(r"[^A-Za-z]", "", word).lower()
-        if not cleaned_word:
-            return 0
-
-        groups = re.findall(r"[aeiouy]+", cleaned_word)
-        count = len(groups)
-
-        if cleaned_word.endswith("e") and count > 1:
-            count -= 1
-
-        return max(count, 1)
-
-    def _match_case(self, original: str, transformed: str):
-        if original.isupper():
-            return transformed.upper()
-        if original[:1].isupper():
-            return transformed[:1].upper() + transformed[1:]
-        return transformed
 
     def _extract_preserved_terms(self, text: str):
         terms = set()
@@ -1646,9 +944,6 @@ class ReadingRestructurerService:
         return sorted(filtered_terms, key=len, reverse=True)
 
 
-    def _should_apply_syllable_chunking(self, source_context: str):
-        # Disabled at user request to avoid cutting words
-        return False
 
 def get_restructurer_service():
     return ReadingRestructurerService()

@@ -9,4 +9,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("restructurer.urls")),
     path("api/", include("assistive_writing_coach.urls")),
+    path("api/auth/", include("profiles.urls")),
+    path("api/system/", include("system.urls")),
 ]

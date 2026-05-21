@@ -1,0 +1,21 @@
+﻿Word State ID,Word,Total Attempts,Average Accuracy (%),Augmentation Gap Label,Included in Training,Train/Test Set,Precision,Recall,F1 Score,Support
+WS_001,mountain,5,96,correct,Yes,Identical/in-sample prototype dataset (<40 samples),0.88,0.93,0.9,8
+WS_002,library,5,72,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_003,thunder,4,69,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_004,gather,4,68,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_005,fragile,5,66,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_006,whisper,5,86,correct,Yes,Identical/in-sample prototype dataset (<40 samples),0.88,0.93,0.9,8
+WS_007,ancient,5,61,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_008,brilliant,5,59,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_009,beneath,5,55,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_010,although,5,57,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11
+WS_011,barely,3,91,over-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.92,0.8,0.86,5
+WS_012,gently,3,89,over-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.92,0.8,0.86,5
+WS_013,swiftly,4,78,correct,Yes,Identical/in-sample prototype dataset (<40 samples),0.88,0.93,0.9,8
+WS_014,several,3,83,correct,Yes,Identical/in-sample prototype dataset (<40 samples),0.88,0.93,0.9,8
+WS_015,through,4,74,correct,Yes,Identical/in-sample prototype dataset (<40 samples),0.88,0.93,0.9,8
+WS_016,beyond,4,71,correct,Yes,Identical/in-sample prototype dataset (<40 samples),0.88,0.93,0.9,8
+WS_017,unless,3,80,correct,Yes,Identical/in-sample prototype dataset (<40 samples),0.88,0.93,0.9,8
+WS_018,hundred,3,87,over-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.92,0.8,0.86,5
+WS_019,dozen,3,90,over-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.92,0.8,0.86,5
+WS_020,themselves,4,63,under-augmented,Yes,Identical/in-sample prototype dataset (<40 samples),0.91,0.96,0.93,11

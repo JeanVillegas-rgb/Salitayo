@@ -1,0 +1,35 @@
+{
+  "model_type": "RandomForest",
+  "feature_names": [
+    "raw_edit_distance",
+    "normalized_edit_distance",
+    "length_difference",
+    "absolute_length_difference",
+    "soundex_codes_match",
+    "metaphone_codes_match",
+    "jaro_winkler_similarity",
+    "is_letter_reversal",
+    "is_adjacent_transposition",
+    "is_vowel_substitution_only",
+    "bigram_overlap_ratio",
+    "trigram_overlap_ratio",
+    "is_full_word_reversal",
+    "is_omission_length",
+    "is_insertion_length",
+    "is_same_length",
+    "is_phonetic_nontrivial",
+    "is_single_character_swap"
+  ],
+  "error_type_labels": [
+    "phonetic_sub",
+    "reversal",
+    "omission",
+    "insertion",
+    "transposition"
+  ],
+  "test_f1_weighted": 1.0,
+  "cv_f1_mean": 1.0,
+  "cv_f1_std": 0.0,
+  "training_samples": 23672,
+  "test_samples": 5918
+}
