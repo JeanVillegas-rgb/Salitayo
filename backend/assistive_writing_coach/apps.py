@@ -28,7 +28,7 @@ class AssistiveWritingCoachConfig(AppConfig):
                 logger.debug("[STARTUP] Wikipedia misspellings lookup ready.")
             except Exception as e:
                 logger.warning(f"[STARTUP] Could not load Wikipedia misspellings: {e}")
-        except ImportError as e:
+        except (ImportError, RuntimeError) as e:
             logger.warning(
                 "[STARTUP] SymSpell unavailable (%s). Writing Assistant spell-check is disabled.",
                 e,

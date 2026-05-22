@@ -13,9 +13,8 @@ import logging
 import re
 import time
 
-import editdistance
-
 from .candidate_generator import get_candidates, is_known_word
+from .editdistance_compat import editdistance
 from .error_classifier_service import classify_error
 from .reranker_service import rerank
 

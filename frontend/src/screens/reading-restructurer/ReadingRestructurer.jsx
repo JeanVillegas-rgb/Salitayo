@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { saveDifficultWord } from './services/difficultWords'
+import { saveDifficultWord } from '../../services/difficultWords'
 import './diagnostics.css'
 
 const BASELINE_SECONDS_PER_CHUNK = 8

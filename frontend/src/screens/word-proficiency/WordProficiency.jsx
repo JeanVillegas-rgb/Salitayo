@@ -6,13 +6,13 @@ import {
   wpGetWords as getWords,
   wpSyncPosTags as syncPosTags,
   wpImportWords as importWords,
-} from './services/wpApi';
+} from '../../services/wpApi';
 
 import {
   getDifficultWords,
   removeDifficultWord,
   subscribeDifficultWords,
-} from './services/difficultWords';
+} from '../../services/difficultWords';
 
 const AUG_LEVEL_LABELS = { 0: "plain", 1: "mild", 2: "intermediate", 3: "severe" };
 const HEARTS_MAX = 5;

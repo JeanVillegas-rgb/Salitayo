@@ -18,12 +18,21 @@ Candidate generation order:
 import logging
 from pathlib import Path
 
-import symspellpy
-from symspellpy import SymSpell, Verbosity
+try:
+    import symspellpy
+    from symspellpy import SymSpell, Verbosity
+except ImportError:
+    symspellpy = None
+    SymSpell = None
+    Verbosity = None
 
 logger = logging.getLogger(__name__)
 
-_DICT_PATH = Path(symspellpy.__file__).parent / "frequency_dictionary_en_82_765.txt"
+_DICT_PATH = (
+    Path(symspellpy.__file__).parent / "frequency_dictionary_en_82_765.txt"
+    if symspellpy is not None
+    else None
+)
 
 _sym_spell_tight: SymSpell | None = None
 _sym_spell_wide: SymSpell | None = None
@@ -33,6 +42,8 @@ wikipedia_misspelling_lookup: dict[str, str] = {}
 
 
 def _get_tight() -> SymSpell:
+    if SymSpell is None or _DICT_PATH is None:
+        raise RuntimeError("SymSpell is not installed.")
     global _sym_spell_tight
     if _sym_spell_tight is None:
         _sym_spell_tight = SymSpell(max_dictionary_edit_distance=2, prefix_length=7)
@@ -42,6 +53,8 @@ def _get_tight() -> SymSpell:
 
 
 def _get_wide() -> SymSpell:
+    if SymSpell is None or _DICT_PATH is None:
+        raise RuntimeError("SymSpell is not installed.")
     global _sym_spell_wide
     if _sym_spell_wide is None:
         _sym_spell_wide = SymSpell(max_dictionary_edit_distance=4, prefix_length=7)
@@ -88,6 +101,10 @@ def get_candidates(word: str, max_candidates: int = 5) -> list[str]:
     The reranker makes the final selection from the full pool.
     """
     word_lower = word.lower()
+    if SymSpell is None:
+        wiki_suggestion = wikipedia_misspelling_lookup.get(word_lower)
+        return [wiki_suggestion] if wiki_suggestion else [word_lower]
+
     tight = _get_tight()
 
     # ── 1. Tight lookup (max_edit_distance=2) ───────────────
@@ -145,5 +162,7 @@ def get_candidates(word: str, max_candidates: int = 5) -> list[str]:
 
 def is_known_word(word: str) -> bool:
     """Return True if SymSpell considers the word correctly spelled (edit_distance == 0)."""
+    if SymSpell is None:
+        return False
     suggestions = _get_tight().lookup(word.lower(), Verbosity.TOP, max_edit_distance=0)
     return bool(suggestions)

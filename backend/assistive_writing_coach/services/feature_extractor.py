@@ -3,7 +3,8 @@ Computes the 17 features used by the RandomForest error classifier.
 Feature order must match training_metadata.json exactly.
 """
 import jellyfish
-import editdistance
+
+from .editdistance_compat import editdistance
 
 _VOWELS = set('aeiouAEIOU')
 

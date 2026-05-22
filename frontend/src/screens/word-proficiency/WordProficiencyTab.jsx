@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import WordProficiency from './WordProficiency'
-import { wpGetSessionStatus } from './services/wpApi'
+import { wpGetSessionStatus } from '../../services/wpApi'
 import './WordProficiency.css'
 
 async function ensureWpAuth() {

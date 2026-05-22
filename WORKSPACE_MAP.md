@@ -18,8 +18,8 @@ This is your main module.
 
 | Part | Location | Notes |
 |---|---|---|
-| Frontend screen | `frontend/src/ReadingRestructurer.jsx` | Main Reading Restructurer UI |
-| Reading diagnostics styles | `frontend/src/diagnostics.css` | Adaptive diagnostic log styling |
+| Frontend screen | `frontend/src/screens/reading-restructurer/ReadingRestructurer.jsx` | Main Reading Restructurer UI |
+| Reading diagnostics styles | `frontend/src/screens/reading-restructurer/diagnostics.css` | Adaptive diagnostic log styling |
 | Main backend service | `backend/restructurer/services.py` | Main restructuring pipeline |
 | API view | `backend/restructurer/views.py` | Receives `/api/restructure/` requests |
 | Request serializer | `backend/restructurer/serializers.py` | Validates input text/files |
@@ -31,14 +31,14 @@ This is your main module.
 Important Reading Restructurer flow:
 
 ```text
-frontend/src/ReadingRestructurer.jsx
+frontend/src/screens/reading-restructurer/ReadingRestructurer.jsx
 -> POST /api/restructure/
 -> backend/restructurer/views.py
 -> backend/restructurer/serializers.py
 -> backend/restructurer/services.py
 -> backend/restructurer_inference.py
 -> backend/restructurer/evaluation.py
--> response returns to ReadingRestructurer.jsx
+-> response returns to frontend/src/screens/reading-restructurer/ReadingRestructurer.jsx
 ```
 
 ## Writing Assistant
@@ -47,10 +47,10 @@ This is Jure's module.
 
 | Part | Location | Notes |
 |---|---|---|
-| Frontend screen | `frontend/src/WritingAssistant.jsx` | Main Writing Assistant UI |
-| Frontend styles | `frontend/src/WritingAssistant.css` | Writing Assistant styling |
-| Import page | `frontend/src/ImportsPage.jsx` | PDF/DOCX import screen |
-| Import page styles | `frontend/src/ImportsPage.css` | Import page styling |
+| Frontend screen | `frontend/src/screens/writing-assistant/WritingAssistant.jsx` | Main Writing Assistant UI |
+| Frontend styles | `frontend/src/screens/writing-assistant/WritingAssistant.css` | Writing Assistant styling |
+| Import page | `frontend/src/screens/writing-assistant/ImportsPage.jsx` | PDF/DOCX import screen |
+| Import page styles | `frontend/src/screens/writing-assistant/ImportsPage.css` | Import page styling |
 | Backend app | `backend/assistive_writing_coach/` | Writing Assistant backend |
 | Startup loading | `backend/assistive_writing_coach/apps.py` | Preloads writing models |
 | URLs | `backend/assistive_writing_coach/urls.py` | Writing Assistant API routes |
@@ -74,9 +74,9 @@ This is Katrina/Maria's module.
 
 | Part | Location | Notes |
 |---|---|---|
-| Frontend screen | `frontend/src/WordProficiency.jsx` | Main Word Proficiency UI |
-| Frontend styles | `frontend/src/WordProficiency.css` | Word Proficiency styling |
-| Tab wrapper | `frontend/src/WordProficiencyTab.jsx` | Word Proficiency tab entry |
+| Frontend screen | `frontend/src/screens/word-proficiency/WordProficiency.jsx` | Main Word Proficiency UI |
+| Frontend styles | `frontend/src/screens/word-proficiency/WordProficiency.css` | Word Proficiency styling |
+| Tab wrapper | `frontend/src/screens/word-proficiency/WordProficiencyTab.jsx` | Word Proficiency tab entry |
 | Frontend API service | `frontend/src/services/wpApi.js` | Calls `/api/system/...` |
 | Difficult words bridge | `frontend/src/services/difficultWords.js` | Receives words clicked in Reading |
 | Backend app | `backend/system/` | Word Proficiency backend |
@@ -93,11 +93,11 @@ This is Katrina/Maria's module.
 Reading Restructurer to Word Proficiency bridge:
 
 ```text
-ReadingRestructurer.jsx
+frontend/src/screens/reading-restructurer/ReadingRestructurer.jsx
 -> saveDifficultWord(word)
 -> frontend/src/services/difficultWords.js
 -> localStorage key: salitayo_difficult_words
--> WordProficiency.jsx reads getDifficultWords()
+-> frontend/src/screens/word-proficiency/WordProficiency.jsx reads getDifficultWords()
 -> wpImportWords()
 -> POST /api/system/words/import/
 -> backend/system/views_wp.py
@@ -135,9 +135,9 @@ ReadingRestructurer.jsx
 | `backend/restructurer_inference.py` | Reading Restructurer model inference |
 | `backend/assistive_writing_coach/` | Writing Assistant backend |
 | `backend/system/` | Word Proficiency backend |
-| `frontend/src/ReadingRestructurer.jsx` | Reading Restructurer screen |
-| `frontend/src/WritingAssistant.jsx` | Writing Assistant screen |
-| `frontend/src/WordProficiency.jsx` | Word Proficiency screen |
+| `frontend/src/screens/reading-restructurer/ReadingRestructurer.jsx` | Reading Restructurer screen |
+| `frontend/src/screens/writing-assistant/WritingAssistant.jsx` | Writing Assistant screen |
+| `frontend/src/screens/word-proficiency/WordProficiency.jsx` | Word Proficiency screen |
 | `backend/trained_models/` | Writing Assistant models |
 | `backend/models/` | Reading Restructurer models |
 
