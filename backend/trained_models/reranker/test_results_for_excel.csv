@@ -1,0 +1,2770 @@
+misspelled_word,correct_word,candidates_shown,model_predicted_word,top1_prediction_correct,correct_word_was_in_candidates
+silents,silence,"silence, silents",silence,PASS,YES
+tumage,tonnage,"damage, usage, tonnage, humane, image",tonnage,PASS,YES
+writeing,writing,"writing, writhing",writing,PASS,YES
+enthusec,enthusiastic,"enthused, enthuses, enthuse, enthusiastic",enthusiastic,PASS,YES
+pat,pet,"pat, pet",pet,PASS,YES
+gorend,galloped,"gored, galloped, goren",galloped,PASS,YES
+stelling,stealing,"spelling, telling, selling, sterling, stealing",stealing,PASS,YES
+dooratory,dormitory,"dormitory, oratory",dormitory,PASS,YES
+conaious,conscious,"contagious, conscious, copious",conscious,PASS,YES
+set,sat,"set, sat",sat,PASS,YES
+rateing,rating,"ratting, rating",rating,PASS,YES
+gus,juice,"juice, gus",juice,PASS,YES
+travle,travel,"trave, travel",travel,PASS,YES
+ate,eight,"eight, ate",eight,PASS,YES
+exspensure,expenditure,"expenditure, expense, exposure, expensive",expenditure,PASS,YES
+teling,telling,"telling, teeing, tiling",telling,PASS,YES
+speficict,specifically,"specifically, specific, deficit, specifics",specifically,PASS,YES
+inconvenience,inconvenienced,"inconvenienced, inconvenience",inconvenienced,PASS,YES
+espeshaly,especially,"esterhazy, especial, especially",especially,PASS,YES
+scuccer,saucer,"saucer, soccer, sucker, saucier, scarcer",saucer,PASS,YES
+cemertary,cemetery,"cometary, cemetery",cemetery,PASS,YES
+soloem,solemn,"soloed, solemn",solemn,PASS,YES
+saing,spinning,"saying, swing, spinning, saint, saving",spinning,PASS,YES
+vethu,vet,"vet, beth, seth, thu, meth",vet,PASS,YES
+acuplished,accomplished,"accomplished, published, abolished",abolished,FAIL,YES
+genues,genius,"genus, genius, venues, genes, genres",genius,PASS,YES
+mincemom,minimum,"minimum, minced, mincemeat, mince, mincer",minimum,PASS,YES
+morgase,mortgage,"morse, orgasm, morgan, morale, mortgage",mortgage,PASS,YES
+phamlet,pamphlet,"hamlet, pamphlet",pamphlet,PASS,YES
+ekwelly,equally,"welly, kelly, equally",equally,PASS,YES
+tiem,time,"tim, them, tie, item, time",item,FAIL,YES
+haiw,here,"haig, haw, here, hail, hair",hair,FAIL,YES
+serfis,surface,"serfs, surface, serifs",surface,PASS,YES
+estemmed,esteemed,"esteemed, stemmed",esteemed,PASS,YES
+waunt,wanted,"gaunt, haunt, wanted, aunt, want",aunt,FAIL,YES
+berry,buried,"berry, buried",buried,PASS,YES
+comfortly,comfortable,"comfort, comforts, comforter, comfortable, comfortably",comfortable,PASS,YES
+souces,sources,"sources, sauces",sources,PASS,YES
+garenttee,guarantee,"gazetteer, gazette, guarantee, garnett, grantee",guarantee,PASS,YES
+inthuastic,enthusiastic,"enthusiastic, inelastic",enthusiastic,PASS,YES
+proget,project,"project, roget",project,PASS,YES
+netrual,mutual,"neutral, neural, mutual, natural, retrial",mutual,PASS,YES
+yonabond,vagabond,"bonbons, bonbon, vagabond, rosamond",vagabond,PASS,YES
+acknowling,acknowledging,"acknowledge, knowing, cowling, acknowledging, unknowing",acknowledging,PASS,YES
+frunt,front,"runt, fruit, front, brunt, grunt",fruit,FAIL,YES
+rumatisem,rheumatism,"romanism, humanism, dramatised, rheumatism, traumatised",rheumatism,PASS,YES
+wherether,whether,"wherever, whether",wherever,FAIL,YES
+triump,triumph,"triumph, trump",triumph,PASS,YES
+buitifull,beautiful,"bountiful, beautiful, dutifully, dutiful, pitiful",beautiful,PASS,YES
+nowe,know,"now, know, node, note, none",know,PASS,YES
+phenomia,pneumonia,"phenom, phenomena, pneumonia, phenolic, phenoms",pneumonia,PASS,YES
+garentea,guarantee,"guarantee, parented",guarantee,PASS,YES
+jucee,juice,"june, juice, jude, judge, julie",juice,PASS,YES
+wound,walking,"walking, wound",walking,PASS,YES
+asertained,ascertain,"ascertain, ascertained",ascertain,PASS,YES
+sceauled,scheduled,"scheduled, sealed, scrawled, scaled",scheduled,PASS,YES
+dibet,debit,"diet, tibet, debit",debit,PASS,YES
+deternason,destination,"detention, peterson, destination",destination,PASS,YES
+originaly,originally,"originally, original, originals",originally,PASS,YES
+che,sit,"sit, che",sit,PASS,YES
+marysis,memories,"paresis, parsis, maris, marquis, memories",memories,PASS,YES
+chair,cheer,"chair, cheer",cheer,PASS,YES
+beets,best,"best, beets",best,PASS,YES
+theiths,thieves,"thefts, theirs, tenths, thighs, thieves",thieves,PASS,YES
+mascle,muscle,"muscle, mascle",muscle,PASS,YES
+orcestor,orchestra,"arrestor, orchestra, ancestor, worcester",orchestra,PASS,YES
+ansew,answer,"answer, anew",answer,PASS,YES
+cizer,saucer,"sizer, cider, saucer",saucer,PASS,YES
+dolling,darling,"darling, dolling",darling,PASS,YES
+flagrency,flagrancy,"agency, flagrancy, florence, fragrance, lawrence",flagrancy,PASS,YES
+suplied,supplied,"supplied, sullied",supplied,PASS,YES
+angaisty,anxiety,"anxiety, angst, nasty, against, annuity",anxiety,PASS,YES
+panthlete,pamphlet,"pamphlet, athlete",pamphlet,PASS,YES
+anmon,annum,"anion, anon, annum, anton, amon",annum,PASS,YES
+leting,letting,"meting, letting",letting,PASS,YES
+suffen,southern,"southern, suffer",southern,PASS,YES
+begain,beginning,"beginning, began, begin, regain",beginning,PASS,YES
+whoe,who,"whom, shoe, whose, whole, who",who,PASS,YES
+rediuless,ridiculous,"reduces, reckless, ridiculous, readiness, restless",ridiculous,PASS,YES
+lnst,last,"lust, last, inst, list, lost",last,PASS,YES
+frm,from,"form, fri, from, farm, firm",from,PASS,YES
+tobacon,toboggan,"bacon, tobaccos, toboggan, tobago, tobacco",toboggan,PASS,YES
+palice,police,"alice, police, malice, palace, plaice",palace,FAIL,YES
+run,running,"running, run",running,PASS,YES
+suspion,suspicion,"fusion, session, cushion, suspicion, suction",suspicion,PASS,YES
+froom,form,"form, room, from, broom, groom",room,FAIL,YES
+thatn,that,"that, thant, than",that,PASS,YES
+tradicle,tragedy,"tragedy, radicle",tragedy,PASS,YES
+pacth,patch,"pact, pacts, patch, path",patch,PASS,YES
+dadge,damaged,"dodge, wadge, badge, damaged, madge",dodge,FAIL,YES
+cope,copy,"copy, cope",copy,PASS,YES
+economically,economical,"economically, economical",economical,PASS,YES
+your,you,"your, you",you,PASS,YES
+delinket,delinquent,"relinked, delinquent",delinquent,PASS,YES
+inconvenims,inconvenienced,"inconvenienced, inconvenient",inconvenienced,PASS,YES
+mesterys,mysterious,"mystery, masters, mysterious, meters, testers",mysterious,PASS,YES
+conseious,conscientious,"conscientious, conscious",conscientious,PASS,YES
+fiagaeng,flagrancy,"figment, fragment, flagging, flagrancy",flagrancy,PASS,YES
+vacansey,vacancy,"vacantly, vacancy",vacancy,PASS,YES
+misalaines,miscellaneous,"saltines, misaligned, miscellaneous, migraines, salines",miscellaneous,PASS,YES
+grage,garage,"rage, grave, grade, garage, grace",grave,FAIL,YES
+penut,peanut,"pent, peanut",peanut,PASS,YES
+phamflet,pamphlet,"pamphlet, hamlet",pamphlet,PASS,YES
+acamedic,academic,"comedic, academic, paramedic",academic,PASS,YES
+acarly,actually,"actually, carly",actually,PASS,YES
+aguement,argument,"augment, agreement, amusement, abutment, argument",agreement,FAIL,YES
+youst,used,"oust, yous, used, joust",used,PASS,YES
+stablish,establish,"stablish, establish",establish,PASS,YES
+semi,schemes,"semi, schemes",schemes,PASS,YES
+shawtowa,chautauqua,"shallow, shadow, shadows, chautauqua, showdown",chautauqua,PASS,YES
+conceade,conceive,"conceive, concede",conceive,PASS,YES
+disopoint,disappoint,"disappoint, disjoint",disappoint,PASS,YES
+reasaintly,recently,"recently, pleasantly, teasingly, saintly, peasantry",recently,PASS,YES
+shear,share,"shear, share",share,PASS,YES
+minuimn,minimum,"minim, minuit, minimum, minium, minion",minimum,PASS,YES
+ot,who,"to, who, of, on, it",who,PASS,YES
+deleggment,delinquent,"detergent, deferment, element, delinquent",delinquent,PASS,YES
+sadest,saddest,"saddest, sanest, safest, sadist",sanest,FAIL,YES
+accrowved,accrued,"approved, crowned, accorded, crowded, accrued",accrued,PASS,YES
+haed,head,"had, head, hated, hard, hand",head,PASS,YES
+bluld,built,"built, blued",built,PASS,YES
+bad,dad,"dad, bad",dad,PASS,YES
+chata,chautauqua,"chat, chautauqua, chita, chats",chautauqua,PASS,YES
+sin,spinning,"sin, spinning",spinning,PASS,YES
+verious,various,"various, serious",various,PASS,YES
+reqsting,requesting,"resting, requesting",requesting,PASS,YES
+pocketes,pockets,"pocketed, pockets",pockets,PASS,YES
+filent,violent,"violent, silent, filet",silent,FAIL,YES
+ins,injuries,"its, in, inn, injuries, is",injuries,PASS,YES
+vaction,vacation,"vacation, action, faction",vacation,PASS,YES
+hoech,hedge,"hedge, hooch",hedge,PASS,YES
+their,they,"they, their",they,PASS,YES
+soe,so,"son, so, she, some, see",see,FAIL,YES
+dertermine,determined,"determined, determine",determined,PASS,YES
+vaciancys,vacancies,"vacancies, vacancy, variances",vacancies,PASS,YES
+dispensible,dispensable,"dispensable, dispersible",dispersible,FAIL,YES
+phraise,phase,"phase, phrase, praise",phrase,FAIL,YES
+frie,fire,"free, erie, fried, fri, fire",fire,PASS,YES
+satisfacturly,satisfactorily,"satisfactorily, satisfactory",satisfactorily,PASS,YES
+suffis,surface,"surface, suffix",surface,PASS,YES
+calatteral,collateral,"cadastral, collateral, lateral, canaveral, bilateral",collateral,PASS,YES
+concionce,conscience,"conscience, convince",conscience,PASS,YES
+ventilt,ventilated,"gentile, dentist, venting, ventilated, lentils",ventilated,PASS,YES
+buttle,beautiful,"butte, bottle, beautiful, battle, bustle",beautiful,PASS,YES
+curtusey,courtesies,"courtesies, curtsey",courtesies,PASS,YES
+stasul,special,"statue, status, special, saul, stall",special,PASS,YES
+guardeun,guardian,"garden, guardian, guarder, guarded",guardian,PASS,YES
+philosperity,philosophy,"prosperity, philosophy",philosophy,PASS,YES
+occanonaly,occasionally,"occasional, occasionally, octagonal",occasionally,PASS,YES
+albow,elbow,"elbow, alow, allow",allow,FAIL,YES
+norsil,noisy,"noisy, norris, normal, fossil, nordic",noisy,PASS,YES
+stife,stiff,"stile, stiff, stine, strife, stifle",stiff,PASS,YES
+alluminate,eliminate,"aluminate, eliminate, illuminate",eliminate,PASS,YES
+gret,great,"get, grey, great, greg, grew",great,PASS,YES
+risenly,recently,"recently, wisely, miserly, risen",recently,PASS,YES
+afidavite,affidavit,"affidavits, affidavit",affidavit,PASS,YES
+cusually,casually,"casually, usually",casually,PASS,YES
+infenident,infinite,"incident, intendant, infinite, impenitent",infinite,PASS,YES
+apoliger,apology,"apology, applier",apology,PASS,YES
+dissabiliteys,disabilities,"disability, disabilities",disabilities,PASS,YES
+eigly,early,"early, billy, eight, eagle, highly",highly,FAIL,YES
+geomotery,geometry,"geometer, geometers, geometry",geometry,PASS,YES
+alfal,awful,"awful, algal",awful,PASS,YES
+leatest,latest,"latest, neatest, leanest",latest,PASS,YES
+reasen,recently,"recently, reason",recently,PASS,YES
+perceived,perceive,"perceive, perceived",perceive,PASS,YES
+pothatree,poetry,"poetry, potatoes",poetry,PASS,YES
+ternis,tennis,"terns, tennis, terni",tennis,PASS,YES
+cept,kept,"cent, dept, kept, cert, sept",kept,PASS,YES
+alumnis,alumni,"alumni, alumnus",alumnus,FAIL,YES
+exerbesine,exhibition,"berberine, exhibition, exercising",exhibition,PASS,YES
+pemetent,permanent,"penitent, permanent",permanent,PASS,YES
+splenden,splendid,"spleen, slender, splendid, spender",splendid,PASS,YES
+considerable,considerably,"considerable, considerably",considerably,PASS,YES
+contenler,contented,"contender, contented",contented,PASS,YES
+ecomocal,economical,"economical, comical",economical,PASS,YES
+organial,originally,"organic, organise, organize, originally, organism",originally,PASS,YES
+shar,sure,"sure, share, char, star, sharp",sure,PASS,YES
+trenuous,strenuous,"tenuous, strenuous",strenuous,PASS,YES
+sare,sure,"same, are, sure, care, save",save,FAIL,YES
+litas,latest,"latest, litas",latest,PASS,YES
+serounde,surrounded,"scrounge, surrounded",surrounded,PASS,YES
+insim,instruments,"sim, indie, inside, instruments, india",instruments,PASS,YES
+god,glowed,"god, glowed",glowed,PASS,YES
+ballon,balloon,"balloon, ballon",balloon,PASS,YES
+gares,gallery,"fares, gallery, gates, games, cares",gallery,PASS,YES
+hoses,houses,"hoses, houses",houses,PASS,YES
+swel,swell,"seel, swed, swell",swell,PASS,YES
+jucie,juice,"juice, judie, julie",juice,PASS,YES
+kow,know,"now, know, row, low, how",know,PASS,YES
+pesiution,precision,"precision, petition, position",precision,PASS,YES
+garage,gallery,"garage, gallery",gallery,PASS,YES
+cathe,caught,"lathe, cache, cath, caught, cathy",caught,PASS,YES
+aniom,annum,"annum, axiom, anion, anim",annum,PASS,YES
+tues,choose,"tues, choose",choose,PASS,YES
+lifet,left,"lift, left, lifer, life",left,PASS,YES
+diffinatly,definitely,"difficultly, difficulty, defiantly, distinctly, definitely",definitely,PASS,YES
+toner,tonner,"tonner, toner",tonner,PASS,YES
+dropt,dropped,"droit, drop, drops, dropped",dropped,PASS,YES
+paing,paying,"pain, ping, paint, pains, paying",paying,PASS,YES
+if,left,"left, if",left,PASS,YES
+todle,told,"tole, toddle, toile, told",told,PASS,YES
+attournies,attorneys,"armouries, attorney, attorneys",attorneys,PASS,YES
+sampel,sample,"samuel, sample",sample,PASS,YES
+slaom,solemn,"solemn, slalom, slam",solemn,PASS,YES
+bo,be,"no, do, be, to, by",do,FAIL,YES
+regond,reckon,"reckon, record, beyond, second, region",reckon,PASS,YES
+stacticts,statistics,"statics, tactics, statistics",statistics,PASS,YES
+intionals,initials,"internals, rationals, nationals, initials",initials,PASS,YES
+thin,thing,"thing, thin",thing,PASS,YES
+dissichoin,precision,"dissection, precision",precision,PASS,YES
+catle,cattle,"cable, cantle, cate, cattle, castle",castle,FAIL,YES
+erract,erratic,"errant, erratic",erratic,PASS,YES
+pars,pass,"pars, pass",pass,PASS,YES
+splenid,splendid,"splenic, splendid",splendid,PASS,YES
+riged,regained,"rigid, regained, raged, rigged, ringed",regained,PASS,YES
+curtian,curtain,"curtin, curtain",curtain,PASS,YES
+rily,really,"oily, lily, riley, rely, really",really,PASS,YES
+grajetfull,grateful,"gracefully, graceful, gratefully, grateful",grateful,PASS,YES
+teral,terrible,"teal, terrible, feral, terai, neral",terrible,PASS,YES
+tel,tell,"tell, tel",tell,PASS,YES
+sarer,sure,"sure, saver, safer, carer, sager",sure,PASS,YES
+son,sun,"sun, son",sun,PASS,YES
+fraize,phase,"fraise, phase",phase,PASS,YES
+klap,clap,"flap, clap, lap, slap, klan",lap,FAIL,YES
+permoret,permanent,"vermont, performed, perform, permit, permanent",permanent,PASS,YES
+conteted,contented,"contested, contented",contented,PASS,YES
+curorcy,curiosity,"curiosity, curacy, curry, cursory",curiosity,PASS,YES
+dons,done,"dons, done",done,PASS,YES
+appe,apple,"ape, apps, appel, apple, app",apple,PASS,YES
+recongr,reckon,"recon, reckon, recover, reckoner, recons",reckon,PASS,YES
+cenetry,chemistry,"center, entry, centre, century, chemistry",chemistry,PASS,YES
+conscience,conscious,"conscious, conscience",conscious,PASS,YES
+sorry,story,"sorry, story",story,PASS,YES
+toed,toad,"toed, toad",toad,PASS,YES
+gratefull,grateful,"grateful, gratefully",grateful,PASS,YES
+taksot,tracksuit,"tarot, talbot, takeout, tracksuit, takao",tracksuit,PASS,YES
+soth,south,"both, roth, goth, seth, south",both,FAIL,YES
+asyme,asymmetry,"asymmetry, some, assume, same, anime",asymmetry,PASS,YES
+rofe,rough,"rose, rome, rope, rough, role",rough,PASS,YES
+attourny,attorneys,"attorney, attorneys, attorn",attorneys,PASS,YES
+reckenision,recognition,"recension, recognition",recognition,PASS,YES
+phaphlets,pamphlets,"pamphlets, chaplets",pamphlets,PASS,YES
+leaway,leeway,"seaway, leeway",leeway,PASS,YES
+teach,teacher,"teacher, teach",teacher,PASS,YES
+are,air,"air, are",air,PASS,YES
+wisper,whisper,"whisper, wiper, wiser, wisher",whisper,PASS,YES
+diznd,designed,"mind, did, find, kind, designed",designed,PASS,YES
+art,dart,"art, dart",dart,PASS,YES
+cotologous,catalogues,"homologous, catalogues",catalogues,PASS,YES
+aporching,approaching,"poaching, arching, perching, scorching, approaching",approaching,PASS,YES
+socp,saucer,"soup, saucer, sock, soap, soc",saucer,PASS,YES
+sad,searched,"sad, searched",searched,PASS,YES
+sutalkway,chautauqua,"chautauqua, cutaway, walkway, stairway, stalky",chautauqua,PASS,YES
+stert,searched,"searched, ster, stent, start, stern",searched,PASS,YES
+symthetic,sympathetic,"sympathetic, synthetic",sympathetic,PASS,YES
+addiquit,adequate,"addict, antiquity, aliquot, adequate, adduct",adequate,PASS,YES
+perimete,permanent,"perimeter, permanent",permanent,PASS,YES
+shorer,sure,"shower, shore, shorter, sure, shores",shorter,FAIL,YES
+piolet,pilot,"piglet, violet, pilot",pilot,PASS,YES
+wathes,women,"lathes, bathes, watches, washes, women",women,PASS,YES
+sulute,salute,"salute, solute",salute,PASS,YES
+prolode,prologue,"prologue, propose, provide, prelude, promote",prologue,PASS,YES
+upto,into,"updo, into, unto, upton",into,PASS,YES
+fioul,fuel,"foul, fuel",fuel,PASS,YES
+garantea,guarantee,"granta, galatea, granted, guarantee, grantee",guarantee,PASS,YES
+of,off,"off, of",off,PASS,YES
+scesed,ceased,"seed, speed, seemed, scene, ceased",ceased,PASS,YES
+pysicology,psychology,"psychology, physiology, musicology",psychology,PASS,YES
+pitcherus,picturesque,"picturesque, pitchers",picturesque,PASS,YES
+conpasity,capacity,"concavity, capacity",capacity,PASS,YES
+heap,happened,"happened, heap",happened,PASS,YES
+hosres,horse,"horses, horse, hoses",horse,PASS,YES
+penflats,pamphlets,"pamphlets, flats, pendants, leaflets, penalty",pamphlets,PASS,YES
+scem,schemes,"sem, seem, scam, stem, schemes",schemes,PASS,YES
+saficutary,satisfactorily,"sanitary, sanctuary, salutary, satisfactorily",satisfactorily,PASS,YES
+berried,buried,"berried, buried",buried,PASS,YES
+answerd,answered,"answer, answered, answers",answer,FAIL,YES
+girll,girl,"girls, girl, grill, girly, gill",girls,FAIL,YES
+moutinas,mountainous,"mountainous, mountings, routines, outings",mountainous,PASS,YES
+binging,beginning,"bringing, binding, ringing, beginning, singing",beginning,PASS,YES
+hidrolis,hydraulic,"hydraulic, idols, fibrosis, hydrolysis, hideous",hydraulic,PASS,YES
+noses,noisy,"noisy, noses",noisy,PASS,YES
+carmd,calmed,"calmed, card, cared",card,FAIL,YES
+rount,wrote,"wrote, rout, round, mount, count",round,FAIL,YES
+potaltos,potatoes,"potato, potatoes",potatoes,PASS,YES
+scence,science,"science, sconce, scene, spence",science,PASS,YES
+rings,ring,"ring, rings",ring,PASS,YES
+analiasus,analysis,"analyses, analysts, analogous, aliases, analysis",analysis,PASS,YES
+demends,demands,"depends, demands, defends",demands,PASS,YES
+elimentry,elementary,"alimentary, elementary",elementary,PASS,YES
+gradnang,gauge,"grading, gauge",gauge,PASS,YES
+weede,weed,"weed, weeded, weeds, weeder, weedy",weed,PASS,YES
+itimied,itemized,"timid, tidied, stymied, timed, itemized",itemized,PASS,YES
+dageros,dangerous,"dangers, pagers, daggers, dangerous, wagers",dangerous,PASS,YES
+give,led,"give, led",led,PASS,YES
+anshous,anxious,"anchors, anxious",anxious,PASS,YES
+exquist,exquisite,"exquisite, exist",exquisite,PASS,YES
+insedintly,incidentally,"indecently, intently, incidentally, inherently, instantly",incidentally,PASS,YES
+as,is,"as, is",is,PASS,YES
+ver,very,"over, per, her, ever, very",ever,FAIL,YES
+tige,tig,"time, tie, tig, tire, tiger",time,FAIL,YES
+financers,financiers,"finances, financiers",finances,FAIL,YES
+baufill,beautiful,"beautiful, backfill",beautiful,PASS,YES
+lessen,lesson,"lesson, lessen",lesson,PASS,YES
+nabor,neighbour,"neighbour, tabor, nabob",neighbour,PASS,YES
+str,star,"str, star",star,PASS,YES
+delicate,delegates,"delicate, delegates",delegates,PASS,YES
+stake,stack,"stack, stake",stack,PASS,YES
+ecconic,economic,"economic, ectopic, iconic, conic, tectonic",economic,PASS,YES
+aphoshing,approaching,"phishing, approaching",approaching,PASS,YES
+ribben,ribbon,"ribbon, ribbed",ribbon,PASS,YES
+defenely,definitely,"decently, definitely, serenely",definitely,PASS,YES
+egsist,exists,"exists, egoist",exists,PASS,YES
+scis,cease,"cease, acis, sci, sis, skis",cease,PASS,YES
+schedal,schedule,"scleral, schema, schedule, schiedam, scandal",schedule,PASS,YES
+unnames,unanimous,"unnamed, unanimous",unanimous,PASS,YES
+flalu,flagrancy,"falls, flat, flagrancy, flash, fall",flagrancy,PASS,YES
+runaway,runway,"runway, runaway",runway,PASS,YES
+bulitian,bulletin,"bulimia, builtin, bulletin, bolivian",bulletin,PASS,YES
+temporarilly,temporary,"temporary, temporarily",temporarily,FAIL,YES
+sak,sack,"say, ask, sat, san, sack",ask,FAIL,YES
+relefe,relief,"delete, relate, relief, reef, release",relief,PASS,YES
+unanouis,unanimous,"uranus, cyanosis, unknowns, runabouts, unanimous",unanimous,PASS,YES
+currieows,curious,"curious, curries",curious,PASS,YES
+op,of,"on, or, up, of, top",of,PASS,YES
+finand,friend,"finland, friend",friend,PASS,YES
+minaturised,miniaturized,"miniaturized, miniaturised",miniaturized,PASS,YES
+differente,different,"difference, different",different,PASS,YES
+mergisch,mortgage,"perish, mortgage, merging, erich, merrick",mortgage,PASS,YES
+vacancy,thoroughly,"thoroughly, vacancy",thoroughly,PASS,YES
+locol,local,"loco, local, locos",local,PASS,YES
+teh,the,"tech, ten, the, tel, tea",the,PASS,YES
+mesem,museum,"meter, mesh, seem, meet, museum",museum,PASS,YES
+spasalization,specialization,"socialization, signalization, serialization, specialization, stabilization",specialization,PASS,YES
+esarmes,instruments,"sames, instruments, sarges",instruments,PASS,YES
+buth,both,"bath, bush, both, but, butt",but,FAIL,YES
+gat,gate,"gate, gat",gate,PASS,YES
+medicin,medicine,"medicine, medici",medicine,PASS,YES
+femail,female,"female, email",female,PASS,YES
+cireualey,sorority,"airedale, sorority, virtually",sorority,PASS,YES
+digression,discretion,"digression, discretion",discretion,PASS,YES
+dirthy,dirty,"dirty, dorthy",dirty,PASS,YES
+cyclogy,psychology,"psychology, mycology, cyclone, cyclops, cytology",psychology,PASS,YES
+bayt,date,"date, bart, bay, bat, bait",date,PASS,YES
+mosted,most,"posted, most, hosted, mooted, costed",hosted,FAIL,YES
+ihe,eye,"she, the, eye, he, ice",eye,PASS,YES
+berath,breathe,"breath, breathe, berth, berate",breathe,PASS,YES
+granautee,guarantee,"grantee, guarantee",guarantee,PASS,YES
+firding,frightened,"frightened, birding, firming, firing, finding",frightened,PASS,YES
+scarsle,scarcely,"scale, scarcely, scare, scarce, scarlet",scarcely,PASS,YES
+verterue,virtue,"virtue, vertebrae",virtue,PASS,YES
+eyf,eye,"eff, elf, emf, eye",eye,PASS,YES
+mooe,more,"move, moore, more, mode, moon",moon,FAIL,YES
+tiad,tied,"tia, tad, toad, triad, tied",tied,PASS,YES
+colbe,club,"combe, club, coble, cole, colby",club,PASS,YES
+tieed,tied,"tweed, tired, tied, tiered, timed",tied,PASS,YES
+trion,train,"triton, orion, tron, trio, train",train,PASS,YES
+remmeb,remember,"rammed, femme, emmet, lemme, remember",remember,PASS,YES
+bet,opposite,"bet, opposite",opposite,PASS,YES
+compleasion,completion,"completion, compression, complexation, complexion",completion,PASS,YES
+scand,scrambled,"sand, stand, scans, scrambled, scan",scrambled,PASS,YES
+ansixy,anxiety,"any, inside, anxiety, asian, six",anxiety,PASS,YES
+tragedidy,tragedy,"tragedies, tragedy, tragedian",tragedy,PASS,YES
+probe,problem,"probe, problem",problem,PASS,YES
+unamanious,unanimous,"unambitious, ungracious, unanimous",unanimous,PASS,YES
+salte,certainly,"slate, sale, salt, certainly, salts",certainly,PASS,YES
+permantely,permanently,"permanency, permanent, permanently",permanently,PASS,YES
+apostals,epistle,"epistle, apostles, postal, apostle, portals",epistle,PASS,YES
+ponding,pounding,"bonding, pending, pounding",pending,FAIL,YES
+heated,hated,"hated, heated",hated,PASS,YES
+captur,chapter,"capture, captor, chapter",chapter,PASS,YES
+outpain,alpine,"outpace, outpacing, alpine, obtain, ouabain",alpine,PASS,YES
+dome,down,"down, dome",down,PASS,YES
+ecorys,anxious,"corps, scores, records, escorts, anxious",anxious,PASS,YES
+lisn,listen,"lisa, lion, list, listen, lin",listen,PASS,YES
+exarrate,exaggerate,"narrate, exaggerate",exaggerate,PASS,YES
+uminblyed,unemployed,"unemployed, mingled",unemployed,PASS,YES
+astablesing,establishing,"stabling, establishing, stabilising",establishing,PASS,YES
+approate,appropriate,"approach, appropriate, approve",appropriate,PASS,YES
+maginficant,magnificent,"magnificat, magnificent",magnificent,PASS,YES
+spectaculate,speculate,"spectacular, speculate, spectaculars",spectacular,FAIL,YES
+thorght,throw,"throw, thought",thought,FAIL,YES
+intheris,increasing,"increasing, interim, interns, inherit, inherits",increasing,PASS,YES
+knell,knife,"knife, knell",knife,PASS,YES
+exitey,anxiety,"anxiety, exited",anxiety,PASS,YES
+gumitra,geometry,"sumatra, geometry, mitra, guitar",geometry,PASS,YES
+fantasing,fantasizing,"fantasias, fantasize, fantasia, fantasizing, fantasies",fantasies,FAIL,YES
+lest,list,"list, lest",list,PASS,YES
+wohy,woke,"why, woke",why,FAIL,YES
+accused,accrued,"accused, accrued",accrued,PASS,YES
+siscors,scissors,"discos, viscous, visors, sisters, scissors",scissors,PASS,YES
+brieried,buried,"buried, briefed",buried,PASS,YES
+quily,quietly,"quilt, quill, quietly",quietly,PASS,YES
+surpliace,surplus,"surplus, surplice",surplus,PASS,YES
+profer,prefer,"prover, prefer, proffer, proper",prefer,PASS,YES
+chitacque,chautauqua,"critique, chautauqua",chautauqua,PASS,YES
+reall,real,"realm, reals, recall, real, really",really,FAIL,YES
+proceedur,procedure,"proceed, procedure, proceeds, proceeded",procedure,PASS,YES
+foll,fool,"fool, foll",fool,PASS,YES
+hiar,here,"hair, haar, here, liar, hear",hair,FAIL,YES
+pinnical,pinnacle,"pinnacle, principal, financial, clinical, physical",pinnacle,PASS,YES
+gamekeeps,gamekeeper,"gamekeepers, gamekeeper",gamekeeper,PASS,YES
+flinging,flying,"flinging, flying",flying,PASS,YES
+ol,old,"al, on, of, or, old",of,FAIL,YES
+hagee,edge,"edge, agee, hague, hagen",edge,PASS,YES
+decif,deciphered,"deciphered, decaf",deciphered,PASS,YES
+serfice,surface,"surface, service",surface,PASS,YES
+peameter,pretend,"pretend, perimeter, pedometer, diameter, parameter",perimeter,FAIL,YES
+schooll,school,"schools, school",schools,FAIL,YES
+cmp,chop,"amp, cup, chop, camp, cap",chop,PASS,YES
+delinqunate,delinquent,"delinquent, delineate, delinquents",delinquent,PASS,YES
+buluton,bulletin,"fulton, bolton, button, bulletin, burton",bulletin,PASS,YES
+equaly,equally,"equal, equals, equally",equally,PASS,YES
+eaght,earth,"earth, eight",earth,PASS,YES
+rediceous,ridiculous,"ridiculous, predaceous",ridiculous,PASS,YES
+sowing,sewing,"sewing, sowing",sewing,PASS,YES
+disapint,disappoint,"disjoint, disappoint",disappoint,PASS,YES
+compatly,comparatively,"compactly, comparatively",comparatively,PASS,YES
+coop,chop,"coop, chop",chop,PASS,YES
+refrigerater,refrigerator,"refrigerated, refrigerate, refrigerator",refrigerator,PASS,YES
+sion,sign,"sign, sion",sign,PASS,YES
+resent,recently,"resent, recently",recently,PASS,YES
+characterist,characteristic,"characteristic, characterise",characteristic,PASS,YES
+commidded,committed,"commended, committed, commanded",committed,PASS,YES
+exsquite,exquisite,"esquire, mesquite, exquisite",exquisite,PASS,YES
+scull,skull,"scull, skull",skull,PASS,YES
+kutans,curtains,"titans, humans, mutant, mutants, curtains",curtains,PASS,YES
+facion,fashion,"faction, fashion",faction,FAIL,YES
+communital,communal,"community, communal",community,FAIL,YES
+vary,valley,"valley, vary",valley,PASS,YES
+whether,either,"either, whether",either,PASS,YES
+custeramy,customary,"custer, austerity, steamy, customary",customary,PASS,YES
+contentded,contented,"contended, contented",contented,PASS,YES
+inimation,imitation,"intimation, animation, imitation",imitation,PASS,YES
+sumoch,stomach,"such, sumo, sumac, stomach, smock",stomach,PASS,YES
+seer,saw,"saw, seer",saw,PASS,YES
+av,had,"had, an, as, at, a",had,PASS,YES
+grit,grippe,"grippe, grit",grippe,PASS,YES
+libery,library,"libero, liberty, library, livery, liber",library,PASS,YES
+grating,rating,"rating, grating",rating,PASS,YES
+spelled,splendid,"spelled, splendid",splendid,PASS,YES
+origonly,originally,"original, origins, origin, originally, oregon",originally,PASS,YES
+owh,our,"own, och, owl, our, owe",own,FAIL,YES
+bocket,pockets,"pocket, rocket, pockets, socket, bucket",pocket,FAIL,YES
+frit,fruit,"fruit, frit",fruit,PASS,YES
+studie,studies,"studio, studies, studier, studied",studied,FAIL,YES
+fame,form,"form, fame",form,PASS,YES
+akt,act,"aka, alt, at, act, art",at,FAIL,YES
+decloration,declaration,"defloration, decoration, declaration",decoration,FAIL,YES
+rip,ripe,"ripe, rip",ripe,PASS,YES
+farther,father,"father, farther",father,PASS,YES
+opasit,opposite,"oasis, opacity, posit, past, opposite",opposite,PASS,YES
+enemy,enemies,"enemies, enemy",enemies,PASS,YES
+foak,folk,"foam, soak, oak, fork, folk",folk,PASS,YES
+minumn,minimum,"minute, minus, minn, minimum, minion",minimum,PASS,YES
+pregidious,prejudice,"prejudice, perfidious",prejudice,PASS,YES
+aprevall,approval,"approval, prevail",approval,PASS,YES
+repet,repeat,"repeat, repel, repent, reset, rept",repeat,PASS,YES
+tecical,technical,"ethical, medical, typical, decimal, technical",technical,PASS,YES
+technicle,technical,"technical, technic, technics, technique",technical,PASS,YES
+leshure,leisure,"leisure, vesture, lecture, gesture",leisure,PASS,YES
+ound,own,"fund, found, own, round, sound",round,FAIL,YES
+appatite,appetite,"appetite, apatite",appetite,PASS,YES
+sastisifactory,satisfactorily,"satisfactory, satisfactorily",satisfactorily,PASS,YES
+juices,juice,"juice, juices",juice,PASS,YES
+dend,designed,"tend, dead, send, designed, end",designed,PASS,YES
+forwork,forward,"formwork, forward",forward,PASS,YES
+air,ere,"ere, air",ere,PASS,YES
+frturnly,fraternally,"forlornly, maturely, futurity, sternly, fraternally",fraternally,PASS,YES
+alown,alone,"flown, clown, alow, alone, blown",alone,PASS,YES
+cheter,cheetah,"cheetah, chewer, cheater, chester, cheer",cheer,FAIL,YES
+edg,edge,"eng, deg, eds, egg, edge",edge,PASS,YES
+queosity,curiosity,"curiosity, quest, quantity, density, quality",curiosity,PASS,YES
+wot,we,"we, wot",we,PASS,YES
+epseptionaly,exceptionally,"exceptional, exceptionally",exceptionally,PASS,YES
+attornites,attorneys,"attorneys, ammonites, attorney, alternates",attorneys,PASS,YES
+laveratory,laboratory,"laboratory, lavatory",laboratory,PASS,YES
+oof,of,"of, oof",of,PASS,YES
+tabl,table,"tabs, tab, tall, tail, table",tail,FAIL,YES
+sol,so,"sol, so",so,PASS,YES
+effeciance,efficiency,"effeminacy, efficiency, reflectance, effeminate",efficiency,PASS,YES
+season,seasons,"season, seasons",seasons,PASS,YES
+surplace,surplus,"surplice, surplus",surplus,PASS,YES
+auay,away,"quay, away",away,PASS,YES
+texates,technical,"texas, texts, relates, technical, rebates",technical,PASS,YES
+critisised,criticized,"criticized, criticised",criticized,PASS,YES
+juge,judge,"jude, judge, jug, june, huge",huge,FAIL,YES
+brak,brake,"brake, bras, bra, brad, break",brake,PASS,YES
+usly,usual,"sly, usual, ugly",usual,PASS,YES
+exsestible,acceptable,"digestible, expressible, extensible, acceptable, extendible",acceptable,PASS,YES
+knot,not,"not, knot",not,PASS,YES
+defianent,definite,"defiant, deficient, definite",definite,PASS,YES
+imbarist,embarrassed,"marist, embarrassed",embarrassed,PASS,YES
+imengly,immediately,"imply, timely, gently, immediately, merely",immediately,PASS,YES
+dak,dark,"dak, dark",dark,PASS,YES
+scarser,saucer,"sparser, saucer, scarier, scarcer",saucer,PASS,YES
+prosieger,procedure,"prospered, prosper, procedure, protege, provider",procedure,PASS,YES
+occoumely,occasionally,"comely, occasionally, contumely",occasionally,PASS,YES
+exeptionely,exceptionally,"exceptional, exceptionally",exceptionally,PASS,YES
+presing,precision,"prising, pressing, preying, precision",precision,PASS,YES
+indeffely,indefinitely,"ineffably, intensely, indelibly, indefinitely, inversely",indefinitely,PASS,YES
+restrount,restaurant,"restraint, restaurant",restaurant,PASS,YES
+ecknowledgment,acknowledgement,"acknowledgment, acknowledgement",acknowledgement,PASS,YES
+wisling,whistling,"willing, wishing, wiling, whistling",whistling,PASS,YES
+valguor,vulgar,"valgus, valuer, valour, vulgar, algor",vulgar,PASS,YES
+anthe,that,"anthem, ante, anther, that",that,PASS,YES
+roned,around,"ronde, around, toned, honed, zoned",around,PASS,YES
+esstemend,esteemed,"easement, esteemed",esteemed,PASS,YES
+anema,annum,"anima, annum, enema",annum,PASS,YES
+financel,financially,"financed, finances, finance, financially",financially,PASS,YES
+sincerety,sincerity,"sincerely, sincerity",sincerely,FAIL,YES
+grown,groan,"grown, groan",groan,PASS,YES
+strainurous,strenuous,"strainers, strenuous, traitorous",strenuous,PASS,YES
+younges,youngsters,"lounges, younger, youngsters, youngest",youngsters,PASS,YES
+magnifisant,magnificent,"magnificat, magnificent",magnificent,PASS,YES
+kufly,comfortable,"comfortable, fully, kelly, july, fly",comfortable,PASS,YES
+skiffuly,skilfully,"skilful, stiffly, skilfully, skiffle",skilfully,PASS,YES
+cattel,cattle,"mattel, cartel, chattel, cattle",cattle,PASS,YES
+tende,pretend,"tend, tended, pretend, tends, tender",pretend,PASS,YES
+outtide,altitude,"outside, altitude",altitude,PASS,YES
+banckrupsey,bankruptcy,"bankrupted, bankruptcy",bankruptcy,PASS,YES
+vertie,virtue,"virtue, bertie, verite",virtue,PASS,YES
+t,the,"to, i, it, the, a",to,FAIL,YES
+lomber,lumber,"limber, bomber, lumber, comber",lumber,PASS,YES
+lasted,latest,"latest, lasted",latest,PASS,YES
+suu,such,"sun, such, sum, sub, sur",sum,FAIL,YES
+effiency,efficiency,"efficacy, efficiency",efficiency,PASS,YES
+rentry,recently,"sentry, entry, recently, retry, gentry",recently,PASS,YES
+fech,fetch,"fec, mech, fetch, tech, lech",fetch,PASS,YES
+thir,there,"their, thin, third, there, this",thin,FAIL,YES
+things,thing,"things, thing",thing,PASS,YES
+fied,visited,"field, fixed, visited, feed, find",visited,PASS,YES
+advotised,advertised,"advised, advertised",advertised,PASS,YES
+contiuvisy,controversy,"continuity, contiguity, controversy",controversy,PASS,YES
+excesses,exists,"excesses, exists",exists,PASS,YES
+mestery,mystery,"mastery, mystery",mystery,PASS,YES
+bomes,bombs,"bombs, bones, comes, boxes, homes",boxes,FAIL,YES
+vin,van,"in, van, win, bin, via",van,PASS,YES
+pirls,pearls,"pills, girls, perls, pearls, purls",girls,FAIL,YES
+espect,expect,"expect, aspect, respect",expect,PASS,YES
+operrater,operator,"operator, operated, operate, overrated, operates",operator,PASS,YES
+eng,edge,"edge, eng",edge,PASS,YES
+gose,goes,"rose, gone, lose, goes, jose",gone,FAIL,YES
+exactruate,exaggerate,"exaggerate, exacerbate",exaggerate,PASS,YES
+pritty,pretty,"gritty, pretty",pretty,PASS,YES
+counios,conscious,"councils, counties, counts, conscious, condos",conscious,PASS,YES
+hte,the,"the, he, ate, hate, ste",ate,FAIL,YES
+appreate,appropriate,"appreciate, appropriate, appease, aureate",appropriate,PASS,YES
+conlusion,conclusion,"confusion, conclusion, collusion, contusion",conclusion,PASS,YES
+houx,hoax,"hoax, roux, hour",hour,FAIL,YES
+gloaded,glowed,"gloated, loaded, glowed, goaded",glowed,PASS,YES
+we,was,"was, we",was,PASS,YES
+rabiate,rapid,"radiate, rapid",rapid,PASS,YES
+flied,field,"flied, field",field,PASS,YES
+heping,helping,"hoping, hyping, hewing, helping, heaping",hoping,FAIL,YES
+magnisifant,magnificent,"magnificat, magnificent",magnificent,PASS,YES
+beautifull,beautiful,"beautiful, beautifully",beautiful,PASS,YES
+imphasiasm,enthusiasm,"emphasis, emphasise, enthusiasm",enthusiasm,PASS,YES
+lase,last,"lase, last",last,PASS,YES
+rold,rolled,"rolled, gold, role, old, road",rolled,PASS,YES
+lar,young,"young, lar",young,PASS,YES
+defencity,definitely,"definitely, defence, deficit, defects, density",definitely,PASS,YES
+babbes,babies,"abbes, babes, babies, babbles",babies,PASS,YES
+suden,sudden,"sudden, sudan, auden",sudden,PASS,YES
+anieity,anxiety,"anxiety, annuity, agility, acidity, ability",anxiety,PASS,YES
+dav,dove,"day, dave, dove, dad, dan",day,FAIL,YES
+apoint,appoint,"appoint, point, anoint",point,FAIL,YES
+delegats,delegates,"delegate, delegates",delegates,PASS,YES
+geit,gate,"gent, gate, get, grit, git",gate,PASS,YES
+lester,leicester,"lester, leicester",leicester,PASS,YES
+frer,fire,"free, frey, fire, freq, fred",free,FAIL,YES
+missiour,monsieur,"mission, missioner, missions, missouri, monsieur",mission,FAIL,YES
+prais,praise,"praia, prays, praise, praxis, paris",praise,PASS,YES
+succfull,successful,"succumb, scull, succubi, successful, succour",successful,PASS,YES
+predication,prejudice,"predication, prejudice",prejudice,PASS,YES
+boafay,vagabond,"bombay, vagabond",vagabond,PASS,YES
+skarcl,scarcely,"starch, search, scarcely, scarce, karl",scarcely,PASS,YES
+menemsned,magnificent,"enmeshed, mentioned, menominee, magnificent",magnificent,PASS,YES
+minnimun,minimum,"minimum, minimus",minimum,PASS,YES
+opeset,opposite,"pest, reset, offset, opened, opposite",opposite,PASS,YES
+liks,likes,"like, lips, lies, links, likes",lies,FAIL,YES
+my,our,"our, my",our,PASS,YES
+connel,colonel,"conner, conned, colonel, cornel",colonel,PASS,YES
+liet,here,"diet, let, lies, list, here",here,PASS,YES
+insted,instead,"instep, instead",instead,PASS,YES
+acoud,avoid,"avoid, aloud",avoid,PASS,YES
+sournate,sorority,"courante, soulmate, surname, ornate, sorority",sorority,PASS,YES
+grief,grippe,"grippe, grief",grippe,PASS,YES
+labeled,labelled,"labeled, labelled",labelled,PASS,YES
+pacifical,specifically,"pacific, specifically",specifically,PASS,YES
+ist,is,"it, st, its, list, is",it,FAIL,YES
+minumend,minimum,"minuted, monument, minimum",minimum,PASS,YES
+prise,prize,"prise, prize",prize,PASS,YES
+mountainees,mountainous,"mountainous, mountaineers, mountaineer",mountainous,PASS,YES
+atally,actually,"anally, fatally, tally, actually",actually,PASS,YES
+spcial,special,"special, social, spacial",special,PASS,YES
+fortenlly,fraternally,"friendly, formally, forcefully, fraternally, formerly",fraternally,PASS,YES
+convienally,conveniently,"conveniently, continually",conveniently,PASS,YES
+takse,takes,"takes, tasse, take",takes,PASS,YES
+cender,courses,"center, tender, sender, gender, courses",tender,FAIL,YES
+picturerest,picturesque,"pictures, picturesque",picturesque,PASS,YES
+normaly,normally,"normalcy, normals, normal, normally",normally,PASS,YES
+descritione,discretion,"descriptions, discretion, description",discretion,PASS,YES
+epphaty,especially,"epiphany, especially",especially,PASS,YES
+minninum,minimum,"minium, minimum",minimum,PASS,YES
+beat,beaten,"beat, beaten",beaten,PASS,YES
+sacrelidy,sacrilegious,"sacred, macready, sacrilegious",sacrilegious,PASS,YES
+pieced,perceive,"perceive, pieced",perceive,PASS,YES
+shagy,shaggy,"shay, shag, shaky, shady, shaggy",shaggy,PASS,YES
+hart,that,"hart, that",that,PASS,YES
+flower,flour,"flower, flour",flour,PASS,YES
+galvanised,galvanized,"galvanised, galvanized",galvanized,PASS,YES
+ceaset,ceased,"ceased, ceases, cease",ceased,PASS,YES
+haing,hang,"hating, haig, having, hang, hazing",hanging,FAIL,YES
+prediguest,prejudice,"prefigures, prejudice, predigested, prodigies",prejudice,PASS,YES
+iquipped,equipped,"equipped, quipped",equipped,PASS,YES
+equipte,equipped,"equip, equity, equine, equipped, quite",equipped,PASS,YES
+recun,region,"region, recut, recur, recon, rerun",region,PASS,YES
+axerdent,accident,"averment, ardent, accident",accident,PASS,YES
+reflexing,reflecting,"refluxing, reflecting",reflecting,PASS,YES
+canvaus,canvass,"canvass, canvas",canvass,PASS,YES
+cawer,saucer,"carer, saucer, cower, caper, cater",saucer,PASS,YES
+desention,dissension,"desertion, dissension, detention",dissension,PASS,YES
+sercor,surface,"server, surface, error, senior, sector",surface,PASS,YES
+aufal,awful,"aural, awful",awful,PASS,YES
+framh,farmer,"frame, farmer",farmer,PASS,YES
+mistery,mystery,"mister, misery, misters, mystery, mastery",mystery,PASS,YES
+als,as,"al, also, as, all, ass",also,FAIL,YES
+businesss,business,"business, businesses",businesses,FAIL,YES
+personel,personal,"personal, personnel",personnel,FAIL,YES
+trumph,trump,"triumph, trumps, trump",triumph,FAIL,YES
+belfull,beautiful,"befell, befall, beautiful",beautiful,PASS,YES
+unforget,unforgettable,"unforced, forget, unforgettable, unformed",unforgettable,PASS,YES
+theaf,thief,"thief, thea, sheaf",thief,PASS,YES
+redey,ready,"rede, reedy, ready",ready,PASS,YES
+ceazzed,seized,"ceased, jazzed, seized, crazed",seized,PASS,YES
+strendously,strenuous,"strenuous, strenuously",strenuous,PASS,YES
+removen,removed,"remover, remove, removes, removed",removed,PASS,YES
+fo,of,"to, for, do, of, no",do,FAIL,YES
+mony,money,"many, mon, sony, tony, money",many,FAIL,YES
+traing,trying,"trying, trading, train, trains, tracing",trying,PASS,YES
+akustra,orchestra,"lustra, orchestra, austral, austria",orchestra,PASS,YES
+upbudh,above,"push, bud, plush, above, bush",above,PASS,YES
+incident,incidentally,"incident, incidentally",incidentally,PASS,YES
+comfortl,comfortable,"comfortable, comforts, comfort",comfortable,PASS,YES
+sedent,accident,"accident, student, select, recent, event",accident,PASS,YES
+ro,to,"no, or, so, to, do",do,FAIL,YES
+flagrance,flagrancy,"fragrance, flagrancy",flagrancy,PASS,YES
+woht,what,"wort, wot, what, wont",what,PASS,YES
+coud,could,"cold, could, cloud, cord, cod",cord,FAIL,YES
+worht,worth,"worst, wort, worth",worst,FAIL,YES
+discovers,discoveries,"discoveries, discovers",discoveries,PASS,YES
+pole,pool,"pool, pole",pool,PASS,YES
+petral,particular,"petra, petrol, petal, petrel, particular",particular,PASS,YES
+tobogen,toboggan,"hoboken, toboggan",toboggan,PASS,YES
+similarily,similarly,"similarly, similarity",similarly,PASS,YES
+soot,suits,"suits, soot",suits,PASS,YES
+questionar,questionnaire,"questionnaire, questioner",questionnaire,PASS,YES
+cyscology,psychology,"mycology, cytology, cosmology, psychology",psychology,PASS,YES
+perminint,permanent,"permanent, pertinent",permanent,PASS,YES
+guley,duly,"gules, muley, gluey, duly, gully",duly,PASS,YES
+ecomonicts,economics,"colonists, economics, ecologists, economists, colonics",economics,PASS,YES
+rengin,region,"regin, engin, renin, region",region,PASS,YES
+derert,beautiful,"beautiful, desert",beautiful,PASS,YES
+wumen,women,"women, numen, lumen, rumen",women,PASS,YES
+scer,scare,"seer, scr, scar, scare, ser",scare,PASS,YES
+polot,pilot,"polit, pilot, polo, plot",pilot,PASS,YES
+inger,enquire,"inter, finger, enquire, inner, singer",enquire,PASS,YES
+fhase,phase,"chase, phase",phase,PASS,YES
+fritond,frightened,"frightened, britons, friend, triton, briton",frightened,PASS,YES
+afraid,frightened,"frightened, afraid",frightened,PASS,YES
+horase,horse,"hoarse, horas, horse, horace",horse,PASS,YES
+suspesion,suspicion,"suspicion, suspension",suspicion,PASS,YES
+gohet,sure,"goes, got, sure, gone, get",sure,PASS,YES
+ememy,enemy,"emery, emmy, enemy",enemy,PASS,YES
+distinguishs,distinguish,"distinguishes, distinguish",distinguishes,FAIL,YES
+whey,were,"whey, were",were,PASS,YES
+considerated,considered,"considered, considerate",considered,PASS,YES
+wensday,wednesday,"weekday, wednesday, wendy",weekday,FAIL,YES
+operset,opposite,"opposite, overset",opposite,PASS,YES
+opportunit,opportunity,"opportunist, opportunity",opportunity,PASS,YES
+rouders,rounders,"rounders, routers",rounders,PASS,YES
+alamina,alumni,"alumina, alumni, lamina",alumni,PASS,YES
+equipete,equipped,"equipped, equipage",equipped,PASS,YES
+benet,beneath,"benet, beneath",beneath,PASS,YES
+counteversy,controversy,"controversy, counters, counterspy",controversy,PASS,YES
+hand,hang,"hang, hand",hang,PASS,YES
+musican,musician,"musical, musician",musical,FAIL,YES
+gob,job,"job, gob",job,PASS,YES
+durte,dart,"due, dart, quote, date, sure",dart,PASS,YES
+ununumus,unanimous,"unanimous, unctuous, annulus",unanimous,PASS,YES
+gallopt,galloped,"gallops, gallop, galloped",galloped,PASS,YES
+deart,dart,"heart, dealt, dart, depart, dear",dart,PASS,YES
+fagrany,flagrancy,"fragrant, flagrant, vagrant, flagrancy, vagrancy",flagrancy,PASS,YES
+chapple,chapel,"chapel, chappie",chapel,PASS,YES
+their,there,"their, there",there,PASS,YES
+spahe,shape,"space, spake, spade, spare, shape",spare,FAIL,YES
+mast,must,"mast, must",must,PASS,YES
+dever,delivered,"deer, denver, ever, never, delivered",never,FAIL,YES
+selfer,skilfully,"telfer, seller, skilfully",skilfully,PASS,YES
+buble,bubble,"bible, bumble, bauble, bubble, bugle",bumble,FAIL,YES
+magner,magnificent,"magnificent, manner, magnet, manger, wagner",magnificent,PASS,YES
+morgare,mortgage,"morgan, morale, mortar, margaret, mortgage",mortgage,PASS,YES
+acher,acre,"ache, cher, acre, archer, aches",ache,FAIL,YES
+reqoised,requisition,"requisition, revised, rejoined, required, realised",requisition,PASS,YES
+demy,deny,"demy, deny",deny,PASS,YES
+poutree,poetry,"outre, poetry, poured, puree, pourer",poetry,PASS,YES
+shesely,scarcely,"steely, scarcely, shekel, shelley, shelly",scarcely,PASS,YES
+thigs,things,"thighs, things, thugs, this, thigh",things,PASS,YES
+nana,nanny,"ana, nina, nanny, dana, anna",nanny,PASS,YES
+attaquit,adequate,"adequate, acquit, attain, antiquity",adequate,PASS,YES
+prasision,precision,"passion, provision, prevision, precision",precision,PASS,YES
+oto,auto,"onto, auto, too, to, otto",onto,FAIL,YES
+enyu,any,"end, eye, menu, ends, any",any,PASS,YES
+distindwish,distinguished,"distinguished, distinguish",distinguished,PASS,YES
+conveniene,convenient,"convenience, convenient",convenient,PASS,YES
+ton,turned,"turned, ton",turned,PASS,YES
+magneficant,magnificent,"magnificent, magnificat",magnificent,PASS,YES
+slad,sled,"glad, sled, slam, salad, sad",sad,FAIL,YES
+ben,bean,"bean, ben",bean,PASS,YES
+evenauly,eventually,"evenly, eventually",eventually,PASS,YES
+thif,thief,"thin, this, thief, taif",thief,PASS,YES
+ap,approaching,"as, an, at, a, approaching",approaching,PASS,YES
+perfour,prefer,"parkour, perform, prefer, parlour, fervour",perform,FAIL,YES
+autin,austin,"austin, actin, putin, auxin",putin,FAIL,YES
+ecspained,explained,"chained, stained, explained, spawned, sustained",explained,PASS,YES
+sprital,spiritual,"spital, spiritual",spiritual,PASS,YES
+omly,only,"oily, only, orly, moly",only,PASS,YES
+enfircam,enthusiasm,"enforces, enforcer, enforced, enthusiasm, enforce",enthusiasm,PASS,YES
+lors,lost,"lots, los, loss, lost, lord",lost,PASS,YES
+bhid,behind,"behind, bid, hid",behind,PASS,YES
+patoes,potatoes,"potatoes, pates, patois",potatoes,PASS,YES
+grined,grind,"griped, grained, gained, grind, grinned",gained,FAIL,YES
+enemes,enemies,"enemas, enemies",enemies,PASS,YES
+physilosphy,facilities,"facilities, philosophy",philosophy,FAIL,YES
+has,i,"i, has",i,PASS,YES
+lact,back,"back, lack, fact, act, last",back,PASS,YES
+mianly,mainly,"mainly, manly, meanly",mainly,PASS,YES
+triufen,triumph,"triune, triumph",triumph,PASS,YES
+rediciouls,ridiculous,"delicious, ridiculous, judicious, religious, seditious",ridiculous,PASS,YES
+new,knew,"new, knew",knew,PASS,YES
+envey,envy,"envoy, envy",envy,PASS,YES
+gaint,giant,"paint, gains, gain, saint, giant",saint,FAIL,YES
+tablt,tablet,"table, tablet, tabla",table,FAIL,YES
+reciat,receipt,"racial, recent, receipt, recipe, repeat",receipt,PASS,YES
+borded,bored,"corded, bonded, borden, border, bored",border,FAIL,YES
+ilumi,alumni,"plum, alumni, plump, plume, lump",alumni,PASS,YES
+easy,easier,"easier, easy",easier,PASS,YES
+shatakiwa,chautauqua,"chautauqua, latakia",chautauqua,PASS,YES
+removd,removed,"remove, removed",removed,PASS,YES
+conptecion,completion,"completion, connection, complexion, convection, contention",completion,PASS,YES
+anounces,annoyance,"announces, annoyance",annoyance,PASS,YES
+lane,large,"large, lane",large,PASS,YES
+requiere,requires,"requires, require",requires,PASS,YES
+avid,avoid,"avid, avoid",avoid,PASS,YES
+bind,behind,"bind, behind",behind,PASS,YES
+techniqucol,technical,"technical, technique, techniques",technical,PASS,YES
+eagh,edge,"edge, each",edge,PASS,YES
+axeptable,acceptable,"acceptable, adoptable, adaptable",acceptable,PASS,YES
+movaless,marvellous,"morales, loveless, marvellous, movables, moonless",marvellous,PASS,YES
+fliy,fire,"flit, fire, flay, flip, fly",fire,PASS,YES
+curtius,courteous,"curtiss, courteous, curtis",courteous,PASS,YES
+organially,originally,"organically, originally",originally,PASS,YES
+marvalous,marvelous,"marvellous, marvelous",marvelous,PASS,YES
+philosity,philosophy,"animosity, priority, hilarity, philosophy, porosity",philosophy,PASS,YES
+outamet,altimeter,"outages, outage, altimeter, outset, outlet",altimeter,PASS,YES
+alopment,allotment,"allotment, aliment, elopement",allotment,PASS,YES
+poatayous,potatoes,"platypus, potatoes",potatoes,PASS,YES
+genous,genius,"genus, venous, genius",genius,PASS,YES
+leagle,legal,"beagle, legal, league, eagle",legal,PASS,YES
+espesily,especially,"especially, easily, expertly, specify, expressly",especially,PASS,YES
+condishance,conditions,"conductance, continuance, conditions, constance, connivance",conditions,PASS,YES
+oune,own,"own, one, ounce, june, tune",own,PASS,YES
+shalf,shelf,"half, shall, shelf, shalt, shale",shelf,PASS,YES
+acctaly,actually,"actually, acetal, acutely",actually,PASS,YES
+siccesefull,successful,"successful, successfully",successful,PASS,YES
+ecomatics,economics,"economics, aromatics",economics,PASS,YES
+bonong,vagabond,"boning, vagabond",vagabond,PASS,YES
+suiable,suitable,"suitable, skiable",suitable,PASS,YES
+garate,guarantee,"grate, garage, guarantee, karate, gyrate",guarantee,PASS,YES
+elemantra,elementary,"alexandra, elements, element, elementary, elegant",elementary,PASS,YES
+accostumed,accustomed,"accosted, accustomed, costumed",accustomed,PASS,YES
+folicy,philosophy,"folic, policy, philosophy",philosophy,PASS,YES
+vaty,valley,"vatu, vat, katy, vary, valley",valley,PASS,YES
+going,give,"give, going",give,PASS,YES
+exzaiate,exquisite,"exquisite, expiate, excavate",exquisite,PASS,YES
+sed,sad,"see, sad, set, used, sex",used,FAIL,YES
+fundertmal,fundamental,"fundamental, funeral, funereal",funeral,FAIL,YES
+mysterios,mysterious,"mysterious, mysteries",mysterious,PASS,YES
+slep,slip,"sep, slip, sleep, slept, step",sleep,FAIL,YES
+cemesteries,chemistry,"chemistry, cemeteries",chemistry,PASS,YES
+pake,pack,"make, page, pack, lake, take",take,FAIL,YES
+or,for,"for, or",for,PASS,YES
+vacanses,vacancies,"vacates, valances, vacancies",vacancies,PASS,YES
+enery,energy,"entry, enemy, every, emery, energy",enemy,FAIL,YES
+emediatly,immediately,"mediately, medially, immediately",immediately,PASS,YES
+catologs,catalogues,"catalogues, cytology",catalogues,PASS,YES
+courtio,courtesies,"curtis, curtin, court, courts, courtesies",courtesies,PASS,YES
+sisions,scissors,"visions, scissors",scissors,PASS,YES
+babs,babies,"bags, bars, baby, babes, babies",babies,PASS,YES
+anmom,annum,"amos, anton, random, annum, atom",annum,PASS,YES
+sot,sit,"sot, sit",sit,PASS,YES
+alpain,alpine,"alpine, spain, plain, again, pain",alpine,PASS,YES
+pin,pine,"pin, pine",pine,PASS,YES
+wern,when,"were, when, warn, kern, worn",when,PASS,YES
+scarpping,scraping,"scraping, scrapping",scraping,PASS,YES
+writting,writing,"gritting, writing, writhing, witting",writing,PASS,YES
+anwres,answer,"andres, answer",answer,PASS,YES
+insance,instance,"instance, insane",insane,FAIL,YES
+ladh,lay,"lash, lady, lads, lad, lay",lay,PASS,YES
+b,be,"a, be, i, by",by,FAIL,YES
+get,got,"got, get",got,PASS,YES
+delincking,delinquent,"delinquent, relinking",delinquent,PASS,YES
+betful,beautiful,"beautiful, betel, bethel, artful, restful",beautiful,PASS,YES
+geniva,geneva,"genova, geneva",genova,FAIL,YES
+technechial,technical,"technical, technician",technical,PASS,YES
+suffienctly,sufficiently,"sufficiently, succinctly",sufficiently,PASS,YES
+accertained,ascertain,"ascertained, ascertain",ascertain,PASS,YES
+gardiun,guardian,"guardian, cardin, hardin, garden, gordian",guardian,PASS,YES
+ve,view,"he, view, me, be, we",view,PASS,YES
+sicolodgy,psychology,"sociology, ecology, oncology, psychology, biology",psychology,PASS,YES
+frit,fight,"fight, frit",fight,PASS,YES
+postel,postal,"hostel, pastel, posted, postal, poster",hostel,FAIL,YES
+colarlial,collateral,"cordial, colonial, collateral, coaxial, collegial",collateral,PASS,YES
+cane,can,"can, cane",can,PASS,YES
+harresed,harassed,"hardened, harvested, arrested, harassed, harnessed",harassed,PASS,YES
+engsty,industry,"industry, entity, eighty, angst, nasty",industry,PASS,YES
+reckuizition,requisition,"reacquisition, requisition",requisition,PASS,YES
+diane,dining,"diane, dining",dining,PASS,YES
+southen,southern,"souther, southey, southern",southern,PASS,YES
+fomerm,form,"former, form, foyer, homer, romero",form,PASS,YES
+immation,imitation,"imitation, impaction, ideation, summation, immolation",imitation,PASS,YES
+bingly,bingley,"bingle, tingly, kingly, singly, bingley",bingley,PASS,YES
+programm,program,"programme, programs, program",programs,FAIL,YES
+thoting,trotting,"tooting, trotting, toting",trotting,PASS,YES
+traep,type,"tramp, trap, type",type,PASS,YES
+conler,colonel,"colonel, conley, confer, cooler, conner",colonel,PASS,YES
+take,turned,"turned, take",turned,PASS,YES
+inconvinced,inconvenienced,"inconvenienced, unconvinced",inconvenienced,PASS,YES
+distants,distance,"distance, distant",distance,PASS,YES
+lest,latest,"lest, latest",latest,PASS,YES
+locke,local,"locke, local",local,PASS,YES
+convenily,conveniently,"convening, convexity, conveniently",conveniently,PASS,YES
+inisals,initials,"nasals, instals, initials, finials, animals",initials,PASS,YES
+peice,piece,"piece, peace, peirce, price, pence",piece,PASS,YES
+throur,thorough,"thorough, tour, through, throw, hour",thorough,PASS,YES
+interlatual,intellectual,"interfacial, intersexual, intellectual, interracial, interglacial",intellectual,PASS,YES
+weigth,weight,"weight, weigh",weight,PASS,YES
+sheperd,shepherd,"shepard, shepherd",shepherd,PASS,YES
+recomigtion,recognition,"recognition, reposition, recondition, recombination, recompilation",recognition,PASS,YES
+ques,queues,"ques, queues",queues,PASS,YES
+recauce,resource,"reduce, recuse, resource, because, recluse",because,FAIL,YES
+sorw,saw,"sort, saw, sora, sow, sore",saw,PASS,YES
+inaxesable,inaccessible,"inaccessible, inexcusable, inexorable, inoperable, inalienable",inaccessible,PASS,YES
+discretiant,discretion,"discretion, discrepant",discretion,PASS,YES
+codetie,conditions,"coterie, cootie, codeine, colette, conditions",conditions,PASS,YES
+gardine,guardian,"guardian, gardiner, sardine",guardian,PASS,YES
+scarly,scarcely,"scary, scarily, scaly, scarcely, carly",scarcely,PASS,YES
+desthy,designed,"deaths, death, destroy, depth, designed",destroy,FAIL,YES
+practiced,practised,"practices, practice, practised",practice,FAIL,YES
+pemanant,permanent,"permanent, remanent, peasant, pennant, remnant",permanent,PASS,YES
+used,use,"used, use",used,FAIL,YES
+elemetry,elementary,"telemetry, elementary",elementary,PASS,YES
+annim,annum,"annum, anim, annam, annie",annum,PASS,YES
+gound,ground,"ground, sound, found, bound, round",bound,FAIL,YES
+affectutate,affectionate,"effectuate, affectionate",affectionate,PASS,YES
+bieytful,beautiful,"restful, eventful, beautiful, rightful, fistful",beautiful,PASS,YES
+now,new,"now, new",new,PASS,YES
+bent,been,"bent, been",been,PASS,YES
+boulder,vulgar,"boulder, vulgar",vulgar,PASS,YES
+compell,compel,"compel, compels",compel,PASS,YES
+contempe,contented,"contented, contemp, contempt",contented,PASS,YES
+thereus,various,"various, there's, theseus",various,PASS,YES
+guraantied,guaranteed,"guarantied, guaranteed",guaranteed,PASS,YES
+anisaty,anxiety,"animato, animate, anxiety",anxiety,PASS,YES
+conceive,conscience,"conceive, conscience",conscience,PASS,YES
+past,passed,"passed, past",passed,PASS,YES
+inqoor,enquire,"enquire, indoor",enquire,PASS,YES
+courageable,courageous,"courageous, chargeable",courageous,PASS,YES
+lastly,latest,"latest, lastly",latest,PASS,YES
+begen,begin,"begin, began, bergen, been, begun",began,FAIL,YES
+crystle,crystal,"bristle, wrestle, crystals, crystal, castle",castle,FAIL,YES
+alwy,awful,"awful, ally",awful,PASS,YES
+mieums,museums,"mums, museums, minims, minus, mems",museums,PASS,YES
+appromaxiately,approximately,"approximately, appropriately",approximately,PASS,YES
+fench,french,"fetch, french, finch, bench, fence",fence,FAIL,YES
+purmelur,permanent,"purely, purcell, purveyor, murmur, permanent",permanent,PASS,YES
+bickits,biscuits,"dickies, buckets, biscuits, wickets, tickets",biscuits,PASS,YES
+curiosities,curiosity,"curiosities, curiosity",curiosity,PASS,YES
+talk,take,"take, talk",take,PASS,YES
+realtive,relative,"reactive, relative",relative,PASS,YES
+signiter,signature,"igniter, signature",signature,PASS,YES
+disciplyn,discipline,"discipline, disciples, disciple",discipline,PASS,YES
+macanic,mechanic,"manic, mechanic, laconic, satanic, masonic",mechanic,PASS,YES
+sings,sing,"sing, sings",sing,PASS,YES
+provisons,provisions,"provisos, provisions",provisions,PASS,YES
+teel,tell,"steel, feel, tel, tell, teen",feel,FAIL,YES
+defianert,definite,"definite, defiant, definer",definite,PASS,YES
+enternce,entrance,"enteric, interne, entente, entrance, sentence",entrance,PASS,YES
+necessity,necessarily,"necessity, necessarily",necessarily,PASS,YES
+temperreally,temporarily,"temporarily, temporally",temporarily,PASS,YES
+wakh,watch,"watch, wash, wake, lakh",watch,PASS,YES
+necasery,necessary,"casey, nursery, recovery, necessary, nearer",nursery,FAIL,YES
+distingieg,distinguished,"destinies, distinguish, stinging, distinguished, distilling",distinguished,PASS,YES
+lowever,lower,"however, lower",however,FAIL,YES
+pgett,project,"gets, get, pretty, agent, project",get,FAIL,YES
+liy,lie,"lay, lie, lib, lit, lip",lie,PASS,YES
+aconet,avoid,"acne, accent, alone, avoid, cone",avoid,PASS,YES
+yeth,yet,"seth, beth, yeah, yet, meth",yet,PASS,YES
+peciular,peculiar,"secular, peculiar, specular",peculiar,PASS,YES
+repution,reputation,"relation, reduction, reunion, reaction, reputation",relation,FAIL,YES
+begeing,beginning,"begging, beginning",beginning,PASS,YES
+couple,copy,"copy, couple",copy,PASS,YES
+sramled,scrambled,"scaled, sealed, framed, scrambled, sampled",scrambled,PASS,YES
+askt,asked,"ask, asks, asked, asst",asked,PASS,YES
+anparelle,unparalleled,"aquarelle, unparalleled, annabelle",unparalleled,PASS,YES
+communicated,communicate,"communicated, communicate",communicate,PASS,YES
+prissission,precision,"possession, precision, rescission",precision,PASS,YES
+flont,frightened,"float, font, flint, front, frightened",frightened,PASS,YES
+move,moved,"moved, move",moved,PASS,YES
+compurs,compass,"compass, colours, compare, computers, campus",computers,FAIL,YES
+pold,pulled,"hold, gold, pulled, told, old",pulled,PASS,YES
+faw,few,"few, far, fat, law, fax",few,PASS,YES
+scor,score,"scr, scot, cor, score, scar",score,PASS,YES
+itimize,itemized,"itemize, itemized",itemized,PASS,YES
+gained,regained,"regained, gained",regained,PASS,YES
+outermiter,altimeter,"outrider, termites, termite, determiner, altimeter",altimeter,PASS,YES
+delited,delighted,"delighted, deleted, debited",delighted,PASS,YES
+abjection,objection,"objection, abjection",objection,PASS,YES
+acknowledment,acknowledgement,"acknowledgment, acknowledgement",acknowledgement,PASS,YES
+permotion,promotion,"perdition, promotion, demotion, permeation, emotion",promotion,PASS,YES
+tighting,tightening,"fighting, tightening, righting, lighting, sighting",fighting,FAIL,YES
+extraordinarily,extraordinary,"extraordinary, extraordinarily",extraordinary,PASS,YES
+distirshed,distinguished,"dismissed, dispersed, distorted, distinguished, disturbed",distinguished,PASS,YES
+firt,fight,"fire, fight, first, fit, firm",fight,PASS,YES
+anticipated,anticipate,"anticipate, anticipated",anticipate,PASS,YES
+haer,hear,"hair, her, hater, hear, hare",hair,FAIL,YES
+sixtys,sixty,"sixths, sixty",sixty,PASS,YES
+michin,machine,"within, machine, michigan, chin, michel",machine,PASS,YES
+pelimamny,preliminary,"pelicans, pelican, preliminary",preliminary,PASS,YES
+usu,answer,"usu, answer",answer,PASS,YES
+taeche,teacher,"teacher, tache",teacher,PASS,YES
+bars,dangerous,"bars, dangerous",dangerous,PASS,YES
+tencial,technical,"genial, pencil, denial, stencil, technical",technical,PASS,YES
+lione,leone,"lion, lions, leone, line, lone",line,FAIL,YES
+leds,leeds,"leeds, les, leads, less, led",led,FAIL,YES
+dully,duly,"dully, duly",duly,PASS,YES
+expeshley,especially,"expelled, expeller, expressly, expertly, especially",especially,PASS,YES
+speeking,speaking,"seeking, peeking, speeding, speaking",seeking,FAIL,YES
+disscus,discuss,"discus, discuss",discuss,PASS,YES
+relacks,relax,"racks, relates, remarks, blacks, relax",relates,FAIL,YES
+sohod,should,"soho, shod, should",should,PASS,YES
+tant,tent,"cant, tent, tank, tan, want",tank,FAIL,YES
+hafe,half,"safe, half, hate, cafe, have",half,PASS,YES
+scheduald,schedule,"schedule, scheduled",scheduled,FAIL,YES
+areplane,aeroplane,"replant, replace, aeroplane, warplane, triplane",aeroplane,PASS,YES
+saenig,saying,"seeing, saying, saving, sang, scenic",singing,FAIL,YES
+scur,scare,"sour, scare, sur, cur, scr",scare,PASS,YES
+cut,caught,"caught, cut",caught,PASS,YES
+taafic,traffic,"tragic, ataxic, traffic, tannic, tactic",traffic,PASS,YES
+sigt,sight,"sit, sign, sig, sgt, sight",sight,PASS,YES
+doine,done,"done, dine, doing, donne, dione",doing,FAIL,YES
+jod,job,"jon, joy, god, job, joe",job,PASS,YES
+brooken,broken,"brookes, brocken, brooke, broken",broken,PASS,YES
+finnacily,financially,"finally, financially, financing, pinnacle, financial",pinnacle,FAIL,YES
+schoole,school,"schools, school, schooled",schools,FAIL,YES
+suarity,sorority,"sorority, clarity, charity, quality, purity",sorority,PASS,YES
+hed,his,"had, her, red, he, his",red,FAIL,YES
+garcentee,guarantee,"gardener, carpenter, garments, guarantee, garment",guarantee,PASS,YES
+regurne,region,"return, region, returned, returns, recurve",returned,FAIL,YES
+furmilare,familiar,"formulate, familiar, firmware, furniture, formulae",familiar,PASS,YES
+contetinement,continent,"continent, contentment, confinement, containment",continent,PASS,YES
+cricit,cricket,"circuit, crisis, credit, critic, cricket",crisis,FAIL,YES
+acely,actually,"ace, rely, actually, apply, cell",actually,PASS,YES
+blo,blow,"blog, boo, bio, blk, blow",blow,PASS,YES
+het,hit,"he, get, her, hit, set",hit,PASS,YES
+pantree,pantry,"pantie, panties, entree, pantry, panther",pantry,PASS,YES
+throut,through,"through, throat, trout",throat,FAIL,YES
+speclovel,specifically,"spillover, specifically",specifically,PASS,YES
+bigh,bridge,"bridge, high, big, sigh, nigh",bridge,PASS,YES
+dort,dart,"dart, dort",dart,PASS,YES
+thourgho,thorough,"though, thorough, thought",thorough,PASS,YES
+establism,establishments,"establishments, establish",establish,FAIL,YES
+cros,cross,"cos, cross, crop, crops, pros",cross,PASS,YES
+outimeter,altimeter,"multimeter, altimeter",altimeter,PASS,YES
+proceduar,procedure,"procedural, procedure",procedure,PASS,YES
+prirer,prior,"primer, prior, prier",prior,PASS,YES
+aneversary,anniversary,"adversary, anniversary",anniversary,PASS,YES
+boured,bored,"bored, poured, toured, soured",bored,PASS,YES
+normel,normal,"normal, hormel, normed",normal,PASS,YES
+friendy,friendly,"friend, friends, friendly",friends,FAIL,YES
+sycoledgy,psychology,"psychology, mycology",psychology,PASS,YES
+straightjacket,straitjacket,"straightjacket, straitjacket",straightjacket,FAIL,YES
+tiye,type,"time, tie, tile, tire, type",type,PASS,YES
+waching,washing,"watching, caching, aching, washing",watching,FAIL,YES
+lodeg,lodge,"lodes, loden, lode, lodge",lodge,PASS,YES
+renition,recognition,"recognition, rendition",recognition,PASS,YES
+cornel,colonel,"cornel, colonel",colonel,PASS,YES
+continse,contented,"contented, continue",contented,PASS,YES
+thousans,thousands,"thousand, thousands",thousand,FAIL,YES
+specifict,specific,"specific, specifics",specific,PASS,YES
+wimme,women,"gimme, women",women,PASS,YES
+gallulay,gradually,"galloway, gradually",gradually,PASS,YES
+desternasion,destination,"distension, destination, desperation",destination,PASS,YES
+conciense,conscience,"conscience, concise, concierge, condense",conscience,PASS,YES
+procieder,procedure,"provider, procedure, proceeded",procedure,PASS,YES
+bay,boy,"boy, bay",boy,PASS,YES
+eltide,alpine,"alpine, elide",alpine,PASS,YES
+latelise,latest,"latest, dateline, laterite",latest,PASS,YES
+fought,fort,"fort, fought",fort,PASS,YES
+guarrant,guarantee,"guarantee, guaranty, guarani, quadrant, warrant",guarantee,PASS,YES
+objet,object,"objet, object",object,PASS,YES
+winman,women,"women, wilma, woman, whitman, wigan",women,PASS,YES
+find,fine,"fine, find",fine,PASS,YES
+profume,perfume,"profuse, perfume",perfume,PASS,YES
+bend,been,"been, bend",been,PASS,YES
+regularly,originally,"originally, regularly",originally,PASS,YES
+skillfuly,skilfully,"skilfully, skillful",skilfully,PASS,YES
+romatic,romantic,"aromatic, romanic, somatic, romantic",romantic,PASS,YES
+enquer,enquire,"ensure, conquer, enquire, enter, enquiry",enquire,PASS,YES
+speal,special,"steal, spell, seal, speak, special",special,PASS,YES
+scandly,scandal,"sadly, sandy, scandal, candle, candy",scandal,PASS,YES
+securities,curious,"securities, curious",curious,PASS,YES
+affectd,affected,"affect, affected, affects",affected,PASS,YES
+cemety,cemetery,"comedy, cement, remedy, empty, cemetery",cemetery,PASS,YES
+alloud,allowed,"allowed, aloud",allowed,PASS,YES
+comr,come,"comr, come",come,PASS,YES
+traine,train,"trained, trainee, trains, train, trainer",trained,FAIL,YES
+invet,invent,"invert, inset, invest, inlet, invent",invest,FAIL,YES
+tecnacle,technical,"tentacle, tenable, technical",technical,PASS,YES
+nely,nearly,"ely, newly, nearly, rely, nelly",nearly,PASS,YES
+aquaintents,acquaintance,"acquaintance, quintets, quaintness, attainments",acquaintance,PASS,YES
+tendance,tendency,"tendance, tendency",tendency,PASS,YES
+magnifisance,magnificent,"magnificence, magnificent",magnificent,PASS,YES
+easally,easily,"easily, nasally, basally",easily,PASS,YES
+sypthmetic,sympathetic,"synthetic, sympathetic",sympathetic,PASS,YES
+finet,without,"fines, fined, finest, fine, without",finest,FAIL,YES
+has,as,"has, as",as,PASS,YES
+flights,flight,"flight, flights",flight,PASS,YES
+prget,project,"pret, project, puget",project,PASS,YES
+aufall,awful,"outfall, aural, udall, fall, awful",awful,PASS,YES
+scerserly,scarcely,"scarcely, sparsely, scenery, secretly, tersely",scarcely,PASS,YES
+adverisments,advertisement,"advertisement, advertisements",advertisement,PASS,YES
+sedid,splendid,"splendid, redid",splendid,PASS,YES
+mevesesion,magnificent,"reversion, magnificent, eversion, secession, recession",magnificent,PASS,YES
+operter,operator,"operated, operates, peter, operator, operate",operator,PASS,YES
+wa,wide,"way, a, was, wide, we",wide,PASS,YES
+simpicet,sympathetic,"spice, sympathetic, impact, simple, simplicity",sympathetic,PASS,YES
+realied,relied,"replied, relied, readied, realised, realized",replied,FAIL,YES
+sacsesful,successful,"stressful, successful",successful,PASS,YES
+aslaimed,esteemed,"slammed, ashamed, esteemed, claimed, acclaimed",esteemed,PASS,YES
+vagletrre,vagabond,"daguerre, vagabond, valerie",vagabond,PASS,YES
+sciezed,seized,"screwed, sneezed, screed, seized, sized",seized,PASS,YES
+exlpand,explained,"explained, expand",explained,PASS,YES
+merrerys,memories,"memories, mercers, mergers",memories,PASS,YES
+gorgess,gorgeous,"gorges, gorgeous",gorgeous,PASS,YES
+unamanous,unanimous,"anomalous, numinous, unamuno, unanimous",unanimous,PASS,YES
+garauntee,guarantee,"grantee, guarantee",guarantee,PASS,YES
+thah,they,"than, shah, that, thai, they",shai,FAIL,YES
+way,was,"was, way",was,PASS,YES
+concinence,conscious,"conscious, continence",conscious,PASS,YES
+enthusiasm,enthusiastic,"enthusiasm, enthusiastic",enthusiastic,PASS,YES
+tafic,traffic,"topic, static, basic, traffic, magic",traffic,PASS,YES
+nigth,nights,"nights, night, nigh, ninth",night,FAIL,YES
+missilaneus,miscellaneous,"miscellaneous, missiles, missioners",miscellaneous,PASS,YES
+meay,many,"mean, may, meat, meal, many",meat,FAIL,YES
+conciense,conscious,"concise, conscience, condense, conscious, concierge",conscience,FAIL,YES
+oiled,altitude,"oiled, altitude",altitude,PASS,YES
+prelimelly,preliminary,"precisely, preliminary, proximally",preliminary,PASS,YES
+resently,recently,"presently, recently",recently,PASS,YES
+domistict,domestic,"domestic, domestics",domestic,PASS,YES
+critizam,criticism,"criticism, critical",criticism,PASS,YES
+fettered,fitted,"fitted, fettered",fitted,PASS,YES
+amnible,amiable,"amenable, audible, mandible, amble, amiable",amiable,PASS,YES
+stiation,situation,"satiation, situation, station, striation",station,FAIL,YES
+canvos,canvass,"cantos, canvass, canvas",canvass,PASS,YES
+bowen,bone,"bone, bowen",bone,PASS,YES
+minde,mind,"mine, minds, monde, minded, mind",minds,FAIL,YES
+inexasible,inaccessible,"infeasible, inaccessible",inaccessible,PASS,YES
+reant,rent,"rent, react, rant, meant, recant",meant,FAIL,YES
+garrete,guarantee,"guarantee, garrett, garret, garrote",guarantee,PASS,YES
+nou,now,"you, now, non, no, not",you,FAIL,YES
+flargensey,flagrancy,"largeness, flagrancy",flagrancy,PASS,YES
+muchial,mutual,"mughal, musial, mutual, micheal",mutual,PASS,YES
+fumillia,familiar,"camilla, familiar, millie, familial, emilia",familiar,PASS,YES
+frying,flying,"flying, frying",flying,PASS,YES
+sow,saw,"saw, sow",saw,PASS,YES
+baumb,bomb,"bomb, baum",bomb,PASS,YES
+sooerble,suitable,"sizeable, soluble, sterile, superbly, suitable",suitable,PASS,YES
+puch,push,"push, pouch, much, such, punch",punch,FAIL,YES
+frened,friend,"freed, friend",friend,PASS,YES
+govermant,government,"government, overman",government,PASS,YES
+livd,lived,"lind, lied, live, lived, lid",lived,PASS,YES
+remover,removed,"removed, remover",removed,PASS,YES
+enconented,inconvenienced,"inconvenienced, contented, enchanted, encounter, consented",contented,FAIL,YES
+accondate,accommodate,"accordance, accolade, accommodate, accurate, accentuate",accordance,FAIL,YES
+wher,where,"where, her, when, whey, cher",when,FAIL,YES
+impoly,employer,"employer, imply",employer,PASS,YES
+sirely,certainly,"sorely, certainly, surely",certainly,PASS,YES
+vicilities,facilities,"facilities, vicinities",facilities,PASS,YES
+asabed,accident,"accident, asked, saved, isabel, amazed",accident,PASS,YES
+ingh,enjoy,"enjoy, inch, inge, nigh, singh",enjoy,PASS,YES
+questionier,questionnaire,"questioner, questionnaire",questionnaire,PASS,YES
+aunit,aunt,"audit, aunt, unit",aunt,PASS,YES
+ran,rain,"rain, ran",rain,PASS,YES
+conviently,conveniently,"conveniently, confidently",conveniently,PASS,YES
+ballet,ballot,"ballot, ballet",ballot,PASS,YES
+satisfactory,satisfactorily,"satisfactory, satisfactorily",satisfactorily,PASS,YES
+left,lift,"lift, left",lift,PASS,YES
+ocustommed,accustomed,"customised, customized, accustomed, customer",accustomed,PASS,YES
+vasilate,facilities,"validate, facilities, variate, vacillate",facilities,PASS,YES
+smal,small,"small, seal, sal",small,PASS,YES
+fol,fall,"fol, fall",fall,PASS,YES
+econics,economics,"conics, economics, ebonics",economics,PASS,YES
+verchew,virtue,"virchow, perched, eschew, perches, virtue",virtue,PASS,YES
+decedaly,decidedly,"decently, decidedly",decidedly,PASS,YES
+expaned,explained,"expanded, explained, expand",explained,PASS,YES
+rumitisim,rheumatism,"semitism, rheumatism",rheumatism,PASS,YES
+physccology,psychology,"psychology, physiology, phycology",psychology,PASS,YES
+endifnint,indefinite,"endpoint, edifying, indefinite, indignant",indefinite,PASS,YES
+glode,glowed,"glove, glide, glowed, globe, glade",glowed,PASS,YES
+regresding,requesting,"requesting, regressing",requesting,PASS,YES
+recomission,recognition,"remission, recognition, decommission, readmission",recognition,PASS,YES
+gardening,guardian,"guardian, gardening",guardian,PASS,YES
+miss,mrs,"mrs, miss",mrs,PASS,YES
+ridiculuss,ridiculous,"ridicules, ridiculous",ridiculous,PASS,YES
+haveing,having,"having, havering",having,PASS,YES
+carefuly,carefully,"careful, carefully",careful,FAIL,YES
+suthen,southern,"then, southern, luther, sudden, sutton",southern,PASS,YES
+coperation,cooperation,"cooperation, operation",cooperation,PASS,YES
+biuest,biscuits,"biscuits, bluest",biscuits,PASS,YES
+faviote,favourite,"cavite, favourite",favourite,PASS,YES
+heit,height,"heist, hit, height, heat, heir",height,PASS,YES
+bont,belt,"belt, boat, boot, font, bond",belt,PASS,YES
+aniversy,anniversary,"anniversary, universe, anvers",anniversary,PASS,YES
+furture,future,"future, nurture",future,PASS,YES
+may,my,"may, my",my,PASS,YES
+brighe,bridge,"bridge, bright",bridge,PASS,YES
+spaisile,special,"sparkle, passive, spindle, special, seaside",special,PASS,YES
+matarl,materially,"metal, fatal, materially, qatar, mature",materially,PASS,YES
+monteineus,mountainous,"monseigneur, continues, mountainous, containers",mountainous,PASS,YES
+anamn,annum,"anam, annum",annum,PASS,YES
+currority,sorority,"curiosity, sorority, cursorily",sorority,PASS,YES
+suffantly,sufficiently,"subfamily, defiantly, sufficiently",sufficiently,PASS,YES
+ther,there,"they, there, the, their, other",there,PASS,YES
+centery,century,"century, center",century,PASS,YES
+lodgement,lodgment,"lodgment, lodgement",lodgement,FAIL,YES
+reas,research,"areas, real, read, rear, research",research,PASS,YES
+anshuse,anxious,"danseuse, enthuse, anxious",anxious,PASS,YES
+documen,documents,"documents, document",documents,PASS,YES
+jump,jumped,"jump, jumped",jumped,PASS,YES
+sorces,sources,"sores, forces, sources",sources,PASS,YES
+occassionly,occasionally,"occasioned, occasionally, occasional, occasions, occasion",occasionally,PASS,YES
+enemeys,enemies,"enemas, enemy, enamels, enemies",enemy,FAIL,YES
+lighting,lightning,"lighting, lightning",lightning,PASS,YES
+simatry,symmetry,"sinatra, symmetry, simar, sumatra, smarty",symmetry,PASS,YES
+solumn,solemn,"solemn, column",solemn,PASS,YES
+wirth,with,"with, birth, worth, width, firth",with,PASS,YES
+forft,fourth,"fort, fourth",fourth,PASS,YES
+egler,edge,"edge, egger, eger, kegler, euler",edge,PASS,YES
+sais,says,"says, said, sail, sis, sans",said,FAIL,YES
+peches,peaches,"perches, peaches",perches,FAIL,YES
+sigerch,signature,"sierra, signature, speech, tiger, search",signature,PASS,YES
+pamflets,pamphlets,"hamlets, pamphlets, amulets, pallets",pamphlets,PASS,YES
+sheem,seem,"sheer, sheen, sheet, seem, sheep",seem,PASS,YES
+addion,addition,"addison, addition, audion",addition,PASS,YES
+friseing,freezing,"freezing, frisking",freezing,PASS,YES
+coular,colour,"collar, cougar, ocular, colour",collar,FAIL,YES
+gordgous,gorgeous,"gorgeous, gorgons",gorgeous,PASS,YES
+descriten,discretion,"describes, describe, describer, described, discretion",discretion,PASS,YES
+recqosition,requisition,"requisition, reposition",requisition,PASS,YES
+throurgh,thorough,"through, thorough",thorough,PASS,YES
+caned,canned,"canned, caned",canned,PASS,YES
+been,be,"been, be",be,PASS,YES
+convient,convenient,"convent, convenient",convenient,PASS,YES
+remmberence,remembrance,"remembrance, reverence, reemergence, reference",remembrance,PASS,YES
+suskfull,successful,"useful, lustful, successful, skull, usefully",successful,PASS,YES
+whisting,whistling,"whistling, whiting, whisking",whistling,PASS,YES
+guic,juice,"guin, juice",juice,PASS,YES
+phases,phase,"phase, phases",phase,PASS,YES
+efinente,infinite,"eminent, infinite, eminence",infinite,PASS,YES
+than,then,"than, then",then,PASS,YES
+deinpent,disappoint,"reinvent, disappoint",disappoint,PASS,YES
+caves,surface,"caves, surface",surface,PASS,YES
+metx,next,"meth, next, meta, met, mex",next,PASS,YES
+unquped,unequipped,"unequipped, uncured, unquoted, unused, unquiet",unequipped,PASS,YES
+animum,annum,"animus, annum",annum,PASS,YES
+cesetary,cemetery,"cemetery, cometary",cemetery,PASS,YES
+to,the,"the, to",the,PASS,YES
+souned,sound,"sounded, soured, sound, souped, souled",sound,PASS,YES
+babe,baby,"baby, babe",baby,PASS,YES
+fule,fuel,"fuel, rule, full, file, fuse",fuel,PASS,YES
+pocs,pockets,"docs, pics, pos, pockets, pcs",pockets,PASS,YES
+manly,mainly,"manly, mainly",mainly,PASS,YES
+solger,soldier,"solver, soldier, solder",soldier,PASS,YES
+pitchereske,picturesque,"picturesque, pitchers",picturesque,PASS,YES
+iamialable,amiable,"available, amicable, inviolable, amiable, mailable",available,FAIL,YES
+fertue,virtue,"fetus, forte, feature, fortune, virtue",virtue,PASS,YES
+idimized,itemized,"itemized, minimized, idolized",itemized,PASS,YES
+hab,had,"had, hab",had,PASS,YES
+seplese,surplus,"selene, replete, surplus, nepalese, deplete",surplus,PASS,YES
+glad,happy,"happy, glad",happy,PASS,YES
+fore,four,"fore, four",four,PASS,YES
+substeranium,subterranean,"substratum, subterranean",subterranean,PASS,YES
+thes,these,"them, they, this, the, these",these,PASS,YES
+questionner,questionnaire,"questioner, questionnaire",questionnaire,PASS,YES
+actuly,actually,"actual, actually, actuary, aptly, acutely",actually,PASS,YES
+incediently,incidentally,"inherently, incessantly, incidentally, obediently, anciently",incidentally,PASS,YES
+economico,economical,"economic, economics, economical",economical,PASS,YES
+solmun,solemn,"salmon, solomon, column, holman, solemn",solemn,PASS,YES
+consunce,conscious,"constance, convince, consume, conscious, conjunct",conscious,PASS,YES
+spening,spinning,"opening, spinning, spending, spewing",spinning,PASS,YES
+wemem,women,"week, women, were, seem, mem",seem,FAIL,YES
+exrage,exaggerate,"enrage, exaggerate",exaggerate,PASS,YES
+dehowl,behind,"dhows, howl, dhow, behind",behind,PASS,YES
+glpt,galloped,"glut, galloped, glt",galloped,PASS,YES
+belever,belief,"believer, belief",belief,PASS,YES
+wos,was,"los, won, dos, wow, was",won,FAIL,YES
+lever,level,"level, lever",level,PASS,YES
+leonorado,leonardo,"leonardo, leonora",leonardo,PASS,YES
+bueful,beautiful,"beautiful, rueful",beautiful,PASS,YES
+continuate,continent,"continuance, continual, continue, continent, continuity",continent,PASS,YES
+curtousy,courtesy,"curious, courtesy, curtsy, curiously",courtesy,PASS,YES
+erfe,earth,"erse, erne, erie, ere, earth",ere,FAIL,YES
+schoo,school,"school, achoo, schmo, shoo",school,PASS,YES
+thisited,visited,"thirsted, visited, twisted",visited,PASS,YES
+aposhing,approaching,"posting, posing, approaching, sloshing, pushing",approaching,PASS,YES
+exabision,exhibition,"excision, exhibition",exhibition,PASS,YES
+procede,perceive,"proceed, perceive, precede",perceive,PASS,YES
+mount,amount,"amount, mount",amount,PASS,YES
+excisted,existed,"excited, existed, excised",excited,FAIL,YES
+site,sit,"site, sit",sit,PASS,YES
+phenumia,pneumonia,"pneumonia, perugia, phenomena, phenix, plenum",pneumonia,PASS,YES
+doched,dodged,"dodged, docked",dodged,PASS,YES
+supestion,suspicion,"question, suspicion, suggestion",suspicion,PASS,YES
+dede,bed,"bed, deed, dee, dene, dude",bed,PASS,YES
+garnete,guarantee,"guarantee, garnets, garnett, garnet",guarantee,PASS,YES
+thoug,though,"thong, though, thous, thou, thug",though,PASS,YES
+commiting,committing,"commuting, committing",commuting,FAIL,YES
+committes,committees,"committee, committees, committer, committers, committed",committees,PASS,YES
+roudy,rowdy,"rudy, rowdy, goudy",rudy,FAIL,YES
+talk,talked,"talked, talk",talked,PASS,YES
+sespecific,specific,"specific, unspecific",specific,PASS,YES
+enploy,employer,"employ, employer",employer,PASS,YES
+morguage,mortgage,"morgue, mortgage",mortgage,PASS,YES
+signicher,signature,"signifier, signature",signature,PASS,YES
+contene,contented,"convene, contented, contend, content",contented,PASS,YES
+consienced,conscience,"consigned, consented, consciences, conscience, convinced",conscience,PASS,YES
+recognization,recognition,"recolonization, recognition",recognition,PASS,YES
+lite,left,"left, lite",left,PASS,YES
+chiden,children,"children, chided, chide, chides",children,PASS,YES
+faroted,friend,"farted, friend",friend,PASS,YES
+mointnus,mountainous,"minus, points, monitors, months, mountainous",mountainous,PASS,YES
+remitence,remittance,"residence, penitence, reticence, remittance, eminence",remittance,PASS,YES
+get,great,"great, get",great,PASS,YES
+eate,here,"here, eat, date, late, rate",date,FAIL,YES
+safetly,safety,"safely, safety",safely,FAIL,YES
+now,no,"no, now",no,PASS,YES
+prver,prefer,"prover, prier, prefer",prefer,PASS,YES
+travling,traveling,"trailing, trawling, traveling",traveling,PASS,YES
+marry,merry,"marry, merry",merry,PASS,YES
+asseptable,acceptable,"assessable, acceptable",acceptable,PASS,YES
+delingute,delinquent,"delineate, delinquent",delinquent,PASS,YES
+bairred,buried,"buried, barred",buried,PASS,YES
+performant,performing,"performance, performing",performing,PASS,YES
+vacantsy,vacancy,"vacantly, vacancy",vacancy,PASS,YES
+exgareat,exaggerate,"egret, exaggerate, entreat, great, excreta",exaggerate,PASS,YES
+bath,bathe,"bathe, bath",bathe,PASS,YES
+magnifisence,magnificent,"magnificence, magnificent",magnificent,PASS,YES
+apraatuss,apparatus,"apparatuses, apparatus",apparatus,PASS,YES
+gradeuely,gradually,"gratefully, gracefully, gradual, gravely, gradually",gradually,PASS,YES
+beat,belt,"beat, belt",belt,PASS,YES
+blit,belt,"bit, clit, belt, bait, lit",belt,PASS,YES
+racying,racing,"racing, racking",racing,PASS,YES
+devitt,debit,"dewitt, debit, levitt",debit,PASS,YES
+marrede,married,"married, marred",married,PASS,YES
+lol,loud,"low, loud, lot, log, los",loud,PASS,YES
+warkt,walked,"walked, wart",walked,PASS,YES
+japaness,japanese,"japaneses, japanese",japanese,PASS,YES
+nucler,nuclear,"nuclei, nuclear",nuclear,PASS,YES
+cancell,cancelled,"cancels, cancel, cancelled",cancelled,PASS,YES
+entereny,attorney,"entered, attorney, entering, entirely, entirety",attorney,PASS,YES
+ruhmatism,rheumatism,"humanism, dogmatism, rheumatism, pragmatism, automatism",rheumatism,PASS,YES
+morgade,mortgage,"morale, margate, mortgage, morgan, morgue",mortgage,PASS,YES
+acknoldge,acknowledging,"acknowledging, acknowledge",acknowledging,PASS,YES
+firternily,fraternally,"fraternity, fraternally",fraternally,PASS,YES
+ruovd,removed,"ruled, round, road, rod, removed",removed,PASS,YES
+polt,problem,"poll, plot, port, post, problem",problem,PASS,YES
+satisfain,satisfaction,"satisfying, satisfaction",satisfaction,PASS,YES
+addishation,edition,"admiration, abdication, edition, addiction, addition",edition,PASS,YES
+beged,begged,"begged, beget",begged,PASS,YES
+persslion,precision,"version, permission, precision, person, session",precision,PASS,YES
+hansome,handsome,"handsome, hansom",handsome,PASS,YES
+on,one,"one, on",one,PASS,YES
+literarly,literally,"literary, literally",literally,PASS,YES
+quators,quarters,"equator, quakers, tutors, gators, quarters",quarters,PASS,YES
+ciese,cease,"close, cause, cease, case, these",cease,PASS,YES
+suffecient,sufficiently,"sufficient, sufficiently",sufficiently,PASS,YES
+of,about,"about, of",about,PASS,YES
+inke,ink,"ike, nike, ink, inks, inge",inge,FAIL,YES
+sohreyety,sorority,"sobriety, sorority",sorority,PASS,YES
+recenty,recently,"recently, recent, recency",recently,PASS,YES
+gent,great,"gent, great",great,PASS,YES
+slander,slammed,"slammed, slander",slammed,PASS,YES
+ack,ask,"act, ask, pack, back, jack",back,FAIL,YES
+serarity,sorority,"serenity, sorority, rarity, security, severity",sorority,PASS,YES
+courtesie,courtesy,"courtesy, courtesies",courtesies,FAIL,YES
+guvement,government,"government, pavement, movement",government,PASS,YES
+cars,car,"car, cars",cars,FAIL,YES
+ceaice,cease,"device, choice, chance, peace, cease",cease,PASS,YES
+beac,back,"back, bear, beat, beach, beam",back,PASS,YES
+aco,accomplished,"co, ago, act, accomplished, acc",accomplished,PASS,YES
+flok,flock,"folk, flop, flo, flock, flow",folk,FAIL,YES
+scobel,suitable,"scope, scores, scored, suitable, score",suitable,PASS,YES
+imedetly,immediately,"sweetly, meekly, immediately, merely, modestly",immediately,PASS,YES
+unannanus,unanimous,"ugandans, unanimous, pandanus",unanimous,PASS,YES
+quere,queer,"queer, queue, quern, quire, query",queue,FAIL,YES
+serth,searched,"berth, searched, seth, perth",searched,PASS,YES
+bulding,building,"balding, bulging, building, bulking, budding",building,PASS,YES
+cereer,courses,"career, courses",courses,PASS,YES
+isolonois,miscellaneous,"solenoid, isolators, solenoids, illinois, miscellaneous",miscellaneous,PASS,YES
+conferm,confirm,"confers, confirm, confer, conform",confirm,PASS,YES
+visitor,visited,"visited, visitor",visited,PASS,YES
+waulking,walking,"caulking, walking",walking,PASS,YES
+fondmental,fundamental,"fundamental, monumental",monumental,FAIL,YES
+imidialty,immediately,"initially, medially, immediately, timidity",immediately,PASS,YES
+vogure,voucher,"vogue, voucher",voucher,PASS,YES
+serfes,surface,"serves, series, serfs, surface",surface,PASS,YES
+reseved,received,"reseed, received, reserved",received,PASS,YES
+deney,deny,"denny, deny, dene, deneb, dewey",deny,PASS,YES
+snak,sank,"sank, snack, snap, sneak, snake",snake,FAIL,YES
+cancaled,cancelled,"concealed, cancelled, manacled, cascaded, cackled",cancelled,PASS,YES
+temoraly,temporarily,"femoral, temporal, temporally, temporary, temporarily",temporarily,PASS,YES
+ple,pleased,"pie, pee, pole, pleased, pale",pleased,PASS,YES
+no,do,"no, do",do,PASS,YES
+dont,down,"done, don, down, dot, font",down,PASS,YES
+forewood,forward,"forward, firewood, foreword",forward,PASS,YES
+mountinus,mountainous,"mountainous, mountings",mountainous,PASS,YES
+redeuse,reduce,"reduce, reuse, reverse, refuse, release",reverse,FAIL,YES
+dropit,dropped,"droit, dropped",dropped,PASS,YES
+suitation,situation,"station, situation, quotation, citation, mutation",station,FAIL,YES
+hree,here,"here, free, cree, three, tree",tree,FAIL,YES
+may,me,"me, may",me,PASS,YES
+weve,weave,"wave, weave, eve, wee, were",weave,PASS,YES
+apreacheat,appreciate,"appreciate, preheat, preacher, preachers, preached",appreciate,PASS,YES
+cemisty,chemistry,"chemistry, misty, chemists, feisty, chemist",chemistry,PASS,YES
+rapped,wrapped,"wrapped, rapped",wrapped,PASS,YES
+blew,blue,"blew, blue",blue,PASS,YES
+visitd,visited,"visit, visited, visits",visited,PASS,YES
+jin,gym,"join, gym, jan, jun, in",join,FAIL,YES
+querosity,curiosity,"tuberosity, curiosity",curiosity,PASS,YES
+famficay,financially,"jamaica, family, farcical, jamaican, financially",financially,PASS,YES
+knif,knife,"kaif, knife, kif, knit",knife,PASS,YES
+visied,visited,"vised, visited",visited,PASS,YES
+somes,some,"soles, sores, comes, homes, some",comes,FAIL,YES
+disposaile,disposal,"disposal, disposable",disposal,PASS,YES
+turnent,tournament,"turner, turned, tournament, current, turning",tournament,PASS,YES
+vecelosities,facilities,"facilities, necessities, velocities",facilities,PASS,YES
+favatioe,favourite,"vacation, taxation, aviation, salvation, favourite",favourite,PASS,YES
+curituns,curtains,"puritans, curious, curtains",curtains,PASS,YES
+fror,for,"flor, frog, fro, for, from",frog,FAIL,YES
+ladiy,lady,"ladin, lady",lady,PASS,YES
+teacher,teachers,"teacher, teachers",teachers,PASS,YES
+amimable,amiable,"amicable, amiable",amiable,PASS,YES
+undestading,understanding,"understating, undertaking, understanding",undertaking,FAIL,YES
+bigginig,beginning,"begging, digging, beginning, rigging, bugging",beginning,PASS,YES
+solme,solemn,"some, somme, sole, solve, solemn",solemn,PASS,YES
+taugh,laugh,"laugh, tough, taught, haugh, waugh",laugh,PASS,YES
+decidily,decidedly,"deciding, decidedly",decidedly,PASS,YES
+guss,juice,"guess, guns, guys, russ, juice",juice,PASS,YES
+imetialty,immediately,"medially, immediately, initially",immediately,PASS,YES
+his,was,"was, his",was,PASS,YES
+uset,answer,"set, use, user, answer, used",answer,PASS,YES
+butyful,beautiful,"beautiful, butyl, dutiful",beautiful,PASS,YES
+barly,barely,"barley, barry, barely, badly, early",barely,PASS,YES
+reporet,reporter,"report, reporter",reporter,PASS,YES
+get,gets,"get, gets",gets,PASS,YES
+nition,nation,"notion, nation",notion,FAIL,YES
+dabras,dangerous,"debra, debris, dangerous, bras, dallas",dangerous,PASS,YES
+courteousies,courtesies,"courtesies, courthouses",courtesies,PASS,YES
+permentaly,permanently,"parental, permanently, percentage, perfectly, presently",permanently,PASS,YES
+guruantee,guarantee,"grantee, guarantee",guarantee,PASS,YES
+gaurontied,guaranteed,"guarantied, guaranteed",guaranteed,PASS,YES
+jion,join,"jon, ion, lion, dion, join",join,PASS,YES
+sesease,ceased,"sesame, ceased, decease, disease, release",ceased,PASS,YES
+inocient,innocent,"innocent, incident, ancient",innocent,PASS,YES
+muiuets,minutes,"quiets, minutes, mullets, muskets, minuets",minutes,PASS,YES
+daleay,duly,"duly, daley",duly,PASS,YES
+mertillary,materially,"tertiary, medullary, maxillary, materially, artillery",materially,PASS,YES
+sasse,cease,"sassy, passe, cease, tasse, sass",cease,PASS,YES
+counicl,counsel,"council, counsel",counsel,PASS,YES
+irisistble,irresistible,"irresistible, risible",irresistible,PASS,YES
+cametry,cemetery,"camry, cometary, cemetery, camera, cattery",cemetery,PASS,YES
+dond,done,"done, fond, bond, pond, don",done,PASS,YES
+pollesion,politician,"politician, pollution, collusion, collision",politician,PASS,YES
+convientally,conveniently,"coincidentally, congenitally, continually, conveniently, confidentially",coincidentally,FAIL,YES
+autoruim,auditorium,"auditorium, atrium, astoria, quorum, antrim",auditorium,PASS,YES
+conventially,conveniently,"conveniently, congenitally, conventionally",conveniently,PASS,YES
+boored,bored,"booked, booted, bored, moored, boobed",booked,FAIL,YES
+kard,card,"karl, yard, hard, card, ward",yard,FAIL,YES
+idmitized,itemized,"digitized, itemized",itemized,PASS,YES
+phscology,psychology,"psychology, phycology",psychology,PASS,YES
+affective,effective,"affective, effective",effective,PASS,YES
+finaly,final,"finals, finally, finale, finely, final",final,PASS,YES
+specifica,specific,"specifics, specific",specific,PASS,YES
+forula,formula,"morula, formula",formula,PASS,YES
+sarand,surrounded,"strand, saran, surrounded",surrounded,PASS,YES
+opnt,opened,"ont, opt, opened",opened,PASS,YES
+accquance,acquaintance,"acceptance, accordance, acquaintance",acquaintance,PASS,YES
+dollers,dollars,"rollers, hollers, dollars",dollars,PASS,YES
+goes,juice,"goes, juice",juice,PASS,YES
+certuns,curtains,"cereus, reruns, curtains, certs, cartons",curtains,PASS,YES
+countenences,countenance,"countenance, countenances",countenance,PASS,YES
+eliminatory,elementary,"eliminators, eliminator, elementary",elementary,PASS,YES
+miscelanuos,miscellaneous,"miscellaneous, miscellanies",miscellaneous,PASS,YES
+excepted,accepted,"accepted, excepted",accepted,PASS,YES
+rond,around,"around, ron, round, road, bond",round,FAIL,YES
+geurds,guards,"guards, gourds",guards,PASS,YES
+telephone,telephoned,"telephoned, telephone",telephoned,PASS,YES
+euetr,equally,"outer, ever, eur, enter, equally",equally,PASS,YES
+vesertid,visited,"deserted, visited",visited,PASS,YES
+infinante,infinite,"infinite, infante",infinite,PASS,YES
+pitifull,pitiful,"pitiful, pitifully",pitifully,FAIL,YES
+reakon,reckon,"reckon, reason",reckon,PASS,YES
+gallrey,gallery,"galley, gallery",gallery,PASS,YES
+relfy,relief,"reify, relay, relief, rely",relief,PASS,YES
+incuiseing,increasing,"increasing, incising",increasing,PASS,YES
+couth,caught,"mouth, couch, caught, youth, south",caught,PASS,YES
+negotiatins,negotiations,"negotiations, negotiating",negotiations,PASS,YES
+critisise,criticize,"criticise, criticize",criticize,PASS,YES
+degosiations,negotiations,"depositions, negotiations",negotiations,PASS,YES
+notife,notify,"notify, notice",notice,FAIL,YES
+autum,autumn,"aurum, autumn",autumn,PASS,YES
+frome,from,"fromm, frame, rome, from, froze",froze,FAIL,YES
+inventd,invented,"invented, invents, invent",invented,PASS,YES
+distushed,distinguished,"disturbed, disgusted, discussed, disused, distinguished",disturbed,FAIL,YES
+aduoteriam,auditorium,"adulteries, auditorium",auditorium,PASS,YES
+chacactur,chautauqua,"character, chautauqua",chautauqua,PASS,YES
+amdl,immediately,"amyl, immediately",immediately,PASS,YES
+pericluar,particular,"pericles, vesicular, reticular, vehicular, particular",particular,PASS,YES
+odler,older,"oder, oiler, adler, idler, older",older,PASS,YES
+delered,delivered,"deleted, delivered",delivered,PASS,YES
+afficincey,efficiency,"efficiency, affianced",efficiency,PASS,YES
+eterany,attorney,"eternal, veteran, tetany, veterans, attorney",attorney,PASS,YES
+imprtants,important,"imprints, important, implants",important,PASS,YES
+textical,technical,"lexical, textual, tactical, vertical, technical",technical,PASS,YES
+rgan,regained,"gran, regained, ryan, organ, ran",regained,PASS,YES
+conciences,conscience,"conscience, consciences",conscience,PASS,YES
+garantee,guaranteed,"grantee, guarantee, guaranteed",guaranteed,PASS,YES
+concithis,conscientious,"colitis, colchis, conceits, conscientious, conchas",conscientious,PASS,YES
+conest,contest,"honest, congest, contest, cones",honest,FAIL,YES
+delocalisation,delocalization,"localisation, demoralisation, delocalization",demoralization,FAIL,YES
+scandual,schedule,"scandal, schedule",schedule,PASS,YES
+comistry,chemistry,"chemistry, comity",chemistry,PASS,YES
+frighterd,frightened,"frightened, frighted",frightened,PASS,YES
+defernate,definite,"definite, defecate",definite,PASS,YES
+cant,regained,"regained, cant",regained,PASS,YES
+curtices,courtesies,"cortices, courtesies",courtesies,PASS,YES
+notible,noticeable,"notable, noticeable",noticeable,PASS,YES
+gaurteened,guaranteed,"gardened, guaranteed, careened",guaranteed,PASS,YES
+scip,skip,"slip, skip, sci, sip, ship",ship,FAIL,YES
+insedently,incidentally,"incidentally, insolently, inherently, indecently",incidentally,PASS,YES
+innishaion,initiation,"ionisation, incision, initiation",initiation,PASS,YES
+organigation,organization,"organization, organisation",organization,PASS,YES
+verue,virtue,"verde, verse, venue, verge, virtue",virtue,PASS,YES
+spicificily,specifically,"specifically, specificity",specifically,PASS,YES
+forst,frost,"fort, forest, worst, first, frost",first,FAIL,YES
+specip,specifically,"specifically, specie, specif",specifically,PASS,YES
+gon,gone,"gone, on, go, non, got",gone,PASS,YES
+apresaties,apparatus,"treaties, prelates, apparatus, predates, pretties",apparatus,PASS,YES
+resorse,resource,"remorse, resource",resource,PASS,YES
+sow,so,"so, sow",so,PASS,YES
+negociation,negotiations,"negotiations, negotiation",negotiations,PASS,YES
+wey,we,"key, web, way, we, why",why,FAIL,YES
+conlesants,convalescence,"contestants, convalescence",convalescence,PASS,YES
+pemestry,chemistry,"registry, chemistry, poetry, cemetery, semester",chemistry,PASS,YES
+substantialy,substantially,"substantially, substantial",substantially,PASS,YES
+comsuption,conception,"conception, corruption, consumption, combustion",conception,PASS,YES
+lettle,little,"settle, kettle, nettle, little, mettle",settle,FAIL,YES
+pretiest,prettiest,"prettiest, pretest",prettiest,PASS,YES
+bereth,breathe,"breathe, berth, berets, beret",breathe,PASS,YES
+distingwish,distinguished,"distinguished, distinguish",distinguished,PASS,YES
+ipisol,epistle,"epistle, piso, pistol",epistle,PASS,YES
+gooder,glowed,"glowed, goober",glowed,PASS,YES
+thiefs,thieves,"chiefs, thieves, thief",thieves,PASS,YES
+adjourn,adjourned,"adjourned, adjourn",adjourned,PASS,YES
+forgot,forgotten,"forgotten, forgot",forgotten,PASS,YES
+emotion,emotions,"emotion, emotions",emotions,PASS,YES
+sustics,statistics,"rustics, statistics",statistics,PASS,YES
+eqipet,equipped,"edit, equipped, pet, except, equipment",equipped,PASS,YES
+lates,latest,"late, later, latest, rates, dates",latest,PASS,YES
+financhall,financial,"financially, financial",financially,FAIL,YES
+uniomus,unanimous,"unanimous, unions, animus",unanimous,PASS,YES
+holkt,helicopter,"holt, holst, helicopter",helicopter,PASS,YES
+litually,literally,"ritually, literally",literally,PASS,YES
+dards,dangerous,"darts, dangerous, yards, wards, cards",dangerous,PASS,YES
+surrourity,sorority,"sorority, surreality",sorority,PASS,YES
+innichets,initials,"indices, indicates, initials, inches, insights",initials,PASS,YES
+waten,waiting,"waiting, aten, eaten, water, oaten",waiting,PASS,YES
+spercrift,spacecraft,"superscript, spindrift, specify, specif, spacecraft",specify,FAIL,YES
+seelor,cellar,"senior, seller, cellar, sensor, sector",cellar,PASS,YES
+remember,remembrance,"remembrance, remember",remembrance,PASS,YES
+undoutly,undoubtedly,"unduly, undoubtedly",undoubtedly,PASS,YES
+pow,paw,"paw, pow",paw,PASS,YES
+maru,materially,"mar, mark, marc, mary, materially",materially,PASS,YES
+latise,latest,"late, latest, native, latin, ladies",latest,PASS,YES
+solt,ship,"sold, salt, soft, sort, ship",ship,PASS,YES
+notesably,noticeable,"noticeable, notably",noticeable,PASS,YES
+thoughtu,thorough,"thoughts, thorough, thought",thorough,PASS,YES
+steirly,scarcely,"sterile, sternly, steely, scarcely, steeply",scarcely,PASS,YES
+jumper,jumped,"jumped, jumper",jumped,PASS,YES
+prople,people,"people, prole, propel",people,PASS,YES
+permerant,permanent,"permanent, pervert, parmesan, percent, sergeant",permanent,PASS,YES
+reduse,reduce,"refuse, recuse, reuse, reduce",refuse,FAIL,YES
+vascanting,fascinating,"vacating, fascinating",fascinating,PASS,YES
+reqire,require,"retire, rewire, rehire, require",require,PASS,YES
+clody,cloudy,"clods, cloy, cody, clod, cloudy",cloy,FAIL,YES
+dair,dinner,"pair, hair, dinner, fair, air",dinner,PASS,YES
+anuum,annum,"album, angus, annum, anus, vacuum",annum,PASS,YES
+tectional,technical,"sectional, technical",technical,PASS,YES
+prent,print,"parent, print, trent, brent, rent",parent,FAIL,YES
+seriose,seriously,"seriously, serine, series, serious, verbose",serious,FAIL,YES
+succeded,succeeded,"succeed, succeeded",succeeded,PASS,YES
+littal,little,"ritual, vital, litter, little, literal",little,PASS,YES
+presition,precision,"position, prediction, precision, petition, preston",precision,PASS,YES
+franck,frank,"frank, franck",frank,PASS,YES
+verchuse,virtues,"berceuse, virtues",virtues,PASS,YES
+volture,voucher,"vulture, voiture, voucher",voucher,PASS,YES
+chior,choir,"choir, chios",choir,PASS,YES
+pysition,physician,"position, physician",physician,PASS,YES
+am,an,"am, an",an,PASS,YES
+ammyable,amiable,"amiable, amenable, amicable",amiable,PASS,YES
+enema,annum,"enema, annum",annum,PASS,YES
+incedentely,incidentally,"incidental, incidentally, incidentals, inherently, indecently",incidentally,PASS,YES
+meloncial,melancholy,"melancholy, menial, memorial, colonial, melodia",melancholy,PASS,YES
+wones,ones,"wines, zones, jones, tones, ones",ones,PASS,YES
+cheres,cherries,"ceres, chores, cherries, heres, cheers",cherries,PASS,YES
+damaze,damage,"damage, lamaze, amaze",amaze,FAIL,YES
+them,then,"then, them",then,PASS,YES
+pristishen,precision,"precision, pristine",precision,PASS,YES
+aminat,annum,"annum, laminate, amiga, amino, mint",annum,PASS,YES
+sillfully,skilfully,"wilfully, soulfully, sinfully, skilfully",skilfully,PASS,YES
+subteraem,subterranean,"submerged, subterranean, submerge, subtract, subseries",subterranean,PASS,YES
+suppemtant,suspicion,"suppressant, supplement, supplicant, supplant, suspicion",suspicion,PASS,YES
+recenly,recently,"recently, recency",recently,PASS,YES
+bouk,buck,"bork, bock, book, buck, bout",book,FAIL,YES
+embarsed,embarrassed,"embarrassed, embarked",embarrassed,PASS,YES
+enthusem,enthusiasm,"enthused, enthuses, enthuse, enthusiasm",enthusiasm,PASS,YES
+versility,versatility,"versatility, servility, fertility, virility",fertility,FAIL,YES
+aurgument,arguments,"argument, arguments",arguments,PASS,YES
+anicty,anxiety,"unity, anxiety, nifty, anita, vanity",anxiety,PASS,YES
+skool,school,"shool, skoal, school, spool, stool",school,PASS,YES
+inaxcersable,inaccessible,"inexcusable, inaccessible",inaccessible,PASS,YES
+speicel,special,"spices, spencer, spice, special, species",special,PASS,YES
+rmood,removed,"mood, removed, rood",removed,PASS,YES
+predutious,prejudice,"productions, previous, prejudice, predictions, precious",prejudice,PASS,YES
+canciling,cancelling,"cackling, cancelling, calcining, candling",cancelling,PASS,YES
+promis,promise,"promos, promise, proms",promise,PASS,YES
+producs,products,"produce, product, products, produces",product,FAIL,YES
+avape,available,"agape, available",available,PASS,YES
+sor,sore,"sore, sort, so, or, for",for,FAIL,YES
+consieve,conceive,"conceive, conserve, congreve, connive",conceive,PASS,YES
+payes,prayers,"prayers, hayes, payer, pages, pays",prayers,PASS,YES
+inasent,innocent,"insert, indent, intent, innocent, insect",innocent,PASS,YES
+thare,there,"there, share, thane, thar, hare",there,PASS,YES
+enzwar,enquire,"endear, enquire",enquire,PASS,YES
+depreshtion,depression,"depression, deprecation, depredation",depression,PASS,YES
+enjoured,enjoyed,"injured, endured, enjoined, ensured, enjoyed",enjoyed,PASS,YES
+collegues,colleagues,"colleagues, colleges",colleagues,PASS,YES
+furcher,future,"future, lurcher, further",future,PASS,YES
+ardiorally,ordinarily,"radically, adorably, radially, rationally, ordinarily",ordinarily,PASS,YES
+kindes,kindest,"kindles, kindest, kinder, kines, kinds",kindles,FAIL,YES
+resanos,reasons,"resents, resins, reasons, resales, resinous",reasons,PASS,YES
+listern,listen,"cistern, listen, lister, listers",listen,PASS,YES
+reson,reason,"recon, reason, meson, resin, redon",reason,PASS,YES
+blak,block,"blake, black, blank, blah, block",blank,FAIL,YES
+trare,traffic,"trace, rare, trade, tare, traffic",traffic,PASS,YES
+volgur,vulgar,"velour, voyeur, vogue, vulgar, colour",vulgar,PASS,YES
+tweens,twenties,"tweeds, tween, teens, twenties",teens,FAIL,YES
+fires,fire,"fires, fire",fire,PASS,YES
+garaunteed,guarantee,"guaranteed, guarantee",guaranteed,FAIL,YES
+maintain,mountainous,"maintain, mountainous",mountainous,PASS,YES
+magnifance,magnificent,"magnificence, cognizance, cognisance, magnificent, magnifico",magnificent,PASS,YES
+agentsey,agencies,"agents, agencies",agencies,PASS,YES
+mude,mood,"made, mode, nude, mood, dude",made,FAIL,YES
+papy,papa,"papa, pap, pappy, pay, paps",pay,FAIL,YES
+wthe,with,"with, withe, the",with,PASS,YES
+refound,refund,"redound, rewound, resound, rebound, refund",refund,PASS,YES
+concience,conscientious,"conscience, conscientious",conscientious,PASS,YES
+flgnge,flagrancy,"flange, flagrancy",flagrancy,PASS,YES
+critisima,criticism,"criticisms, criticize, criteria, criticism, criticise",criticism,PASS,YES
+trymp,triumph,"tramp, tromp, trump, triumph",triumph,PASS,YES
+rist,wrist,"rest, wrist, list, risk, rise",risk,FAIL,YES
+misstory,mystery,"mystery, history",mystery,PASS,YES
+iffanate,infinite,"infante, infinite",infinite,PASS,YES
+transsfherd,transferred,"transfer, transfers, transferred",transferred,PASS,YES
+betfle,beautiful,"bottle, belle, battle, settle, beautiful",beautiful,PASS,YES
+crorse,courses,"courses, crores, crosse, crore, corse",courses,PASS,YES
+acsha,actually,"aisha, actually",actually,PASS,YES
+constant,consistent,"constant, consistent",consistent,PASS,YES
+gollot,galloped,"galloped, ballot, follow, gallon, hollow",galloped,PASS,YES
+diner,dinner,"diner, dinner",dinner,PASS,YES
+prefured,preferred,"prepared, presumed, preferred, procured, refused",preferred,PASS,YES
+theres,these,"theresa, these, theses, there, themes",there,FAIL,YES
+recorse,resource,"remorse, recourse, resource",resource,PASS,YES
+harrasd,harassed,"harrods, harassed, harvard, harris, harass",harassed,PASS,YES
+hrouss,horse,"hours, cross, horse, house, groups",horse,PASS,YES
+acrood,accrued,"crowd, accord, across, abroad, accrued",accrued,PASS,YES
+sand,send,"sand, send",send,PASS,YES
+teramant,tournament,"tournament, germany, german, merchant, treatment",tournament,PASS,YES
+roud,road,"road, round, loud, rod, proud",round,FAIL,YES
+inacsesable,inaccessible,"inalienable, inadvisable, inaccessible",inaccessible,PASS,YES
+gape,grippe,"gape, grippe",grippe,PASS,YES
+ansight,anxiety,"anxiety, insight",anxiety,PASS,YES
+contiment,continent,"continent, condiment",continent,PASS,YES
+affionate,affectionate,"affiliate, affectionate",affectionate,PASS,YES
+eazily,easily,"easily, lazily",easily,PASS,YES
+subtorum,subterranean,"subterranean, subaru, quorum, subtotal, storm",subterranean,PASS,YES
+ordiance,audience,"ordinance, ordnance, audience",ordinance,FAIL,YES
+dear,dinner,"dear, dinner",dinner,PASS,YES
+fist,first,"first, fist",first,PASS,YES
+expically,especially,"topically, ethically, especially, lexically, typically",especially,PASS,YES
+unanus,unanimous,"uranus, unanimous",unanimous,PASS,YES
+desetain,destination,"destination, detain",destination,PASS,YES
+rend,removed,"removed, rend",removed,PASS,YES
+shure,sure,"shute, shore, share, sure, shire",sure,PASS,YES
+wah,wall,"war, wash, way, wall, was",wall,PASS,YES
+incodently,incidentally,"incidentally, innocently, insolently",incidentally,PASS,YES
+sapmbed,scrambled,"scrambled, sampled, spammed, sapped",scrambled,PASS,YES
+astate,estate,"estate, state, astarte, astute",estate,PASS,YES
+cloded,glowed,"closed, cloned, glowed, coded, clouded",glowed,PASS,YES
+seets,street,"sets, street, meets, seems, sheets",street,PASS,YES
+handr,here,"hand, hands, here, handy",hand,FAIL,YES
+procedner,procedure,"provender, procedure",procedure,PASS,YES
+demed,deem,"domed, deme, deed, deemed, deem",deem,PASS,YES
+yaht,yacht,"baht, yacht, yah",yacht,PASS,YES
+exseptionly,exceptionally,"exception, exceptional, exceptions, exceptionally",exceptionally,PASS,YES
+dong,above,"above, dong",above,PASS,YES
+thin,think,"thin, think",think,PASS,YES
+atul,actually,"actually, all, aug, at, al",actually,PASS,YES
+opater,operator,"operator, paper, later, peter, water",operator,PASS,YES
+alumie,alumni,"albumin, plume, laurie, alumni, alum",alumni,PASS,YES
+coard,cord,"chard, board, cord, coward, card",board,FAIL,YES
+spleand,splendid,"spread, spleen, spend, splendid, upland",splendid,PASS,YES
+gatherd,gathered,"gathers, goatherd, gathered, gather",goatherd,FAIL,YES
+calartral,collateral,"collateral, cadastral",collateral,PASS,YES
+holey,holy,"holy, holey",holy,PASS,YES
+mueusem,museum,"museum, meuse",museum,PASS,YES
+tradegy,tragedy,"trades, trader, strategy, tragedy, trade",tragedy,PASS,YES
+astablasing,establishing,"stabling, stabilising, establishing",establishing,PASS,YES
+veided,viewed,"viewed, voided, veiled, veined, vended",viewed,PASS,YES
+imiedily,immediately,"immediately, immediacy, speedily, mildly, impeding",immediately,PASS,YES
+aas,anxious,"has, anxious, was, gas, as",anxious,PASS,YES
+santel,certainly,"mantel, certainly, santee",certainly,PASS,YES
+aneversarry,anniversary,"adversary, anniversary",anniversary,PASS,YES
+votur,voucher,"voucher, voter",voucher,PASS,YES
+unfornally,unfortunately,"informally, unfortunately",unfortunately,PASS,YES
+neverless,nevertheless,"nerveless, peerless, needless, nevertheless",nevertheless,PASS,YES
+grad,grade,"grad, grade",grade,PASS,YES
+inconvienc,inconvenience,"incontinent, inconvenient, inconvenience, incontinence",inconvenience,PASS,YES
+aas,as,"was, as, has, ass, gas",gas,FAIL,YES
+sambled,scrambled,"ambled, scrambled, sampled, gambled, rambled",scrambled,PASS,YES
+stoble,suitable,"stable, suitable, stole",suitable,PASS,YES
+upplied,applied,"applied, supplied",supplied,FAIL,YES
+conture,conditions,"conditions, conjure, conure, couture",conditions,PASS,YES
+proceedual,procedure,"procedural, procedure",procedure,PASS,YES
+alumi,alumni,"alumni, alum, alums",alumni,PASS,YES
+voage,voyage,"vouge, voyage",voyage,PASS,YES
+plane,plan,"plan, plane",plan,PASS,YES
+fom,from,"from, form, for, tom, com",form,FAIL,YES
+boms,bombs,"bots, bombs, boss, boys, bomb",boys,FAIL,YES
+dum,dumb,"sum, dumb, due, cum, drum",dumb,PASS,YES
+freesen,freezing,"freemen, freezing",freezing,PASS,YES
+querisity,curiosity,"tuberosity, lubricity, curiosity, sterility",curiosity,PASS,YES
+stret,street,"strep, stree, stet, street, strut",street,PASS,YES
+umanaress,unanimous,"mattress, manages, undress, unanimous, managers",unanimous,PASS,YES
+percieved,perceive,"perceived, perceive",perceive,PASS,YES
+fedj,hedge,"feds, hedge, fed",hedge,PASS,YES
+judjment,judgement,"judgment, judgement",judgment,FAIL,YES
+texnical,technical,"lexical, technical",technical,PASS,YES
+fthi,thin,"thin, fth",thin,PASS,YES
+harrost,harassed,"harvest, arrest, harriet, harassed, harris",harassed,PASS,YES
+infinet,infinite,"infinity, infinite, inline, infidel, infant",infinite,PASS,YES
+suden,southern,"auden, sudden, sudan, southern",southern,PASS,YES
+recit,receipt,"refit, rect, recite, receipt, remit",receipt,PASS,YES
+qunnia,guinea,"quanta, sunni, sunna, guinea, sunnis",guinea,PASS,YES
+ochen,ocean,"chen, ocean, cohen",ocean,PASS,YES
+shay,shaggy,"shay, shaggy",shaggy,PASS,YES
+atened,attend,"attend, atoned",attend,PASS,YES
+consums,consumes,"consume, consumes, consuls",consume,FAIL,YES
+wosh,wash,"wish, josh, gosh, wash, posh",wish,FAIL,YES
+col,call,"call, col",call,PASS,YES
+antisopat,anticipate,"antipodal, anticipate, antipope, antipas, antisocial",anticipate,PASS,YES
+phychiology,psychology,"physiology, phycology, psychology",psychology,PASS,YES
+felid,field,"felix, fetid, field",field,PASS,YES
+episcel,epistle,"epistle, pisces",epistle,PASS,YES
+enuf,enough,"end, eur, menu, ends, enough",enough,PASS,YES
+aliv,alive,"ali, alive",alive,PASS,YES
+expeneds,experts,"expends, experts",experts,PASS,YES
+teyd,tied,"tend, ted, tied, teed",tied,PASS,YES
+practicaly,practically,"practicals, practicably, practically, practical",practically,PASS,YES
+carage,garage,"carnage, cartage, carafe, garage",garage,PASS,YES
+cesed,seized,"cased, ceded, censed, ceased, seized",ceased,FAIL,YES
+malod,modelled,"mad, modelled, valid, major, male",modelled,PASS,YES
+mutule,mutual,"module, muscle, mutual, mature, future",mutual,PASS,YES
+stores,stories,"stories, stores",stories,PASS,YES
+embarest,embarrassed,"embarks, barest, embarrassed",embarrassed,PASS,YES
+mounteless,mountainous,"countless, mountainous",mountainous,PASS,YES
+halp,help,"hall, help, half, hal, halo",half,FAIL,YES
+figuars,figures,"figaro, figures, figure, jaguars, cigars",figures,PASS,YES
+bet,belt,"bet, belt",belt,PASS,YES
+cese,courses,"cede, cease, case, cess, courses",cease,FAIL,YES
+vogular,vulgar,"vulgar, regular, angular, modular, popular",vulgar,PASS,YES
+alfool,awful,"fool, afoot, alford, awful, alcohol",awful,PASS,YES
+abont,about,"abort, about",about,PASS,YES
+care,kind,"care, kind",kind,PASS,YES
+unuasally,unusually,"nasally, unusually",unusually,PASS,YES
+constistant,consistent,"contestant, consistent",consistent,PASS,YES
+minumun,minimum,"minimus, minimum",minimum,PASS,YES
+plaing,playing,"playing, plain, plains, plating, placing",playing,PASS,YES
+agisted,accident,"accident, twisted, assisted, listed, existed",accident,PASS,YES
+conculed,cancelled,"confused, conclude, consumed, cancelled, concluded",cancelled,PASS,YES
+ordinar,ordinarily,"ordinarily, ordinary, ordinal",ordinarily,PASS,YES
+resing,resting,"resin, resting, resign, resins, rising",rising,FAIL,YES
+understend,understand,"underspend, understand",understand,PASS,YES
+hala,hot,"half, hot, ala, hall, halo",half,FAIL,YES
+radiater,radiator,"radiates, radiated, radiate, radiator",radiator,PASS,YES
+evrthing,everything,"earthing, everything",everything,PASS,YES
+bicites,biscuits,"cites, bites, biscuits, ascites, excites",biscuits,PASS,YES
+desidaly,decidedly,"decidedly, desirably",decidedly,PASS,YES
+imediately,immediately,"mediately, immediately",immediately,PASS,YES
+pitersque,picturesque,"picturesque, picaresque",picturesque,PASS,YES
+suplimente,supplement,"supplements, supplemented, supplement, sublimate",supplement,PASS,YES
+awate,await,"aware, awake, agate, abate, await",awake,FAIL,YES
+aroid,round,"arid, round, avoid, droid",avoid,FAIL,YES
+recesting,requesting,"recessing, recasting, requesting, retesting",requesting,PASS,YES
+plain,plane,"plane, plain",plane,PASS,YES
+fared,friend,"friend, fared",friend,PASS,YES
+oppeset,opposite,"opposed, oppose, preset, opposes, opposite",opposite,PASS,YES
+negotions,negotiations,"negations, negotiations",negotiations,PASS,YES
+hat,that,"hat, that",that,PASS,YES
+serpluse,surplus,"surplus, surpluses",surplus,PASS,YES
+fath,faith,"faith, fath",faith,PASS,YES
+pusing,pushing,"fusing, pushing, musing, using, posing",pushing,PASS,YES
+secors,scissors,"scissors, decors, sectors",scissors,PASS,YES
+inscentily,incidentally,"innocently, instantly, intently, incidentally, incentive",instantly,FAIL,YES
+apoximate,approximate,"approximate, proximate",approximate,PASS,YES
+tecnicte,technical,"venice, technical, technics, termite, technique",technical,PASS,YES
+exspidtion,exhibition,"expiation, exhibition",exhibition,PASS,YES
+expart,expert,"export, expat, expert",expert,PASS,YES
+dotifol,beautiful,"dutiful, beautiful",beautiful,PASS,YES
+consul,counsel,"counsel, consul",counsel,PASS,YES
+appolage,apology,"appellate, applause, applaud, apology, apple",apology,PASS,YES
+torrially,thoroughly,"cordially, thoroughly",thoroughly,PASS,YES
+decend,descend,"defend, descend, decent, depend",decent,FAIL,YES
+jeanues,genius,"jeanne, jeans, leagues, genius, venues",genius,PASS,YES
+intersesting,interesting,"intersecting, interesting",interesting,PASS,YES
+equalical,economical,"equalized, equalizer, equalize, economical, equality",economical,PASS,YES
+bal,ball,"bal, ball",ball,PASS,YES
+picturious,picturesque,"victorious, picturesque",picturesque,PASS,YES
+dimed,deem,"dime, died, timed, deem, aimed",deem,PASS,YES
+rand,around,"around, rand",around,PASS,YES
+sands,sons,"sons, sands",sons,PASS,YES
+adittion,addition,"aviation, radiation, adoption, addition, edition",adoption,FAIL,YES
+acceptably,acceptable,"acceptably, acceptable",acceptable,PASS,YES
+anziite,anxiety,"anytime, anxiety, antique, invite, anime",anxiety,PASS,YES
+cot,caught,"cot, caught",caught,PASS,YES
+stumagh,stomach,"stumpage, stomach",stomach,PASS,YES
+begaining,beginning,"regaining, beginning",beginning,PASS,YES
+wreack,wreck,"wreak, wrack, wreck",wrack,FAIL,YES
+supervison,supervision,"supervision, supervisor",supervisor,FAIL,YES
+garuntie,guarantee,"guarantee, auntie",guarantee,PASS,YES
+annepld,unemployed,"annexed, annealed, annelid, unemployed, anneal",unemployed,PASS,YES
+sish,ship,"ssh, fish, ship, wish, dish",ship,PASS,YES
+consititute,conditions,"conditions, constitute",conditions,PASS,YES
+purculer,peculiar,"pursuer, peculiar",peculiar,PASS,YES
+pretent,pretend,"present, pretend, pretest, pretext, prevent",pretend,PASS,YES
+milke,milk,"milky, mike, milne, milk, mile",milk,PASS,YES
+belive,belief,"believe, belize, relive, belief, belie",belief,PASS,YES
+goyd,glowed,"god, gold, boyd, glowed, good",glowed,PASS,YES
+restaraunt,restaurant,"restaurant, restraint",restaurant,PASS,YES
+strog,strong,"strop, stroy, strong, sprog",strong,PASS,YES
+tecter,teacher,"tester, teeter, tenter, teacher",teacher,PASS,YES
+flosphey,philosophy,"philosophy, osprey, floppy, flasher, flashes",philosophy,PASS,YES
+whirling,whistling,"whistling, whirling",whistling,PASS,YES
+delecate,delicate,"delegate, defecate, delicate",delicate,PASS,YES
+cramp,crammed,"cramp, crammed",crammed,PASS,YES
+finarley,finally,"finales, finley, finale, finally, farley",finally,PASS,YES
+basen,based,"based, basin, base, bases, basel",base,FAIL,YES
+ternement,tournament,"tenement, tournament",tournament,PASS,YES
+scholer,scholar,"scholar, choler",scholar,PASS,YES
+lether,leather,"nether, letter, luther, leather, ether",luther,FAIL,YES
+vetlettd,ventilated,"vendetta, depleted, ventilated, deleted, hewlett",ventilated,PASS,YES
+pumament,permanent,"permanent, armament, putamen",permanent,PASS,YES
+accostom,accustomed,"accustomed, accustom",accustomed,PASS,YES
+wefe,with,"weft, were, wee, wife, with",with,PASS,YES
+em,him,"mem, am, me, him, pm",him,PASS,YES
+dake,date,"make, date, lake, take, dave",date,PASS,YES
+priviage,privilege,"privilege, private, rivage",privilege,PASS,YES
+turst,touched,"hurst, durst, trust, burst, touched",touched,PASS,YES
+stumuke,stomach,"stumble, stomach",stomach,PASS,YES
+tak,take,"tax, tag, task, talk, take",talk,FAIL,YES
+onu,own,"on, own, ont, one, gnu",own,PASS,YES
+frind,friends,"find, friend, grind, friends, fried",friends,PASS,YES
+cauge,gauge,"cage, cause, gauge",gauge,PASS,YES
+exposit,exquisite,"exquisite, deposit, export, exploit, exposed",exquisite,PASS,YES
+beacful,beautiful,"beautiful, tearful, peaceful, earful, fearful",beautiful,PASS,YES
+sissor,scissors,"scissors, scissor",scissors,PASS,YES
+arosed,arose,"aroused, arsed, arose",aroused,FAIL,YES
+souther,southern,"souther, southern",southern,PASS,YES
+predugtis,prejudice,"predates, prejudice, products, predicts",prejudice,PASS,YES
+behin,behind,"behind, begin, benin, behan, bevin",behind,PASS,YES
+annon,annum,"annoy, anton, cannon, anon, annum",annum,PASS,YES
+ackcrewd,accrued,"accreted, accrete, aircrews, aircrew, accrued",accrued,PASS,YES
+a,i,"i, a",i,PASS,YES
+aluminum,alumni,"alumni, aluminium",alumni,PASS,YES
+rofe,roof,"rope, rome, roof, rose, role",rope,FAIL,YES
+quite,quiet,"quite, quiet",quiet,PASS,YES
+seahed,searched,"seated, seabed, sealed, searched, seared",searched,PASS,YES
+agains,against,"against, again, gains",again,FAIL,YES
+foregot,forgot,"forgot, foregut, forego",forgot,PASS,YES
+cherden,children,"harden, cherie, chechen, children, herder",children,PASS,YES
+wemn,women,"women, wean, wen, ween",women,PASS,YES
+galped,galloped,"gaped, galled, galloped, gulped, gasped",galloped,PASS,YES
+pracission,precision,"procession, precision, precession",precision,PASS,YES
+stary,story,"star, stay, stars, story, start",story,PASS,YES
+principaeles,principles,"principals, principles",principles,PASS,YES
+orp,opened,"ore, org, opened, corp, or",opened,PASS,YES
+sementry,cemetery,"cemetery, sentry, sedentary, seminary, seventy",cemetery,PASS,YES
+anyance,annoyance,"advance, enhance, nance, anyone, annoyance",annoyance,PASS,YES
+disapantment,disappointment,"disappointment, disbandment",disappointment,PASS,YES
+bussiness,business,"business, fussiness",business,PASS,YES
+inconventients,inconvenienced,"inconvenient, inconvenienced",inconvenienced,PASS,YES
+cunfitl,comfortable,"unfit, comfortable",comfortable,PASS,YES
+tournate,tournament,"tournai, courante, ornate, ternate, tournament",tournament,PASS,YES
+sulroarity,sorority,"solidarity, sorority, vulgarity, surreality",sorority,PASS,YES
+simitray,symmetry,"simitar, symmetry",symmetry,PASS,YES
+estructure,structure,"restructure, structure",structure,PASS,YES
+marcing,walking,"marking, arcing, marring, marching, walking",walking,PASS,YES
+especaly,especially,"especial, especially",especially,PASS,YES
+anes,any,"ones, ans, lanes, any, ages",any,PASS,YES
+wakn,walking,"wan, walking, wake, wank, warn",walking,PASS,YES
+loost,lost,"loose, loot, roost, boost, lost",lost,PASS,YES
+poped,propped,"posed, pope, hoped, propped, popped",popped,FAIL,YES
+infantent,infinite,"infante, infinite",infinite,PASS,YES
+satshtions,station,"situations, sanctions, stations, fashions, station",situations,FAIL,YES
+enomic,economics,"genomic, economics",economics,PASS,YES
+specialisted,specialized,"specialized, specialised",specialized,PASS,YES
+matterally,materially,"materially, maternally, laterally",materially,PASS,YES
+poetery,poetry,"pottery, poetry",poetry,PASS,YES
+ma,my,"may, me, a, am, my",may,FAIL,YES
+enteard,entered,"enteral, enters, enter, entered, unheard",entered,PASS,YES
+enaumous,unanimous,"unanimous, enormous",unanimous,PASS,YES
+crickt,cricket,"cricket, crick",cricket,PASS,YES
+neather,neither,"leather, heather, neither, weather, feather",neither,PASS,YES
+lenth,length,"tenth, leith, lent, length, lento",length,PASS,YES
+vehr,very,"veer, lehr, very",very,PASS,YES
+ansay,anxious,"anxious, assay",anxious,PASS,YES
+disabelled,disabled,"disabled, dispelled, isabelle",disabled,PASS,YES
+xedet,accident,"edit, reset, accident, feet, meet",accident,PASS,YES
+diveid,delivered,"dived, delivered",delivered,PASS,YES
+disgis,biscuits,"dishes, biscuits, digit, disks, discs",biscuits,PASS,YES
+wake,woke,"woke, wake",woke,PASS,YES
+canvis,canvass,"canvas, canvass",canvass,PASS,YES
+alumany,alumni,"altman, albany, alumni, alimony, alumina",alumni,PASS,YES
+galopet,galloped,"galloper, galore, galop, galloped",galloped,PASS,YES
+acombished,accomplished,"combined, ambushed, abolished, admonished, accomplished",abolished,FAIL,YES
+blok,block,"blok, block",block,PASS,YES
+remcome,museum,"remove, remote, welcome, museum, become",museum,PASS,YES
+awairness,awareness,"wariness, fairness, awareness",awareness,PASS,YES
+requird,required,"require, required",require,FAIL,YES
+wely,really,"ely, really, rely, weld, well",really,PASS,YES
+predjudous,prejudice,"predaceous, credulous, prejudice",prejudice,PASS,YES
+whoim,women,"women, whim, whom",women,PASS,YES
+phunmonia,pneumonia,"pneumonia, pulmonic, pannonia",pneumonia,PASS,YES
+retrun,return,"return, rerun",return,PASS,YES
+jwellary,jewelry,"jewellery, jewelry",jewellery,FAIL,YES
+efect,effect,"elect, erect, effect, defect, eject",effect,PASS,YES
+projer,project,"project, prover, proper",project,PASS,YES
+dispell,dispel,"ispell, dispels, dispel",ispell,FAIL,YES
+requsion,requisition,"recursion, revision, requisition, reunion, delusion",requisition,PASS,YES
+saing,sank,"sank, swing, saint, saving, saying",sank,PASS,YES
+gualley,gradually,"gradually, galley",gradually,PASS,YES
+safil,favourite,"favourite, sail",favourite,PASS,YES
+garanttee,guarantee,"guarantee, grantee",guarantee,PASS,YES
+disaned,designed,"diane, designed, diseased, disabled, disney",designed,PASS,YES
+saering,saying,"saying, searing",saying,PASS,YES
+wonder,wander,"wonder, wander",wander,PASS,YES
+bron,brown,"born, ron, bon, brown, iron",brown,PASS,YES
+quotion,quotation,"question, auction, equation, quotation, motion",quotation,PASS,YES
+astablish,establish,"establish, stablish",establish,PASS,YES
+serched,searched,"perched, searched",searched,PASS,YES
+seplis,surplus,"surplus, sepsis",surplus,PASS,YES
+axsherly,actually,"sherry, actually, archery, fishery, shelly",actually,PASS,YES
+concionious,conscience,"continuous, conscientious, conscience",conscientious,FAIL,YES
+buglar,burglar,"bugler, burglar, bulgar",burglar,PASS,YES
+departed,departure,"departure, departed",departure,PASS,YES
+cough,coarse,"coarse, cough",coarse,PASS,YES
+employ,employees,"employ, employees",employees,PASS,YES
+perminent,permanent,"pertinent, permanent",permanent,PASS,YES
+enoience,annoyance,"annoyance, sentience",annoyance,PASS,YES
+ferce,fierce,"farce, fence, fere, force, fierce",fierce,PASS,YES
+specifect,specific,"specific, specifics",specific,PASS,YES
+beten,pretend,"pretend, beaten, betel, been",pretend,PASS,YES
+anumonian,pneumonia,"antonia, rumanian, armenian, pneumonia, ammonia",pneumonia,PASS,YES
+rporigs,repairs,"repairs, sprigs",repairs,PASS,YES
+vacantsey,vacancy,"vacantly, vacancy",vacancy,PASS,YES
+sood,sound,"sound, food, soon, wood, good",sound,PASS,YES
+custamory,customary,"gustatory, customary",customary,PASS,YES
+eye,eyes,"eyes, eye",eyes,PASS,YES
+sin,thin,"thin, sin",thin,PASS,YES
+injurey,injury,"injurer, injure, injured, injury, injures",injured,FAIL,YES
+sing,should,"should, sing",should,PASS,YES
+witch,which,"witch, which",which,PASS,YES
+hyge,huge,"huge, hype, hyde",huge,PASS,YES
+pincal,pinnacle,"pineal, pinnacle",pinnacle,PASS,YES
+predgudis,prejudice,"prejudice, precludes, preludes",prejudice,PASS,YES
+mudy,muddy,"mud, rudy, muddy, judy",muddy,PASS,YES
+establesen,establishing,"stables, establishes, establishing, establish, established",establishing,PASS,YES
+rigd,regained,"rigid, regained, riga, rid, rig",regained,PASS,YES
+aturely,accrued,"maturely, accrued",accrued,PASS,YES
+flim,film,"film, flip, flit, flam, slim",flip,FAIL,YES
+geve,give,"eve, gene, give, gee, gave",give,PASS,YES
+eaquly,equally,"equally, easily, early",equally,PASS,YES
+lesses,losses,"losses, leases, lenses, lessee, lesser",lesser,FAIL,YES
+suffertinal,sufficiently,"sufferings, suffering, sufficiently",sufficiently,PASS,YES
+fill,fell,"fell, fill",fell,PASS,YES
+ceas,cease,"cease, seas, teas, yeas, peas",cease,PASS,YES
+visitilly,facilities,"visibility, visually, initially, facilities, visiting",initially,FAIL,YES
+exsests,exists,"expects, excess, experts, exists, exerts",exists,PASS,YES
+bode,bored,"bored, bode",bored,PASS,YES
+indepentive,indefinitely,"indefinitely, inexpensive, inventive, inattentive, incentive",indefinitely,PASS,YES
+materialily,materially,"materiality, materially",materially,PASS,YES
+aniciation,initiation,"anticipation, initiation, animation",initiation,PASS,YES
+consuinces,conscientious,"consciences, conscientious, convinces",conscientious,PASS,YES
+conty,county,"monty, county, coney, cont, conte",county,PASS,YES
+wheather,whether,"whether, heather, weather",weather,FAIL,YES
+doc,dr,"dr, doc",dr,PASS,YES
+opin,open,"odin, open, pin, olin, spin",open,PASS,YES
+acordian,accordion,"accordion, acadian, cordial, gordian",accordion,PASS,YES
+firmiler,familiar,"firmer, familiar",familiar,PASS,YES
+deneigh,deny,"reweigh, deny, neigh",deny,PASS,YES
+intion,initiation,"inion, initiation",initiation,PASS,YES
+wan,wanted,"wanted, wan",wanted,PASS,YES
+beituful,beautiful,"blissful, beautiful, pitiful, restful, faithful",beautiful,PASS,YES
+fecinating,fascinating,"fascinating, decimating",fascinating,PASS,YES
+look,looked,"look, looked",looked,PASS,YES
+purpuse,purpose,"purpose, purpure",purpose,PASS,YES
+supplemt,supplement,"supple, supplant, supplement",supplement,PASS,YES
+wherby,whereby,"herby, whereby, wherry",whereby,PASS,YES
+yello,yellow,"jello, yell, cello, hello, yellow",hello,FAIL,YES
+faconcey,vacancies,"hackney, vacancy, fancy, vacancies, convey",vacancies,PASS,YES
+speciocally,specifically,"specifically, specially",specifically,PASS,YES
+exemin,examine,"elemis, examen, exempt, examine, axeman",examine,PASS,YES
+existes,exists,"exists, existed",exists,PASS,YES
+wond,wonder,"wind, wonder, wood, won, word",wonder,PASS,YES
+oul,owl,"owl, jul, our, oil, out",out,FAIL,YES
+margen,margin,"marten, marge, morgen, margin",margin,PASS,YES
+infuse,enthusiasm,"enthusiasm, infuse",enthusiasm,PASS,YES
+servese,surface,"serves, surface",surface,PASS,YES
+leep,leap,"lee, sleep, keep, leap, deep",sleep,FAIL,YES
+principl,principle,"principal, principe, principle",principle,PASS,YES
+sackfulls,sackfuls,"tactfully, sackfuls, backfill, skulls, sackville",tactfully,FAIL,YES
+timp,type,"time, tip, temp, type, tim",type,PASS,YES
+empoler,employer,"employer, empower",employer,PASS,YES
+tunel,tunnel,"tuner, tuned, tunes, tune, tunnel",tunnel,PASS,YES
+impurite,impurities,"impurities, impurity",impurities,PASS,YES
+aghd,edge,"edge, agha, aged",edge,PASS,YES
+imeditery,immediately,"immediately, mediately",immediately,PASS,YES
+iniatation,initiation,"imitation, invitation, initiation, infatuation, inhalation",initiation,PASS,YES
+fashioness,fashions,"fashioned, fashions",fashioned,FAIL,YES
+aguran,adjourned,"anuran, adjourned",adjourned,PASS,YES
+gurranteed,guarantee,"guaranteed, guarantee",guaranteed,FAIL,YES
+elementry,eliminate,"eliminate, elementary",eliminate,PASS,YES
+bocs,pockets,"bots, docs, boss, pockets, boys",pockets,PASS,YES
+counshes,conscience,"counsel, courses, counties, conscience, couches",conscience,PASS,YES
+lod,load,"log, god, load, old, low",load,PASS,YES
+realing,real,"reading, dealing, real, healing, sealing",dealing,FAIL,YES
+conglutation,congratulations,"consultation, congratulations",congratulations,PASS,YES
+musiams,museum,"museum, musings, musicals, muslims, museums",museum,PASS,YES
+sighlingh,signature,"signature, sighting, sightings, sighing",sighting,FAIL,YES
+aborratus,apparatus,"abrogates, borates, apparatus, aborts",apparatus,PASS,YES
+agoshion,negotiations,"fashion, erosion, adoption, negotiations, abortion",negotiations,PASS,YES
+nurrishmen,contented,"irishmen, nourishment, contented",contented,PASS,YES
+galpd,galloped,"glad, galloped, valid, gap, gold",galloped,PASS,YES
+visead,visited,"vised, visited",visited,PASS,YES
+allumna,alumni,"alumna, alumni",alumni,PASS,YES
+benef,belief,"beef, belief, benet",belief,PASS,YES
+garer,gauge,"gauge, garner, carer, gamer, garter",gauge,PASS,YES
+univerties,university,"universities, university, universes",universities,FAIL,YES
+edison,edition,"edition, edison",edition,PASS,YES
+reffering,referring,"referring, differing, suffering, rendering, offering",referring,PASS,YES
+partiall,partial,"partially, partials, partial",partially,FAIL,YES
+physcilities,facilities,"hostilities, facilities",facilities,PASS,YES
+cykolidgy,psychology,"psychology, coolidge, cytology",psychology,PASS,YES
+judgmerit,judgement,"judgment, judgement",judgment,FAIL,YES
+conciece,conscience,"concierge, concrete, convince, conscience, concise",conscience,PASS,YES
+entheusiasism,enthusiasm,"enthusiasm, enthusiasms, enthusiasts",enthusiasm,PASS,YES
+recset,receipt,"reset, receipt",receipt,PASS,YES
+englin,engine,"engine, engin",engine,PASS,YES
+diffiant,definite,"definite, diffing, diffident, affiant, defiant",definite,PASS,YES
+etiquette,adequate,"etiquette, adequate",adequate,PASS,YES
+conceived,conceive,"conceive, conceived",conceive,PASS,YES
+buteiful,beautiful,"beautiful, dutiful",beautiful,PASS,YES
+poames,poems,"poems, pomes",poems,PASS,YES
+wisal,whistle,"sisal, wisla, whistle",whistle,PASS,YES
+satigan,satisfaction,"satin, saigon, satisfaction, satan, vatican",satisfaction,PASS,YES
+tourn,torn,"tours, torn, turn, tour, mourn",turn,FAIL,YES
+refuring,referring,"refusing, referring, refuting",refusing,FAIL,YES
+thrugho,thorough,"though, thought, thrush, thorough, through",thorough,PASS,YES
+piturest,picturesque,"purest, pictures, picturesque",picturesque,PASS,YES
+recommaddation,recommendations,"recommendation, recommendations",recommendations,PASS,YES
+speashle,special,"seattle, sparkle, special, splash, seaside",special,PASS,YES
+occanolly,occasionally,"connolly, occasionally, oceanology",occasionally,PASS,YES
+teaste,taste,"tease, taste",taste,PASS,YES
+manige,manage,"mange, manage, manege",manage,PASS,YES
+ermptey,empty,"erupted, empty",empty,PASS,YES
+jeanes,genius,"jeans, genius",genius,PASS,YES
+swin,swim,"win, twin, sin, skin, swim",swim,PASS,YES
+joos,juice,"juice, joys, jos, joss, jobs",juice,PASS,YES
+convermacion,confirmation,"conversation, confirmation",confirmation,PASS,YES
+meens,means,"menes, means, teens, meets, keens",meets,FAIL,YES
+skillverly,skilfully,"skilfully, silvery",skilfully,PASS,YES
+levele,level,"levels, levee, level",levels,FAIL,YES
+beat,best,"best, beat",best,PASS,YES
+doine,beautiful,"donne, beautiful, doing, dine, done",beautiful,PASS,YES
+rout,route,"route, rout",route,PASS,YES
+norisey,noisy,"dorsey, noisy, noise, norse, noises",noisy,PASS,YES
+wilf,wife,"will, wild, wolf, wife, milf",will,FAIL,YES
+furtue,virtue,"fortune, virtue, further, pursue, future",virtue,PASS,YES
+acomplisht,accomplished,"accomplish, accomplished",accomplished,PASS,YES
+remufed,removed,"removed, reused, reduced, refused, resumed",removed,PASS,YES
+redy,ready,"reds, rely, red, rudy, ready",ready,PASS,YES
+unvirtous,unvirtuous,"envious, environs, nitrous, unvirtuous, virtuous",envious,FAIL,YES
+paygroud,playground,"playgroup, playground",playground,PASS,YES
+agust,august,"aust, august, gust",august,PASS,YES
+matieral,material,"maternal, lateral, material",material,PASS,YES
+lette,little,"latte, bette, lett, letter, little",little,PASS,YES
+misalanus,miscellaneous,"midlands, miscellaneous, islands",miscellaneous,PASS,YES
+consciense,conscious,"conscience, conscious",conscience,FAIL,YES
+sayft,safe,"sat, safe, soft, says, say",says,FAIL,YES
+cansolation,cancellation,"cancellation, consolation",cancellation,PASS,YES
+ecommonical,economical,"commonweal, economical, ecological, ecumenical",economical,PASS,YES
+bouse,booze,"bouse, booze",booze,PASS,YES
+stome,stomach,"tome, some, store, stone, stomach",stomach,PASS,YES
+sivise,surface,"divide, revise, surface, divine, advise",surface,PASS,YES
+lot,lost,"lost, lot",lost,PASS,YES
+agsity,anxiety,"agility, acuity, amity, anxiety, varsity",anxiety,PASS,YES
+alshel,actually,"actually, ashe, lashes, asher, ashes",actually,PASS,YES
+inconeinced,inconvenienced,"inconvenienced, unconvinced",inconvenienced,PASS,YES
+invalid,infinite,"infinite, invalid",infinite,PASS,YES
+petfi,beautiful,"pets, beautiful, pet, pete, peter",beautiful,PASS,YES
+prounce,pronounce,"pounce, pronounce, trounce",pronounce,PASS,YES
+betifoll,beautiful,"befall, retinol, beautiful, befell, petiole",beautiful,PASS,YES
+dom,do,"dom, do",do,PASS,YES
+reckamendation,recommendations,"recommendations, recommendation",recommendations,PASS,YES
+congreation,congratulations,"congratulations, congregation",congratulations,PASS,YES
+pe,be,"we, me, pm, he, be",be,PASS,YES
+aconadate,accommodate,"vanadate, connate, conflate, accommodate, aconite",accommodate,PASS,YES
+fresing,freezing,"freezing, freeing",freezing,PASS,YES
+cheun,chop,"chen, chop",chop,PASS,YES
+pouder,powder,"ponder, powder, polder, pounder, louder",powder,PASS,YES
+stuttish,statistics,"sluttish, statistics",statistics,PASS,YES
+compitate,competent,"cogitate, complicate, capitate, competent",competent,PASS,YES
+ins,incentive,"its, incentive, in, inn, is",incentive,PASS,YES
+sranbled,scrambled,"stabled, rambled, scrambled, spangled, strangled",scrambled,PASS,YES
+imadeatly,immediately,"ideally, modestly, immediately, impudently, adeptly",immediately,PASS,YES
+socal,social,"vocal, focal, social, local",vocal,FAIL,YES
+laft,left,"last, loft, left, lat, lift",left,PASS,YES
+symitishes,sympathetic,"diminishes, sympathetic",sympathetic,PASS,YES
+relley,really,"kelley, really",really,PASS,YES
+bihr,by,"birr, bihar, bier, bohr, by",by,PASS,YES
+featry,familiar,"ferry, familiar, fear, entry, feature",familiar,PASS,YES
+wark,walking,"work, mark, park, walking, war",walking,PASS,YES
+anwerd,answered,"award, answer, anger, answers, answered",answer,FAIL,YES
+compleshion,completion,"completion, complexion, compression",completion,PASS,YES
+bured,buried,"buried, bred, cured, bored, burned",bored,FAIL,YES
+folling,falling,"falling, polling, folding, rolling, filling",falling,PASS,YES
+grow,grew,"grew, grow",grew,PASS,YES
+bying,buying,"lying, bring, buying, being, dying",dying,FAIL,YES
+post,bored,"bored, post",bored,PASS,YES
+slped,splendid,"splendid, sled, sloped, sped",splendid,PASS,YES
+ansar,answer,"anal, near, answer, anna, kansas",answer,PASS,YES
+conceious,conscious,"conceives, cancerous, conscious, conceits",conscious,PASS,YES
+unanimise,unanimous,"unanimity, unanimous",unanimous,PASS,YES
+immunation,imitation,"immunisation, immunization, imputation, ammunition, imitation",imitation,PASS,YES
+aquipped,equipped,"quipped, equipped",equipped,PASS,YES
+interlect,intellect,"intersect, intellect, interject",intellect,PASS,YES
+fundementle,fundamental,"fundamental, fundamentals, fundaments, fundament",fundamental,PASS,YES
+vacinating,fascinating,"fascinating, vaccinating",fascinating,PASS,YES
+sent,cent,"sent, cent",cent,PASS,YES
+sle,seat,"she, sole, sale, see, seat",seat,PASS,YES
+cat,cap,"cat, cap",cap,PASS,YES
+concinous,conscience,"conscious, conscience, continuous",conscience,PASS,YES
+veiued,viewed,"viewed, veined, veiled",viewed,PASS,YES
+surefice,surface,"surface, surefire",surface,PASS,YES
+fate,fete,"fate, fete",fete,PASS,YES
+shage,shaggy,"share, sage, shaggy, shape, stage",shaggy,PASS,YES
+exhibion,exhibition,"exhibitor, exhibit, exhibits, excision, exhibition",exhibition,PASS,YES
+clark,clerk,"clerk, clark",clerk,PASS,YES
+wee,where,"wee, where",where,PASS,YES
+galorped,galloped,"gloried, galloped, galore",galloped,PASS,YES
+atching,attaching,"catching, etching, attaching, matching, watching",attaching,PASS,YES
+aunum,annum,"annum, aurum",annum,PASS,YES
+anlisles,analysis,"aisles, analysis, antilles",analysis,PASS,YES
+rankot,raincoat,"raincoat, rajkot",raincoat,PASS,YES
+sande,shoulders,"sandy, sand, sands, sander, shoulders",shoulders,PASS,YES
+fudumetal,fundamental,"fundamental, gunmetal, judgmental",fundamental,PASS,YES
+foulture,voucher,"couture, future, culture, voucher, vulture",voucher,PASS,YES
+orcersher,orchestra,"fresher, overseer, worcester, sorcerer, orchestra",orchestra,PASS,YES
+ocasionaly,occasionally,"occasional, occasionally",occasionally,PASS,YES
+chuse,choose,"chose, choose, cause, chase, chute",choose,PASS,YES
+hearwith,herewith,"hearth, herewith",hearth,FAIL,YES
+annium,annum,"annum, annie, indium, anim, atrium",annum,PASS,YES
+amianable,amiable,"amicable, alienable, amenable, amiable",amiable,PASS,YES
+relly,really,"really, reply, kelly, rally, relay",really,PASS,YES
+complextion,complexion,"complexion, completion, complexation",completion,FAIL,YES
+courtously,courtesy,"courtesy, courteously",courtesy,PASS,YES
+specile,special,"specie, speckle, special",special,PASS,YES
+regeted,regretted,"repeated, regretted, deleted, related, rejected",regretted,PASS,YES
+intellectel,intellectual,"intellects, intellectual, intellect",intellectual,PASS,YES
+meory,memory,"merry, emory, memory",memory,PASS,YES
+pain,plan,"plan, pain",plan,PASS,YES
+verchuses,virtues,"hercules, virtues, purchases, viruses, verses",virtues,PASS,YES
+acoly,actually,"actually, coly",actually,PASS,YES
+opertanits,opportunities,"operands, operant, pertains, opportunities",opportunities,PASS,YES
+bankrupt,bankruptcy,"bankruptcy, bankrupt",bankruptcy,PASS,YES
+praticle,practical,"practical, particle",practical,PASS,YES
+arival,arrival,"rival, arrival",arrival,PASS,YES
+suterble,suitable,"sterile, superbly, suitable",suitable,PASS,YES
+arguait,adequate,"argument, fruit, again, august, adequate",adequate,PASS,YES
+fill,feel,"feel, fill",feel,PASS,YES
+technic,technical,"technical, technic",technical,PASS,YES
+unninote,unanimous,"unite, endnote, unicode, unanimous, infinite",unanimous,PASS,YES
+momeris,memories,"movers, moments, morris, mowers, memories",memories,PASS,YES
+apropreate,appropriate,"appropriate, procreate",appropriate,PASS,YES
+refered,referred,"referred, revered, refereed, referee",referred,PASS,YES
+loosing,losing,"losing, loosing",losing,PASS,YES
+scarlit,scarlet,"starlit, scarlet",scarlet,PASS,YES
+quit,equipped,"quit, equipped",equipped,PASS,YES
+proms,poems,"proms, poems",poems,PASS,YES
+bige,bridge,"bite, big, beige, bridge, bike",bridge,PASS,YES
+steir,stare,"stare, stein, steer, stir, stair",stir,FAIL,YES
+uing,women,"ring, wing, using, women, king",women,PASS,YES
+fagreant,flagrancy,"pageant, flagrant, flagrancy, fragrant, vagrant",flagrancy,PASS,YES
+palving,playing,"halving, playing, calving, paving, paling",playing,PASS,YES
+w,vehicles,"vehicles, we, i, a",vehicles,PASS,YES
+aviid,avoid,"avid, avoid",avoid,PASS,YES
+plactine,plasticine,"practise, practice, planting, placing, plasticine",practice,FAIL,YES
+congralation,congratulations,"congratulation, congregation, congratulations",congratulations,PASS,YES
+matierally,materially,"laterally, maternally, materially",materially,PASS,YES
+thourough,thoroughly,"thoroughly, thorough",thorough,FAIL,YES
+funmental,fundamental,"fundamental, gunmetal",fundamental,PASS,YES
+deent,dart,"dart, deena, dent, dement, decent",dart,PASS,YES
+concened,concerned,"concerned, conceded, convened",concerned,PASS,YES
+space,special,"space, special",special,PASS,YES
+wacing,walking,"waving, facing, waking, walking, racing",walking,PASS,YES
+definet,definite,"defines, defined, definite, definer, define",definite,PASS,YES
+shning,whistling,"shining, shying, whistling",whistling,PASS,YES
+annt,aunt,"ant, anna, aunt, ann, anne",aunt,PASS,YES
+frezeang,freezing,"freeing, freezing",freezing,PASS,YES
+formilar,familiar,"familiar, formulas, formulary, formulae, formula",familiar,PASS,YES
+cop,cup,"cup, cop",cup,PASS,YES
+fited,fitted,"cited, fixed, filed, fitted, fired",fitted,PASS,YES
+freasting,freezing,"freezing, feasting",freezing,PASS,YES
+fie,fight,"fight, fie",fight,PASS,YES
+imedeantly,immediately,"immediately, impudently",immediately,PASS,YES
+adaquit,adequate,"adequate, acquit",adequate,PASS,YES
+hop,hoop,"hoop, hop",hoop,PASS,YES
+aling,along,"ling, sling, aging, align, along",along,PASS,YES
+wot,what,"wot, what",what,PASS,YES
+necesscay,necessary,"necessity, necessary",necessity,FAIL,YES
+concencious,conscientious,"conscientious, contentious",conscientious,PASS,YES
+researchs,research,"research, researches",research,PASS,YES
+magnificiant,magnificent,"magnificat, magnificent",magnificent,PASS,YES
+tafeate,traffic,"traffic, maleate",traffic,PASS,YES
+serius,serious,"sirius, series, serous, serifs, serious",serious,PASS,YES
+colonl,colonel,"colons, colon, colony, colonel",colonel,PASS,YES
+lass,last,"last, lass",last,PASS,YES
+facilite,facilities,"facilities, facility",facilities,PASS,YES
+doc,back,"doc, back",back,PASS,YES
+assertaining,ascertain,"ascertain, ascertaining",ascertain,PASS,YES
+hand,hair,"hair, hand",hair,PASS,YES
+you,your,"your, you",your,PASS,YES
+anverrsy,anniversary,"anniversary, anvers",anniversary,PASS,YES
+deel,deal,"feel, deep, dell, deal, del",deep,FAIL,YES
+standerd,standard,"standard, stander, standers",standard,PASS,YES
+counties,courtesies,"counties, courtesies",courtesies,PASS,YES
+comparivily,comparatively,"comparatively, compatibly, comparably",comparatively,PASS,YES
+duck,ducked,"duck, ducked",ducked,PASS,YES
+thak,thank,"thai, teak, than, thank, that",thank,PASS,YES
+easery,easier,"eatery, easier",easier,PASS,YES
+lats,last,"last, lats",last,PASS,YES
+to,do,"do, to",do,PASS,YES
+spanding,spanning,"spanking, standing, sanding, spanning, spending",standing,FAIL,YES
+correspondants,correspondence,"correspondents, correspondence",correspondence,PASS,YES
+showtalkwa,chautauqua,"chautauqua, shoptalk",chautauqua,PASS,YES
+ridictulas,ridiculous,"ridiculous, ridicules",ridiculous,PASS,YES
+resterant,restaurant,"restaurant, restraint",restaurant,PASS,YES
+becuits,biscuits,"recruits, jesuits, deceits, biscuits, befits",biscuits,PASS,YES
+knowe,know,"known, know, knows, knower",knows,FAIL,YES
+fiezzing,freezing,"fizzing, freezing",freezing,PASS,YES
+rune,ruin,"rune, ruin",ruin,PASS,YES
+nesscessary,necessarily,"necessary, necessarily",necessarily,PASS,YES
+glars,glass,"glare, glass, gears, glans, lars",glass,PASS,YES
+billd,build,"billed, build, billy, bills, bill",build,PASS,YES
+supplinen,supplement,"supplier, supplies, supplement, supplied",supplied,FAIL,YES
+ligthing,lightning,"lightning, lighting",lightning,PASS,YES
+scundale,scheduled,"sundae, scandal, scandals, scheduled",scheduled,PASS,YES
+reperssition,requisition,"superstition, repression, requisition, repetition, reposition",requisition,PASS,YES
+convelesans,convalescence,"conversant, convulsant, convalescence",convalescence,PASS,YES
+thhis,this,"this, thais",this,PASS,YES
+pottos,potatoes,"potts, potatoes",potatoes,PASS,YES
+dence,dense,"dense, fence, pence, hence, dance",fence,FAIL,YES
+cavanas,canvass,"cabanas, canvass",canvass,PASS,YES
+exist,exists,"exist, exists",exists,PASS,YES
+birb,bed,"bib, barb, birr, bird, bed",bird,FAIL,YES
+aer,our,"are, air, per, our, her",our,PASS,YES
+simpathic,sympathetic,"sympathetic, simpatico, empathic",sympathetic,PASS,YES
+conveyencly,conveniently,"conveniently, conveyancer, conveyance, conveyances",conveniently,PASS,YES
+plan,plain,"plain, plan",plain,PASS,YES
+conscionus,conscientious,"conscientious, conscious",conscientious,PASS,YES
+mistary,mystery,"military, dietary, mystery, history, mistake",mystery,PASS,YES
+unpalled,unemployed,"uncalled, unemployed",unemployed,PASS,YES
+sertly,certainly,"certainly, shortly, surely, partly, merely",certainly,PASS,YES
+highdratic,hydraulic,"hieratic, hydraulic",hydraulic,PASS,YES
+aname,annum,"anime, annum, anam, name",annum,PASS,YES
+amedit,immediately,"medit, immediately",immediately,PASS,YES
+surefish,sufficient,"surefire, sufficient, shrewish, sunfish",sufficient,PASS,YES
+kn,now,"an, now, ken, in, on",now,PASS,YES
+milenium,millennium,"millennium, selenium, minium",millenium,FAIL,YES
+coureous,curious,"curious, courteous",curious,PASS,YES
+spirchial,spiritual,"spiral, special, parochial, spacial, spiritual",spiritual,PASS,YES
+semetree,cemetery,"cemetery, semester, severe, sometime, metres",cemetery,PASS,YES
+precieved,perceived,"premiered, preceded, received, relieved, perceived",received,FAIL,YES
+exxagrating,exaggerating,"exaggerating, exonerating, emigrating, excavating",exaggerating,PASS,YES
+bise,busy,"bise, busy",busy,PASS,YES
+status,statistics,"statistics, status",statistics,PASS,YES
+seeced,ceased,"seemed, seeped, seeded, ceased",ceased,PASS,YES
+recceats,receipts,"receipts, retreats, recreate, recreates, repeats",receipts,PASS,YES
+espeisely,especially,"sparsely, especially",especially,PASS,YES
+fein,thin,"vein, fen, fern, thin, fin",thin,PASS,YES
+brak,brick,"brake, brick, break, bra, brad",brake,FAIL,YES
+represision,requisition,"repression, requisition",requisition,PASS,YES
+ansisity,anxiety,"anxiety, assist, assists, activity, ability",anxiety,PASS,YES
+instent,instant,"instant, intent",instant,PASS,YES
+matrial,materially,"material, atrial, materially, martial",materially,PASS,YES
+whok,woke,"wok, whoa, who, woke, whom",who,FAIL,YES
+destion,destination,"section, question, destination, design, edition",destination,PASS,YES
+anxois,anxious,"axons, axis, anxious, naxos, anubis",anxious,PASS,YES
+courteious,courtesy,"courteous, courtesy",courtesy,PASS,YES
+kindly,kind,"kind, kindly",kind,PASS,YES
+conciess,conscious,"confess, congress, concise, conceits, conscious",conscious,PASS,YES
+lanp,lamp,"lang, lane, lamp, lap, land",lamp,PASS,YES
+leaure,leisure,"secure, learn, leave, feature, leisure",leisure,PASS,YES
+opisitt,opposite,"visits, opinion, opposite, visit, spirit",opposite,PASS,YES
+guat,great,"great, guat",great,PASS,YES
+result,results,"result, results",results,PASS,YES
+phome,phone,"phone, home, pome",phone,PASS,YES
+lot,lots,"lot, lots",lots,PASS,YES
+shin,shine,"shine, shin",shine,PASS,YES
+fob,food,"food, fob",food,PASS,YES
+gardon,garden,"garcon, pardon, gordon, garden",pardon,FAIL,YES
+predict,prejudice,"predict, prejudice",prejudice,PASS,YES
+consentise,conscientious,"conscientious, consents, consenting",conscientious,PASS,YES
+olso,also,"oleo, also, olio, oslo, olson",also,PASS,YES
+acquainenec,acquaintance,"acquaintance, acquainted",acquaintance,PASS,YES
+reguned,regained,"returned, refused, refund, regained, reduced",regained,PASS,YES
+momarandom,memorandum,"memorandum, nonrandom",memorandum,PASS,YES
+respectfuly,respectfully,"respectful, respectfully",respectful,FAIL,YES
+refergior,refrigerator,"refrigerator, inferior, referring, referrer, reservoir",inferior,FAIL,YES
+gradely,gradually,"gravely, gradually",gradually,PASS,YES
+toneus,tonnage,"tonnage, tones, toners, tonus",tonnage,PASS,YES
+pelm,plan,"elm, helm, palm, perm, plan",plan,PASS,YES
+mancificent,magnificent,"magnificent, munificent",magnificent,PASS,YES
+descrestion,discretion,"discretion, description",discretion,PASS,YES
+wene,when,"when, wine, gene, were, went",went,FAIL,YES
+endevor,endeavour,"endeavour, endear",endeavour,PASS,YES
+engineerer,engineer,"engineer, engineered",engineered,FAIL,YES
+canvest,canvass,"canvas, convert, contest, invest, canvass",canvass,PASS,YES
+steet,street,"steep, steel, sheet, sweet, street",street,PASS,YES
+fiten,frightened,"frightened, file, sites, item, site",frightened,PASS,YES
+affecte,affectionate,"affects, affect, affected, affectionate",affectionate,PASS,YES
+drapped,dropped,"rapped, draped, wrapped, trapped, dropped",wrapped,FAIL,YES
+rever,river,"ever, river, fever, never, refer",never,FAIL,YES
+selles,sellers,"seller, selves, sellers, sells, welles",selves,FAIL,YES
+tob,tub,"tub, tob",tub,PASS,YES
+effectionally,affectionately,"effectually, functionally, directionally, affectionately, exceptionally",affectionately,PASS,YES
+acentces,agencies,"centres, agencies",agencies,PASS,YES
+scraysing,scraping,"scraping, scrawling, straying, scrapping, spraying",scraping,PASS,YES
+reckomending,recommendation,"recommending, recommendation",recommendation,PASS,YES
+guardeen,guardian,"guardian, garden, bardeen, guardsmen, guarded",guardian,PASS,YES
+red,rid,"rid, red",rid,PASS,YES
+permonand,permanent,"persona, permanent, personals, ferdinand, personal",permanent,PASS,YES
+magnifas,magnificent,"magnifies, magnificent, manias, magnify",magnificent,PASS,YES
+took,like,"like, took",like,PASS,YES
+practise,practice,"practise, practice",practise,FAIL,YES
+a,as,"as, a",as,PASS,YES
+regersting,requesting,"regretting, reversing, reverting, requesting, retesting",requesting,PASS,YES
+relay,really,"really, relay",really,PASS,YES
+undoubtal,undoubtedly,"undoubted, undoubtedly",undoubtedly,PASS,YES
+magnific,magnificent,"magnifico, magnificent",magnificent,PASS,YES
+fod,food,"food, fox, for, ford, god",food,PASS,YES
+pedge,hedge,"pledge, edge, hedge, wedge, ledge",edge,FAIL,YES
+belives,belief,"belies, relives, belief, believes",belief,PASS,YES
+ratting,rating,"rating, ratting",rating,PASS,YES
+avtegen,advantage,"advantage, antigen",advantage,PASS,YES
+shall,shell,"shell, shall",shell,PASS,YES
+gying,going,"tying, going, lying, vying, dying",dying,FAIL,YES
+attachea,attaching,"attached, attache, attaches, attaching",attaching,PASS,YES
+statictcs,statistics,"statistics, statics",statistics,PASS,YES
+scand,scandal,"stand, scans, sand, scan, scandal",scandal,PASS,YES
+inceing,increasing,"increasing, inching",increasing,PASS,YES
+skifle,skilfully,"stifle, skilfully, skiffle",skilfully,PASS,YES
+tacnitical,technical,"tactical, technical",technical,PASS,YES
+mude,mud,"nude, mud, mode, made, dude",made,FAIL,YES
+posses,possess,"posses, possess",possess,PASS,YES
+mewseim,museum,"mews, messed, messier, muslim, museum",museum,PASS,YES
+polir,problem,"polis, problem, polio, polit, polar",problem,PASS,YES
+do,due,"do, due",due,PASS,YES
+aimabable,amiable,"amiable, zimbabwe, amenable, admirable, timetable",amiable,PASS,YES
+contonence,countenance,"countenance, continence",countenance,PASS,YES
+supission,suspicion,"suspicion, submission, scission",suspicion,PASS,YES
+interper,interpretations,"interpret, integer, interpretations, interior, internet",interior,FAIL,YES
+arouned,around,"aroused, around",around,PASS,YES
+stanton,station,"station, stanton",station,PASS,YES
+reasitly,recently,"readily, reality, recently, beastly, easily",recently,PASS,YES
+donw,done,"done, down, dow, dong, don",down,FAIL,YES
+gase,gas,"case, gave, gas, game, base",base,FAIL,YES
+arenser,answer,"answer, renter, avenger, dresser, render",answer,PASS,YES
+aluimna,alumni,"alumna, alumina, alumni",alumni,PASS,YES
+revew,review,"review, renew, revel",review,PASS,YES
+twip,type,"tip, type, twin, trip, twp",twin,FAIL,YES
+debat,debate,"debut, debt, debit, debar, debate",debit,FAIL,YES
+akoler,peculiar,"cooler, adler, antler, peculiar, angler",peculiar,PASS,YES
+sutthern,southern,"luthern, southern",southern,PASS,YES
+jan,jam,"jan, jam",jam,PASS,YES
+monky,monkey,"money, monk, monkey, monty, monks",monkey,PASS,YES
+underware,underwear,"underwear, underwire",underwear,PASS,YES
+sieze,ceased,"seize, sieve, siege, ceased, size",ceased,PASS,YES
+carpeat,comfortable,"comfortable, carpet",comfortable,PASS,YES
+poite,pockets,"pockets, poise, polite, porte",pockets,PASS,YES
+delieverd,delivered,"believed, delivery, delivered, delivers, deliver",delivered,PASS,YES
+anoints,annoyance,"annoyance, anoints",annoyance,PASS,YES
+passific,specific,"pacific, specific",specific,PASS,YES
+worder,wonder,"worker, wonder, border, order, worded",wonder,PASS,YES
+wathout,without,"without, washout",without,PASS,YES
+pound,pounds,"pounds, pound",pounds,PASS,YES
+domortory,dormitory,"dormitory, promontory",dormitory,PASS,YES
+delivera,delivered,"deliver, delivered, delivers, delivery",delivered,PASS,YES
+fliht,flight,"flirt, flint, flit, flight",flight,PASS,YES
+perminat,permanent,"terminate, terminal, permian, permanent, permit",permanent,PASS,YES
+poin,pilot,"porn, pain, point, join, pilot",pilot,PASS,YES
+mathmetatic,mathematics,"mathematics, mathematic",mathematics,PASS,YES
+bese,beside,"beside, best, bees, bee, base",beside,PASS,YES
+weary,wearing,"wearing, weary",wearing,PASS,YES
+dres,dress,"does, drew, res, dress, dies",does,FAIL,YES
+alumnee,alumni,"alumnae, alumni",alumni,PASS,YES
+icey,icy,"ice, icy, ices, iced, icky",ice,FAIL,YES
+vesiable,visible,"visible, reliable, desirable, variable, viable",desirable,FAIL,YES
+same,seem,"seem, same",seem,PASS,YES
+guarrenteed,guarantee,"guaranteed, guarantee",guaranteed,FAIL,YES
+cense,schemes,"cense, schemes",schemes,PASS,YES
+antiseipe,anticipate,"anticline, antitype, antipope, anticipate, antiserum",anticipate,PASS,YES
+strory,story,"stroy, story",story,PASS,YES
+currtises,courtesies,"courtesies, curries, curtiss",courtesies,PASS,YES
+sege,saying,"see, sage, sega, saying, siege",saying,PASS,YES
+they,the,"they, the",the,PASS,YES
+relase,realize,"relate, realize, release, relapse",relate,FAIL,YES
+sware,swear,"swear, ware, share, aware, spare",spare,FAIL,YES
+imagin,imagine,"imagine, imaging",imaging,FAIL,YES
+imederalte,immediately,"federate, immoderate, immediately, moderate",immediately,PASS,YES
+conserning,concerning,"concerning, conserving",concerning,PASS,YES
+establise,established,"establish, established",established,PASS,YES
+cemmetry,cemetery,"cemetery, symmetry, geometry",symmetry,FAIL,YES
+vaulgur,vulgar,"bulgur, valour, vulgar, valgus, augur",vulgar,PASS,YES
+irisitable,irresistible,"irritable, irresistible, inimitable",irresistible,PASS,YES
+finally,final,"finally, final",final,PASS,YES
+comintees,committees,"committees, nominees, comintern",committees,PASS,YES
+wiche,which,"niche, fiche, which, withe",which,PASS,YES
+aroud,around,"around, aloud, proud",around,PASS,YES
+reviewed,viewed,"reviewed, viewed",viewed,PASS,YES
+wated,waited,"wanted, waited, rated, water, dated",wanted,FAIL,YES
+tradjedy,tragedy,"tragedy, traded",tragedy,PASS,YES
+thinke,think,"think, thine, thinker, thinks",think,PASS,YES
+vailable,available,"bailable, mailable, available",available,PASS,YES
+ganing,gaining,"waning, gaming, gaping, gazing, gaining",gaining,PASS,YES
+conculsion,conclusion,"concussion, conclusion, convulsion",conclusion,PASS,YES
+ded,said,"dec, said, did, red, de",said,PASS,YES
+coots,coats,"coots, coats",coats,PASS,YES
+mils,miles,"mils, miles",miles,PASS,YES
+bilte,built,"bile, bilge, bite, built",built,PASS,YES
+phificall,specifically,"physical, specifically, physically, physicals",specifically,PASS,YES
+initution,initiation,"intuition, initiation, imitation, institution, invitation",initiation,PASS,YES
+virtuals,virtue,"virtue, virtual, victuals",virtue,PASS,YES
+philipinoes,filipinos,"filipinos, philippines",philippines,FAIL,YES
+judement,judgement,"judgement, judgment",judgement,PASS,YES
+venterelated,ventilated,"entreated, venerated, ventilated, interrelated",ventilated,PASS,YES
+indefinatly,indefinitely,"indefinable, indefinitely",indefinitely,PASS,YES
+dad,date,"date, dad",date,PASS,YES
+brak,break,"bras, brake, break, bra, brad",brake,FAIL,YES
+picturesq,picturesque,"pictures, picturesque",picturesque,PASS,YES
+pes,peas,"peas, pes",peas,PASS,YES
+normall,normal,"normal, normally, normals",normally,FAIL,YES
+spaech,special,"speech, special",special,PASS,YES
+seroundings,surroundings,"surroundings, groundings, soundings",surroundings,PASS,YES
+vuleure,voucher,"vulture, voucher",voucher,PASS,YES
+ecomodation,accommodation,"coronation, echolocation, accommodation, coloration",accommodation,PASS,YES
+hapster,hamster,"hipster, napster, hamster",hipster,FAIL,YES
+exsibites,exhibits,"exhibits, exhibited",exhibits,PASS,YES
+suted,suited,"outed, sued, suited, muted, sited",suited,PASS,YES
+muchien,machine,"kuchen, munchies, mucin, lucien, machine",machine,PASS,YES
+sys,stars,"sis, sos, says, stars, syn",says,FAIL,YES
+waluesa,done,"done, walesa",done,PASS,YES
+helecocker,helicopter,"teleworker, helicopter",helicopter,PASS,YES
+wallking,walking,"walking, walling",walking,PASS,YES
+honer,honour,"honer, honour",honour,PASS,YES
+diferrent,different,"deferment, divergent, deterrent, different, deferent",different,PASS,YES
+sand,sound,"sound, sand",sound,PASS,YES
+desheged,distinguished,"besieged, desexed, distinguished",distinguished,PASS,YES
+arest,arrest,"brest, rest, arrest, ares, crest",arrest,PASS,YES
+remembers,remembrance,"remembers, remembrance",remembrance,PASS,YES
+dueley,duly,"duly, dudley",duly,PASS,YES
+jop,chop,"top, chop, pop, job, joe",chop,PASS,YES
+smok,smoke,"smoke, smog, amok, smock, smoky",smoke,PASS,YES
+expinture,expenditure,"exposure, expenditure, epicure, picture, expire",exposure,FAIL,YES
+cart,caught,"caught, cart",caught,PASS,YES
+unconsors,unconscious,"connors, consort, uncensored, sponsors, unconscious",unconscious,PASS,YES
+bonet,bonnet,"bones, monet, boned, bone, bonnet",bones,FAIL,YES
+enjoi,enjoy,"enjoy, enjoin, envoi",enjoy,PASS,YES
+agin,again,"aging, again, akin, gain, gin",again,PASS,YES
+msyterus,mysterious,"mysterious, matters, mystery, masters, meters",mysterious,PASS,YES
+repears,repairs,"repeats, repairs, repeals",repairs,PASS,YES
+folling,following,"filling, falling, rolling, following, folding",folding,FAIL,YES
+rus,answer,"rus, answer",answer,PASS,YES
+stubuck,stomach,"stomach, struck, stuck",stomach,PASS,YES
+succesfel,successful,"successes, successful",successful,PASS,YES
+meloncally,melancholy,"melancholy, melodically",melancholy,PASS,YES
+shagg,shaggy,"shags, shag, shaggy, shang",shaggy,PASS,YES
+conven,conveniently,"convey, convex, convent, conveniently, convene",conveniently,PASS,YES
+especialy,especially,"especially, especial",especially,PASS,YES
+spathety,sympathetic,"satiety, sympathetic, spathe",sympathetic,PASS,YES
+sinicature,signature,"miniature, signature",signature,PASS,YES
+customer,customary,"customer, customary",customary,PASS,YES
+mutal,mutual,"mural, metal, mutual",mutual,PASS,YES
+coffe,coffee,"coff, coffey, coffee, coffer",coff,FAIL,YES
+intitals,initials,"instals, initials",initials,PASS,YES
+courtusly,courtesy,"courtesy, courtly, courteously",courtesy,PASS,YES
+roster,rooster,"roster, rooster",roster,FAIL,YES
+thee,three,"three, thee",three,PASS,YES
+cashes,scraping,"cashes, scraping",scraping,PASS,YES
+quorous,curious,"amorous, quorum, humorous, curious, porous",curious,PASS,YES
+beam,deem,"beam, deem",deem,PASS,YES
+stumace,stomach,"stumble, stumpage, stomach, sumac",stomach,PASS,YES
+mipterious,mysterious,"imperious, mysterious",mysterious,PASS,YES
+ecommonics,economics,"colonics, commoners, commons, economics",economics,PASS,YES
+tranfer,transferred,"transfer, transferred",transferred,PASS,YES
+deviced,devised,"devised, device, devices",devised,PASS,YES
+muiterily,materially,"muttering, materially, butterfly, utterly, militarily",materially,PASS,YES
+lecturere,lecture,"lecture, lecturer, lecturers",lecturer,FAIL,YES
+sli,silent,"silent, sri, ski, slip, sci",ski,FAIL,YES
+thourlly,thoroughly,"thoroughly, hourly",thoroughly,PASS,YES
+annoup,annum,"annum, annul, annoy, annoys, anjou",annum,PASS,YES
+quearous,curious,"jealous, humorous, queries, curious, numerous",curious,PASS,YES
+quite,quit,"quite, quit",quit,PASS,YES
+inconience,inconvenience,"inconvenience, incontinence",inconvenience,PASS,YES
+financly,financially,"financed, finance, finances, financially, finally",financially,PASS,YES
+aparaters,apparatus,"partners, apparatus, parameters, characters, operators",apparatus,PASS,YES
+reciever,receiver,"reliever, receiver",receiver,PASS,YES
+twent,twenty,"twenty, went, trent, gwent, tent",went,FAIL,YES
+also,answer,"also, answer",answer,PASS,YES
+polatition,politician,"petition, position, politician, pollution, coalition",politician,PASS,YES
+inasesable,inaccessible,"inalienable, inoperable, inaccessible, insatiable, passable",inaccessible,PASS,YES
+toached,touched,"poached, touched, coached, torched",touched,PASS,YES
+colonal,colonel,"colonial, colonel, coronal, clonal",colonel,PASS,YES
+saled,sold,"saved, sales, sale, sealed, sold",sealed,FAIL,YES
+buss,buzz,"buss, buzz",buzz,PASS,YES
+gordias,gorgeous,"gorgias, gordian, gorgeous",gorgeous,PASS,YES
+mather,maths,"maths, mather",maths,PASS,YES
+opperset,opposite,"overset, opposite",opposite,PASS,YES
+knowes,knows,"knows, knowles, knower",knows,PASS,YES
+intitate,initiate,"intimate, initiate",intimate,FAIL,YES
+becuse,because,"because, recuse",because,PASS,YES
+gartunee,guarantee,"garnet, partner, guarantee, gardner, fortune",guarantee,PASS,YES
+ward,would,"would, ward",would,PASS,YES
+ons,on,"ones, one, on, sons, tons",one,FAIL,YES
+gorguss,gorgeous,"gorges, gorgas, gorgeous, gorgias, morgues",gorgeous,PASS,YES
+minuminum,minimum,"minium, minimum",minimum,PASS,YES
+leey,leeds,"levy, leeds, lees, lee, ley",leeds,PASS,YES
+persivacly,specifically,"privacy, percival, personally, specifically, pensively",specifically,PASS,YES
+travler,traveller,"trawler, traveller, trailer",trailer,FAIL,YES
+opned,opened,"oped, opted, opined, owned, opened",opened,PASS,YES
+diamore,diamond,"gilmore, diamond, diamine",diamond,PASS,YES
+preform,perform,"preform, perform",perform,PASS,YES
+grant,great,"great, grant",great,PASS,YES
+efficition,physician,"fiction, exhibition, physician, affiliation, definition",physician,PASS,YES
+seased,ceased,"leased, sensed, sealed, ceased, seated",ceased,PASS,YES
+ajorn,adjourned,"acorn, adjourned, adorn",adjourned,PASS,YES
+cerer,care,"ceder, ceres, corer, carer, care",care,PASS,YES
+decrotions,decorations,"demotions, secretions, devotions, decorations, deceptions",decorations,PASS,YES
+cicolidgy,psychology,"psychology, cichlid, cichlids, coolidge",psychology,PASS,YES
+gaurrantee,guarantee,"warrantee, guarantee",guarantee,PASS,YES
+tashie,trashy,"tahoe, cashier, taste, trashy, cassie",taste,FAIL,YES
+corsey,courses,"corset, dorsey, courses, corse, corey",courses,PASS,YES
+fled,friend,"friend, fled",friend,PASS,YES
+fundteal,fundamental,"funereal, fundamental",fundamental,PASS,YES
+chapture,chapter,"chapter, capture",chapter,PASS,YES
+solmen,solemn,"dolmen, solemn",solemn,PASS,YES
+hn,on,"in, an, hon, he, on",in,FAIL,YES
+ot,or,"of, on, to, or, it",of,FAIL,YES
+descrasion,discretion,"discretion, desecration",discretion,PASS,YES
+refreaing,referring,"refreshing, refrain, referring, retreating, recreating",referring,PASS,YES
+minning,mining,"inning, manning, mining, pinning, winning",mining,PASS,YES
+maintaines,mountainous,"mountainous, maintainers, maintains, maintainer, maintained",mountainous,PASS,YES
+firmily,familiar,"firmly, familiar",familiar,PASS,YES
+enumorous,numerous,"humorous, numerous, tumorous",numerous,PASS,YES
+scaresly,scarcely,"scares, scarily, sparsely, scarcely",scarcely,PASS,YES
+predugist,prejudice,"prebuilt, predict, prejudice",prejudice,PASS,YES
+prefere,prefer,"prefer, prefers",prefer,PASS,YES
+gread,grade,"grad, great, grade, read, bread",great,FAIL,YES
+represeable,representative,"repressible, representable, representative",representative,PASS,YES
+vertive,virtue,"virtue, festive, overtime, vertices, derive",derive,FAIL,YES
+recieptes,receipts,"recipes, receipted, receipts, recites, recreates",receipts,PASS,YES
+wiches,wishes,"wishes, niches, witches, winches, riches",witches,FAIL,YES
+turrers,tourers,"turners, turrets, tourers",turrets,FAIL,YES
+whiout,without,"whit, whilst, whist, shout, without",whist,FAIL,YES
+brealth,breathe,"breath, breathe, breadth",breathe,PASS,YES
+mas,must,"mas, must",must,PASS,YES
+quirious,curious,"furious, curious",curious,PASS,YES
+foint,from,"point, from, flint, joint, font",point,FAIL,YES
+deturmand,determined,"demand, gourmand, determined, determine",determined,PASS,YES
+ldg,loud,"lag, bldg, leg, log, loud",loud,PASS,YES
+definent,definite,"defining, defined, define, defines, definite",definite,PASS,YES
+cernall,colonel,"cereal, cornwall, cereals, cornell, colonel",colonel,PASS,YES
+completment,competent,"competent, complement",competent,PASS,YES
+enime,enemy,"anime, enemy",enemy,PASS,YES
+reconnation,recognition,"recondition, recognition, reconnection, recantation",recognition,PASS,YES
+cise,cease,"case, cease, wise, rise, cite",cease,PASS,YES
+onest,honest,"ones, onset, nest, honest",onset,FAIL,YES
+scrked,scarcely,"scarcely, screed",scarcely,PASS,YES
+saniramy,scrambled,"scrambled, sanitary",scrambled,PASS,YES
+specitle,special,"specie, spectre, speckle, special, specials",special,PASS,YES
+ergh,earth,"erg, ergs, earth, ergo",earth,PASS,YES
+apatching,attaching,"patching, attaching",attaching,PASS,YES
+contining,containing,"containing, continuing, confining",continuing,FAIL,YES
+wimin,women,"within, women, min, win, woman",women,PASS,YES
+wer,where,"where, web, were, her, we",where,PASS,YES
+stuying,studying,"staying, studying",studying,PASS,YES
+facilitie,facility,"facility, facilities",facilities,FAIL,YES
+memanidal,memorandum,"mechanical, semantical, memorandum, menial, memorial",memorandum,PASS,YES
+now,know,"now, know",know,PASS,YES
+poateatre,poetry,"poetry, patentee, postdate",poetry,PASS,YES
+bone,done,"bone, done",done,PASS,YES
+vane,vain,"vane, vain",van,FAIL,YES
+ah,a,"as, an, a, am, at",at,FAIL,YES
+picpisy,specifically,"specifically, pictish",specifically,PASS,YES
+tafp,type,"tap, tarp, type, taft, tamp",type,PASS,YES
+transfuned,transferred,"transfused, transferred",transferred,PASS,YES
+siver,silver,"liver, river, silver, saver, diver",river,FAIL,YES
+turnoments,tournament,"tournaments, tournament",tournament,PASS,YES
+one,once,"one, once",once,PASS,YES
+mishing,machine,"missing, fishing, wishing, meshing, machine",fishing,FAIL,YES
+soa,sure,"son, sea, sure, so, spa",sure,PASS,YES
+scarcle,scarcely,"scarce, scarcely",scarcely,PASS,YES
+alterchood,altitude,"afterschool, altitude",altitude,PASS,YES
+sauer,saucer,"saver, saucer, bauer, sager, safer",saucer,PASS,YES
+poitree,poems,"poitier, prithee, poems, soiree, goitre",poems,PASS,YES
+deifrnt,different,"different, defiant",different,PASS,YES
+consaption,conception,"contraption, conception, consumption, conniption",conception,PASS,YES
+scoratity,sorority,"sorority, morality, scrutiny, scratchy, scarcity",sorority,PASS,YES
+phesision,physician,"physician, precision, prevision",physician,PASS,YES
+go,got,"go, got",got,PASS,YES
+fragil,fragile,"frail, fragile",frail,FAIL,YES
+gadge,gauge,"badge, gauge, gadget, madge, gage",gauge,PASS,YES
+sexself,successful,"herself, successful",successful,PASS,YES
+telefond,telephoned,"hereford, telephone, telephony, telecoms, telephoned",telephoned,PASS,YES
+pearment,permanent,"parent, percent, payment, permanent, garment",permanent,PASS,YES
+leavel,level,"leaved, leaver, leaves, leave, level",level,PASS,YES
+consert,conservative,"consort, consent, convert, conservative, concert",consent,FAIL,YES
+loned,loud,"cloned, loved, lone, loud, lined",loud,PASS,YES
+soch,searched,"soc, such, sock, sch, searched",searched,PASS,YES
+conntente,contented,"contented, contents, content",contented,PASS,YES
+hidralic,hydraulic,"hieratic, hydraulic",hydraulic,PASS,YES
+scyology,psychology,"ecology, serology, cytology, sociology, psychology",psychology,PASS,YES
+aknowlege,acknowledgement,"acknowledgement, knowledge, acknowledge",acknowledgement,PASS,YES
+camploft,pamphlet,"camelot, pamphlet, complot",pamphlet,PASS,YES
+jem,jam,"jam, mem, jet, jim, dem",jam,PASS,YES
+cortion,curtain,"coition, portion, curtain",curtain,PASS,YES
+concuol,counsel,"concur, counsel, control, consul, conceal",counsel,PASS,YES
+contanance,countenance,"continuance, continence, consonance, countenance",countenance,PASS,YES
+san,sank,"sank, san",sank,PASS,YES
+capatiye,capacity,"capacity, apatite, captive",capacity,PASS,YES
+wed,weed,"wed, weed",weed,PASS,YES
+sigeture,signature,"signature, sinecure, ligature",signature,PASS,YES
+bood,do,"good, food, do, blood, book",blood,FAIL,YES
+thoughs,thoughts,"troughs, thought, thoughts, though, toughs",thought,FAIL,YES
+parised,harassed,"praised, parsed, prised, harassed",harassed,PASS,YES
+anysiaty,anxiety,"anyway, anxiety, annuity",anxiety,PASS,YES
+wiol,will,"biol, will, wool, viol",will,PASS,YES
+potous,potatoes,"potatoes, porous",potatoes,PASS,YES
+shagging,shaggy,"shaggy, shagging",shaggy,PASS,YES
+congeres,congress,"congress, congers",congress,PASS,YES
+beththe,better,"bethune, better, bette, bethe, bettie",better,PASS,YES
+truma,trauma,"truman, trump, trauma",trauma,PASS,YES
+dard,dark,"dark, hard, dad, card, yard",dark,PASS,YES
+mates,mats,"mates, mats",mats,PASS,YES
+economics,economical,"economics, economical",economical,PASS,YES
+miscallionus,miscellaneous,"scallions, miscellaneous",miscellaneous,PASS,YES
+quiert,quiet,"quirt, quiet",quiet,PASS,YES
+tookony,taken,"cooking, taken, looking, tony, took",looking,FAIL,YES
+memoraries,memories,"temporaries, memories",memories,PASS,YES
+adjern,adjourned,"advert, adhere, adjourned, adjourn, adler",adjourned,PASS,YES
+start,starts,"starts, start",starts,PASS,YES
+phzestion,physician,"question, digestion, preston, physician, ingestion",physician,PASS,YES
+junping,jumping,"jumping, junking",jumping,PASS,YES
+controversing,controversy,"controversy, controversies, controversial",controversy,PASS,YES
+bisck,bicycle,"bisk, bicycle",bicycle,PASS,YES
+inconvienence,inconvenienced,"incontinence, inconvenience, inconvenienced",inconvenienced,PASS,YES
+curiosy,curiosity,"curios, curiosa, curiosity",curiosity,PASS,YES
+there,where,"there, where",where,PASS,YES
+lisen,listen,"liven, lien, listen, risen, linen",listen,PASS,YES
+recuorse,resource,"resource, recourse",resource,PASS,YES
+goup,group,"soup, group, gout, coup, loup",group,PASS,YES
+spots,sports,"sports, spots",sports,PASS,YES
+sathern,southern,"gather, pattern, southern, father, rather",southern,PASS,YES
+mumcer,museum,"mummer, museum",museum,PASS,YES
+acknowledge,acknowledging,"acknowledging, acknowledge",acknowledging,PASS,YES
+specman,specimen,"special, specimen, sherman, pecan, superman",specimen,PASS,YES
+shet,sheet,"shit, shot, set, sheet, she",sheet,PASS,YES
+progess,progress,"process, progress, profess, prowess",progress,PASS,YES
+og,organizations,"of, go, on, organizations, or",organizations,PASS,YES
+responsibilitys,responsibilities,"responsibility, responsibilities",responsibilities,PASS,YES
+hwo,who,"hoo, how, who, two, hwy",who,PASS,YES
+sithes,sight,"tithes, sites, sight",sight,PASS,YES
+sacer,sank,"racer, sank, safer, spacer, saver",sank,PASS,YES
+epeshuly,especially,"especially, fleshly, freshly",especially,PASS,YES
+hege,hedge,"huge, henge, hegel, here, hedge",hedge,PASS,YES
+bellar,build,"build, cellar, bella, bellay",cellar,FAIL,YES
+hase,as,"as, have, has, case, base",base,FAIL,YES
+permartely,permanently,"perversely, permanently",permanently,PASS,YES
+remdr,remember,"read, reader, red, ready, remember",remember,PASS,YES
+sapping,spinning,"sapping, spinning",spinning,PASS,YES
+wreely,really,"really, freely",really,PASS,YES
+conciensess,conscientious,"conciseness, conscientious",conscientious,PASS,YES
+perfuer,prefer,"prefer, perfumer",prefer,PASS,YES
+girles,girls,"girdles, girls, girlies, giles",girls,PASS,YES
+equily,equally,"equally, equity",equally,PASS,YES
+recoaten,recognition,"recognition, remote, recommend, reported, related",recognition,PASS,YES
+wosh,washed,"josh, wish, washed, wash, gosh",wish,FAIL,YES
+faized,phase,"phase, failed, fazed",phase,PASS,YES
+gaurntis,guarantee,"guarantee, curtis, mauritius, gratis, mantis",guarantee,PASS,YES
+dieing,dining,"dining, dicing, dyeing, dieting, diving",dining,PASS,YES
+panl,plan,"pal, pan, paul, panel, plan",plan,PASS,YES
+indiffiant,indefinite,"indignant, indefinite, indifferent",indefinite,PASS,YES
+ordunaley,ordinarily,"ordinate, ordinal, ordinary, ordinarily, ordinates",ordinarily,PASS,YES
+acumlished,accomplished,"accomplished, published, abolished",abolished,FAIL,YES
+scegel,scheduled,"steel, scenes, siege, scheduled, scene",scheduled,PASS,YES
+converlessons,convalescence,"conversions, convalescence",convalescence,PASS,YES
+curtined,curtains,"curtains, curtained",curtains,PASS,YES
+blat,belt,"belt, blat",belt,PASS,YES
+undoubtley,undoubtedly,"undoubted, undoubtedly",undoubtedly,PASS,YES
+entrese,entrance,"entree, entrance, entrees",entrance,PASS,YES
+exorted,exhorted,"extorted, exhorted, exported, exerted",exported,FAIL,YES
+emplying,employing,"employing, implying, emptying",employing,PASS,YES
+resteruunt,restaurant,"restraint, restaurant",restaurant,PASS,YES
+remander,remainder,"remainder, demander, reminder, remanded",reminder,FAIL,YES
+resny,recently,"recently, ready, reply, rest, rent",recently,PASS,YES
+squick,squeak,"squeak, quick",quick,FAIL,YES
+aepilule,immediately,"immediately, epicure, seville, neville, epistle",epistle,FAIL,YES
+limiteg,limited,"limiter, limited",limited,PASS,YES
+anversa,anniversary,"anniversary, anvers",anniversary,PASS,YES
+imstear,especially,"instead, instar, mister, especially",especially,PASS,YES
+consciousens,conscientious,"consciousness, conscientious",conscientious,PASS,YES
+materily,materially,"materially, maturity, materials, material, maternity",materially,PASS,YES
+of,to,"to, of",to,PASS,YES
+gome,jam,"game, home, come, jam, some",jam,PASS,YES
+sepecife,specimens,"specimens, specie, specify, specif",specimens,PASS,YES
+spend,splendid,"splendid, spend",splendid,PASS,YES
+run,ran,"ran, run",ran,PASS,YES
+bongulo,bungalow,"bongo, bungalow",bungalow,PASS,YES
+shuk,shook,"shun, shut, sauk, shook, shul",shut,FAIL,YES
+execusite,exquisite,"executive, exquisite, execute",exquisite,PASS,YES
+out,our,"our, out",our,PASS,YES
+sticked,stuck,"ticked, stocked, sticker, stuck, stacked",stuck,PASS,YES
+guds,guard,"guard, gus, guys, guns, gods",guard,PASS,YES
+gonne,gone,"bonne, donne, tonne, gone, gonna",gonna,FAIL,YES
+anyim,annum,"anim, annum",annum,PASS,YES
+udstair,understand,"upstairs, stair, understand",understand,PASS,YES
+curing,circling,"curing, circling",circling,PASS,YES
+eafall,awful,"rafael, befall, awful, seawall, fall",awful,PASS,YES
+hared,hard,"hated, hatred, hard, shared, hired",hated,FAIL,YES
+plosiouspy,philosophy,"gloriously, philosophy",philosophy,PASS,YES
+sine,sin,"sin, sine",sin,PASS,YES
+aprocmate,approximate,"advocate, appreciate, associate, approximate, promote",approximate,PASS,YES
+vote,folk,"vote, folk",folk,PASS,YES
+gun,gum,"gun, gum",gum,PASS,YES
+bright,bridge,"bridge, bright",bridge,PASS,YES
+yur,eye,"eye, your, sur, our, eur",eye,PASS,YES
+fling,flying,"fling, flying",flying,PASS,YES
+adventagus,advantage,"advantage, advantages",advantage,PASS,YES
+recoginial,recognition,"precolonial, recognition, recognize, recognise",recognition,PASS,YES
+espects,aspects,"expects, respects, aspects",aspects,PASS,YES
+conteninent,continent,"continent, contentment, convenient",continent,PASS,YES
+chycology,psychology,"psychology, phycology",psychology,PASS,YES
+frigtend,frightened,"friend, frightens, frighted, frightened, frighten",frightened,PASS,YES
+drlak,dark,"dark, drink, break, dream, draw",dark,PASS,YES
+spnelldid,splendid,"spelled, splendid",splendid,PASS,YES
+profer,proper,"prover, proffer, prefer, proper",prefer,FAIL,YES
+lecher,leisure,"leisure, lecher",leisure,PASS,YES
+wokt,walked,"walked, wont, woke, wok, wort",walked,PASS,YES
+foly,folly,"holy, folk, folly, fold, fly",folly,PASS,YES
+antipation,anticipation,"anticipation, intimation, animation, activation",anticipation,PASS,YES
+apprisate,appreciate,"appreciate, apprise",appreciate,PASS,YES
+unamuse,unanimous,"unanimous, unamuno, amuse",unanimous,PASS,YES
+plam,plum,"pam, palm, plan, play, plum",plan,FAIL,YES
+aptite,appetite,"apatite, appetite",appetite,PASS,YES
+injur,injure,"incur, injure, injun, injury",incur,FAIL,YES
+conftble,comfortable,"constable, comfortable",comfortable,PASS,YES
+books,book,"book, books",books,FAIL,YES
+punish,tonnage,"punish, tonnage",tonnage,PASS,YES
+preternly,fraternally,"fraternally, presently, preferably, pretend, properly",fraternally,PASS,YES
+negoatation,negotiations,"negotiations, negotiation",negotiations,PASS,YES
+cene,children,"scene, cent, cone, gene, children",children,PASS,YES
+prisin,prison,"prising, prison",prison,PASS,YES
+doin,doing,"join, coin, don, doing, down",down,FAIL,YES
+muteaule,mutual,"mutable, mutual",mutual,PASS,YES
+sort,short,"sort, short",short,PASS,YES
+hause,horse,"cause, pause, hausa, house, horse",horse,PASS,YES
+woukd,would,"would, wound",wound,FAIL,YES
+aproximatly,approximately,"proximally, proximately, approximately",approximately,PASS,YES
+politicains,politician,"politicians, politician",politicians,FAIL,YES
+skite,stick,"site, stick, suite, spite, skate",stick,PASS,YES
+fashion,fashioned,"fashioned, fashion",fashioned,PASS,YES
+pome,poetry,"poetry, pome",poetry,PASS,YES
+sucseful,successful,"successful, useful",successful,PASS,YES
+disapline,discipline,"discipline, disabling",discipline,PASS,YES
+referred,preferred,"referred, preferred",preferred,PASS,YES
+als,also,"all, al, as, ass, also",also,PASS,YES
+exsply,especially,"especially, easily, espy",especially,PASS,YES
+encressing,increasing,"expressing, engrossing, undressing, increasing, encrusting",increasing,PASS,YES
+bersesen,precision,"bernese, precision",precision,PASS,YES
+opent,opened,"open, pent, spent, opened, opens",opened,PASS,YES
+crisisem,criticism,"crisis, criticism",criticism,PASS,YES
+piper,pipe,"pipe, piper",pipe,PASS,YES
+efeciency,efficiency,"deficiency, efficiency",efficiency,PASS,YES
+forn,form,"ford, for, form, porn, born",for,FAIL,YES
+poit,here,"here, point, port, pot, post",point,FAIL,YES
+galept,galloped,"talent, gale, galloped, alert, slept",galloped,PASS,YES
+sutable,suitable,"mutable, suitable, stable",suitable,PASS,YES
+scasle,scarcely,"scarcely, scale",scarcely,PASS,YES
+insteadily,incidentally,"incidentally, unsteadily",incidentally,PASS,YES
+systematice,sympathetic,"systematize, sympathetic, systematic, systematics",sympathetic,PASS,YES
+bicyl,bicycle,"biol, bill, vinyl, bicycle, billy",bicycle,PASS,YES
+solgers,soldiers,"soldiers, solvers, solders, folgers",soldiers,PASS,YES
+pregidus,prejudice,"presides, precious, prejudice, previous",prejudice,PASS,YES
+hieght,height,"hight, height",height,PASS,YES
+summersed,submerged,"submersed, submerged",submerged,PASS,YES
+at,had,"at, had",had,PASS,YES
+manualy,manually,"manual, manuals, manually",manual,FAIL,YES
+upgradation,upgrade,"gradation, upgrade, degradation",upgrade,PASS,YES
+scheduale,scheduled,"schedule, scheduled",scheduled,PASS,YES
+equell,equally,"equally, quell",equally,PASS,YES
+camceptition,conception,"acceptation, competition, conception",conception,PASS,YES
+specio,specifically,"specie, specif, specifically",specifically,PASS,YES
+agentcy,agencies,"agencies, agency",agencies,PASS,YES
+apperatious,apparatus,"apparatus, aspirations, apparitions, operations, alterations",apparatus,PASS,YES
+mouths,months,"months, mouths",months,PASS,YES
+straiten,straighten,"straighten, strait, straits, staten, strain",strain,FAIL,YES

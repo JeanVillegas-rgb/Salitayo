@@ -1,0 +1,10 @@
+﻿component,metric,smoke_test_value,threshold,direction,full_test_set_value,status,notes
+T5-small Reranker,"Top-1 Accuracy (smoke, n=30)",0.7667 (76.67%),>=0.85 (85%),>=,0.8577 (85.77%),FAIL,Smoke subset: 23 / 30 correct. Full test set: 2769 samples.
+T5-small Reranker,Baseline comparison (SymSpell candidates[0]),N/A -- not re-run in smoke test,~72-75% (literature),Reranker improves over,~72-75%,REFERENCE,SymSpell frequency-ranked baseline: top-1 without reranking. Reranker at 85.77% represents approx +10-13 pp improvement.
+RF Error Classifier,"Weighted F1 (smoke, n=30)",1.0000 (100.00%),>=0.95 (95%),>=,0.9809 (98.09%),PASS,See smoke_rf_per_class_f1.csv for per-class TP/FP/FN breakdown.
+RF Error Classifier,Unseen Pair Accuracy (full test set),N/A -- full test set metric only,>=0.70 (70%),>=,0.7059 (70.59%),PASS,"Evaluated on (misspelled, correct) pairs never seen before or after SMOTE. Lower floor (0.70) reflects expected out-of-distribution degradation."
+RF Error Classifier,Majority-class baseline (reference),N/A,0.60-0.65 (pre-SMOTE),Classifier improves over,~0.60-0.65,REFERENCE,Weighted F1 if all samples predicted as majority class on imbalanced pre-SMOTE dataset. Classifier at 98.09% WF1 represents approx +33 pp.
+DeBERTa-v2 NLI,Mean softmax confidence (20 hand-selected pairs),0.9970 (99.70%),>=0.70 (70%),>=,N/A,PASS,Mean over all 20 pairs. Entailment pairs: 0.9956. Contradiction pairs: 0.9983. See smoke_nli_aligner.csv for per-pair logit/softmax trace.
+DeBERTa-v2 NLI,Mean confidence -- 10 entailment pairs,0.9956 (99.56%),>=0.70 (component of overall threshold),>=,N/A,PASS,
+DeBERTa-v2 NLI,Mean confidence -- 10 contradiction pairs,0.9983 (99.83%),>=0.70 (component of overall threshold),>=,N/A,PASS,
+DeBERTa-v2 NLI,Classification accuracy on 20 smoke pairs,0.9500 (95.00%),No threshold -- descriptive,Descriptive,91.1%,REFERENCE,Correctly classified 19/20 smoke pairs. Reported descriptively vs. MNLI benchmark; no independent threshold set to avoid circular replication or arbitrary floor.

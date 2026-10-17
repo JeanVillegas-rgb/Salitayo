@@ -1,0 +1,7 @@
+error_type,TP,FP,FN,precision,precision_formula,recall,recall_formula,f1_score,f1_formula,support_n,weight,weight_formula,weighted_f1_contrib,weighted_contrib_formula
+phonetic_sub,9,0,0,1,TP/(TP+FP) = 9/(9+0) = 1.000000,1,TP/(TP+FN) = 9/(9+0) = 1.000000,1,2*P*R/(P+R) = 2*1.0000*1.0000/(1.0000+1.0000) = 1.000000,9,0.3,support / total = 9 / 30 = 0.300000,0.3,F1 * weight = 1.0000 * 0.3000 = 0.300000
+reversal,0,0,0,0,TP/(TP+FP) = 0/(0+0) = 0.000000,0,TP/(TP+FN) = 0/(0+0) = 0.000000,0,2*P*R/(P+R) = 2*0.0000*0.0000/(0.0000+0.0000) = 0.000000,0,0,support / total = 0 / 30 = 0.000000,0,F1 * weight = 0.0000 * 0.0000 = 0.000000
+omission,13,0,0,1,TP/(TP+FP) = 13/(13+0) = 1.000000,1,TP/(TP+FN) = 13/(13+0) = 1.000000,1,2*P*R/(P+R) = 2*1.0000*1.0000/(1.0000+1.0000) = 1.000000,13,0.433333,support / total = 13 / 30 = 0.433333,0.433333,F1 * weight = 1.0000 * 0.4333 = 0.433333
+insertion,7,0,0,1,TP/(TP+FP) = 7/(7+0) = 1.000000,1,TP/(TP+FN) = 7/(7+0) = 1.000000,1,2*P*R/(P+R) = 2*1.0000*1.0000/(1.0000+1.0000) = 1.000000,7,0.233333,support / total = 7 / 30 = 0.233333,0.233333,F1 * weight = 1.0000 * 0.2333 = 0.233333
+transposition,1,0,0,1,TP/(TP+FP) = 1/(1+0) = 1.000000,1,TP/(TP+FN) = 1/(1+0) = 1.000000,1,2*P*R/(P+R) = 2*1.0000*1.0000/(1.0000+1.0000) = 1.000000,1,0.033333,support / total = 1 / 30 = 0.033333,0.033333,F1 * weight = 1.0000 * 0.0333 = 0.033333
+TOTAL / WEIGHTED F1,30,0,0,,,,,,,30,1,,1,sum(F1_i * weight_i) for all 5 classes = 1.0
