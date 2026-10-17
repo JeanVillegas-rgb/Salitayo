@@ -47,7 +47,7 @@ The core research insight is this: most assistive tools tell a dyslexic learner 
 |---|---|
 | Backend | Django 6.0.5 + Django REST Framework |
 | NLP (English) | SymSpell, T5-small, RandomForest, DeBERTa-v2, MiniLM |
-| NLP (Filipino) | Groq API (llama-3.3-70b-versatile) |
+| NLP (Filipino) | Groq API (openai/gpt-oss-120b) |
 | Frontend | React 19 + Vite 8 |
 | Database | SQLite (reference passages) |
 
@@ -78,7 +78,7 @@ The core research insight is this: most assistive tools tell a dyslexic learner 
        │ English                  │ Filipino / Taglish
 ┌──────▼──────────┐    ┌──────────▼──────────────┐
 │  NLP Pipeline   │    │   Groq LLM API           │
-│                 │    │   llama-3.3-70b          │
+│                 │    │   gpt-oss-120b           │
 │  1. Tokenize    │    │   temperature=0.1         │
 │  2. Candidates  │    └─────────────────────────-┘
 │     (SymSpell   │
@@ -541,7 +541,7 @@ def _classify_input(text: str, target_language: str) -> str:
 
 The English pipeline (T5-small, RandomForest) was trained on the **Birkbeck Spelling Error Corpus** and **TOEFL-Spell** — both are English-only datasets totalling ~22,000 samples. No equivalent annotated corpus exists for Filipino dyslexic learner errors. Creating one from scratch is a full research project in itself.
 
-Groq's `llama-3.3-70b-versatile` already has multilingual pretraining and knows Filipino grammar and common spelling patterns. With `temperature=0.1` (near-deterministic), it produces consistent, focused corrections. This is a pragmatic solution to a real research gap.
+Groq's `openai/gpt-oss-120b` already has multilingual pretraining and knows Filipino grammar and common spelling patterns. With `temperature=0.1` (near-deterministic), it produces consistent, focused corrections. This is a pragmatic solution to a real research gap.
 
 ### Groq Inference Flow
 
@@ -551,10 +551,12 @@ def _run_groq(text: str, prompt_template: str, language_key: str) -> dict:
     prompt = prompt_template.replace('"{text}"', f'"{text}"')
 
     resp = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.1,
-        max_tokens=1024,
+        reasoning_effort="low",
+        include_reasoning=False,
+        max_completion_tokens=4096,
     )
 
     content   = resp.choices[0].message.content
@@ -1044,7 +1046,7 @@ Point to the transposition card:
 
 Type: `Gusto ko mag-aral ng math pero mahirap siya.`
 
-"In Filipino mode, the text goes to a completely different pipeline. Instead of our trained models, it's sent to Groq's API running llama-3.3-70b-versatile — a large language model — because no annotated Filipino dyslexic learner corpus exists for us to train on. This is an honest acknowledgment of a real research gap."
+"In Filipino mode, the text goes to a completely different pipeline. Instead of our trained models, it's sent to Groq's API running openai/gpt-oss-120b — a large language model — because no annotated Filipino dyslexic learner corpus exists for us to train on. This is an honest acknowledgment of a real research gap."
 
 *[Analyze]*
 
@@ -1131,7 +1133,7 @@ Enforced in `AnalyzeRequestSerializer`. This is a practical limit: the pipeline 
 | RandomForest | Error classification | ~23K pairs (SMOTE-balanced) | F1 = 0.981 |
 | paraphrase-MiniLM-L3-v2 | Sentence retrieval | Paraphrase datasets | 384-dim cosine similarity |
 | DeBERTa-v2 | NLI (4-way) | MultiNLI + SNLI + off_topic | Custom 4-label fine-tune |
-| llama-3.3-70b (Groq) | Filipino/Taglish | Multilingual pretraining | temp=0.1, pragmatic |
+| gpt-oss-120b (Groq) | Filipino/Taglish | Multilingual pretraining | temp=0.1, pragmatic |
 
 ### Error Type Summary
 

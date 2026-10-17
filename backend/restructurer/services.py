@@ -567,8 +567,8 @@ class ReadingRestructurerService:
 
         system_prompt = self._build_simplify_system_prompt(guidance, protected_terms, target_language, source_context, mixed_output)
         
-        # Select flagship Llama 3.3 70B model from Groq
-        model_name = "llama-3.3-70b-versatile"
+        # llama-3.3-70b-versatile was retired by Groq; gpt-oss-120b is its replacement
+        model_name = "openai/gpt-oss-120b"
 
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {
@@ -617,7 +617,10 @@ class ReadingRestructurerService:
                 {"role": "user", "content": user_prompt}
             ],
             "temperature": 0.2,
-            "max_tokens": 1024
+            # gpt-oss reasons before answering; reasoning tokens count toward the limit
+            "reasoning_effort": "low",
+            "include_reasoning": False,
+            "max_completion_tokens": 4096
         }
 
         try:
@@ -627,7 +630,7 @@ class ReadingRestructurerService:
                 simplified = res_data["choices"][0]["message"]["content"].strip()
                 duration = round(time.perf_counter() - start_time, 3)
                 trace.append({"step": "groq-simplifier", "duration": duration, "status": f"success (model: {model_name})"})
-                return (simplified, "groq-llama3.3"), trace
+                return (simplified, "groq-gpt-oss-120b"), trace
             else:
                 duration = round(time.perf_counter() - start_time, 3)
                 trace.append({"step": "groq-simplifier", "duration": duration, "status": f"failed (HTTP {response.status_code})"})

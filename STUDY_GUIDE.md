@@ -370,7 +370,7 @@ For Filipino, **no equivalent corpus exists**. There is no large annotated datas
 
 > *Existing assistive technologies for dyslexic learners are heavily Western-centric, trained on English corpora, and cannot serve learners whose primary language is Filipino or who write in Taglish.*
 
-The solution: use a large language model (Groq's `llama-3.3-70b-versatile`) that already knows Filipino grammar and vocabulary. We give it a carefully written prompt that instructs it to find spelling errors (or translate Taglish) and return results in a structured JSON format.
+The solution: use a large language model (Groq's `openai/gpt-oss-120b`) that already knows Filipino grammar and vocabulary. We give it a carefully written prompt that instructs it to find spelling errors (or translate Taglish) and return results in a structured JSON format.
 
 ### What the Groq call looks like
 

@@ -1,5 +1,5 @@
 """
-Filipino/Tagalog spelling analysis via Groq (llama-3.3-70b-versatile).
+Filipino/Tagalog spelling analysis via Groq (openai/gpt-oss-120b).
 
 Triggered when langdetect identifies the input as Tagalog ('tl').
 Returns the same error dict shape as pipeline.py so the frontend and
@@ -185,10 +185,13 @@ def _run_groq(text: str, prompt_template: str, language_key: str) -> dict:
         prompt = prompt_template.replace('"{text}"', f'"{text}"')
 
         resp = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
-            max_tokens=1024,
+            # gpt-oss reasons before answering; reasoning tokens count toward the limit
+            reasoning_effort="low",
+            include_reasoning=False,
+            max_completion_tokens=4096,
         )
         content = resp.choices[0].message.content
         logger.debug(f"[{language_key.upper()}] Groq raw response: {content[:300]}")
